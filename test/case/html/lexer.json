@@ -2894,5 +2894,157 @@
         "options": {},
         "key": "97549e58ec39544a98912e8155bb9a01",
         "result": "can't find > for tag end (line: 0, col: 0, pos: 0)\n"
+    },
+    "d0bc30f8f856acb18de03fb9c6936a90": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<p></p>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d0bc30f8f856acb18de03fb9c6936a90",
+        "result": [
+            {
+                "type": 256,
+                "value": "<p>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</p>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 3,
+                "pos": 3,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "22b203f7e918ad70b4a2885b799e6b37": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "!@#$%^&*()_!@#$%^&*()!@%^",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "22b203f7e918ad70b4a2885b799e6b37",
+        "result": [
+            {
+                "type": 265,
+                "value": "!@#$%^&*()_!@#$%^&*()!@%^",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "aabd24a8d14f049ff70865cf03f77f56": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</ div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "aabd24a8d14f049ff70865cf03f77f56",
+        "result": [
+            {
+                "type": 257,
+                "value": "</ div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "097bf6aa640d004fb9f0f51483d5500e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "< / div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "097bf6aa640d004fb9f0f51483d5500e",
+        "result": [
+            {
+                "type": 265,
+                "value": "< / div>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "58c913b1563098f1b87726218346317e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<DIV></DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "58c913b1563098f1b87726218346317e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<DIV>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</DIV>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "559336bc612fa105ac0a6c5b66c3f01d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!@#@!#>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "559336bc612fa105ac0a6c5b66c3f01d",
+        "result": [
+            {
+                "type": 256,
+                "value": "<!@#@!#>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
