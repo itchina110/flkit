@@ -1,0 +1,90 @@
+{
+    "5188e1718f521975cc275ab733f5b202": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ],
+        "key": "5188e1718f521975cc275ab733f5b202"
+    },
+    "631804a66b76e9ba86a0b235c8e13466": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\nwelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ],
+        "key": "631804a66b76e9ba86a0b235c8e13466"
+    },
+    "798fa876db6c5be8e33e7e6a69e7f02c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ],
+        "key": "798fa876db6c5be8e33e7e6a69e7f02c"
+    },
+    "28ec5f28a77accc3f4735fe1fc5a0a84": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div class=\"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "result": [
+            {
+                "type": 256,
+                "value": "<div class=\"welefen\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ],
+        "key": "28ec5f28a77accc3f4735fe1fc5a0a84"
+    }
+}
