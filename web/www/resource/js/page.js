@@ -17,11 +17,11 @@ $(function(){
 
   var modalNeedInit = true;
   var editorInstance = null;
-  var caseListData = [];
+  var caseListData = {};
 
   function initModal(){
     if (!modalNeedInit) {
-      return;
+      //return;
     }
     var html = $('#modalTpl').html();
     $('#modalBody').html(html);
@@ -85,18 +85,18 @@ $(function(){
       if (data.errno) {
         return alert(data.errmsg);
       }
-      caseListData = data.data;
       $('#caseNums').html(data.data.length);
       var html = [];
       data.data.forEach(function(item){
+        caseListData[item.key] = item;
         if (item.success) {
-          html.push('<div class="alert alert-success" role="alert">');
+          html.push('<div data-key="' + item.key + '" class="alert alert-success" role="alert">');
         }else{
-          html.push('<div class="alert alert-danger" role="alert">');
+          html.push('<div data-key="' + item.key + '" class="alert alert-danger" role="alert">');
         }
         html.push('<div>' + escape_html(item.code) + '</div>')
         if (!item.success) {
-          html.push('<span class="glyphicon glyphicon-refresh" title="Retest"></span>');
+          html.push('<span class="glyphicon glyphicon-refresh btn-refresh" title="Retest"></span>');
         }
         html.push('</div>');
       })
@@ -141,6 +141,21 @@ $(function(){
           show: false
         })
       })
+    },
+    '.btn-refresh': function(){
+      var key = $(this).parents('div.alert').attr('data-key');
+      var data = caseListData[key];
+      $('.modal-add-test').modal({
+        keyboard: false
+      })
+      initModal();
+      editorInstance.getDoc().setValue(data.code);
+      setTimeout(function(){
+        editorInstance.focus();
+      }, 2000)
+      $('#tpl').val(data.tpl);
+      $('#ld').val(data.ld);
+      $('#rd').val(data.rd);
     }
   })
 

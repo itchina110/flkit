@@ -1,5 +1,5 @@
 {
-    "5188e1718f521975cc275ab733f5b202": {
+    "1fcd5f4aa340080fd2ebba39087afca6": {
         "lang": "html",
         "name": "lexer",
         "code": "welefen",
@@ -7,6 +7,7 @@
         "ld": "",
         "rd": "",
         "options": {},
+        "key": "1fcd5f4aa340080fd2ebba39087afca6",
         "result": [
             {
                 "type": 265,
@@ -18,10 +19,9 @@
                 "newlines": 0,
                 "comments": []
             }
-        ],
-        "key": "5188e1718f521975cc275ab733f5b202"
+        ]
     },
-    "631804a66b76e9ba86a0b235c8e13466": {
+    "f538cfd947e608e68dc4e169c164e33a": {
         "lang": "html",
         "name": "lexer",
         "code": "\nwelefen",
@@ -29,6 +29,7 @@
         "ld": "",
         "rd": "",
         "options": {},
+        "key": "f538cfd947e608e68dc4e169c164e33a",
         "result": [
             {
                 "type": 265,
@@ -40,10 +41,303 @@
                 "newlines": 1,
                 "comments": []
             }
-        ],
-        "key": "631804a66b76e9ba86a0b235c8e13466"
+        ]
     },
-    "798fa876db6c5be8e33e7e6a69e7f02c": {
+    "70f1ffffb5aa97b4c6ca8904dd9ef265": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "70f1ffffb5aa97b4c6ca8904dd9ef265",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 1,
+                "col": 0,
+                "pos": 8,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "68253ec7bee72076d1b62c5929f9e77c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen suredy",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "68253ec7bee72076d1b62c5929f9e77c",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen suredy",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c5a41723292144e831f78eb1330d782e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\nsuredy",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c5a41723292144e831f78eb1330d782e",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen\nsuredy",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "06a2a70699c0835bdc14a052693506ff": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\nsuredy\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "06a2a70699c0835bdc14a052693506ff",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen\nsuredy",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 2,
+                "col": 0,
+                "pos": 15,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "f48c1d9753a09c8e1f98b56c31b1d99d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f48c1d9753a09c8e1f98b56c31b1d99d",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 0,
+                "col": 14,
+                "pos": 14,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "2f8c53072433faa2afdf12dfb65d547b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--!welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2f8c53072433faa2afdf12dfb65d547b",
+        "result": [
+            {
+                "type": 7,
+                "value": "<!--!welefen-->",
+                "name": "RESERVED_COMMENT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3b3bb97f98fcbc49ce91534c24d9a755": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<!--welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3b3bb97f98fcbc49ce91534c24d9a755",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 1,
+                "col": 14,
+                "pos": 15,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "3551a931ab2c9b87d0cbc3b233a47448": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<!--welefen-->\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3551a931ab2c9b87d0cbc3b233a47448",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 2,
+                "col": 0,
+                "pos": 16,
+                "newlines": 1,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "7d01bf8d3fc4b2bd5c062d720705a2f8": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefen--><!--suredy-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7d01bf8d3fc4b2bd5c062d720705a2f8",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 0,
+                "col": 27,
+                "pos": 27,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    },
+                    {
+                        "value": "<!--suredy-->",
+                        "line": 0,
+                        "col": 14,
+                        "pos": 14,
+                        "newlines": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "719cd96b64292bb905b189fac1392ed9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefen-->\n<!--suredy-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "719cd96b64292bb905b189fac1392ed9",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 1,
+                "col": 13,
+                "pos": 28,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    },
+                    {
+                        "value": "<!--suredy-->",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 15,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "fec739ef69c1ea39136a00c13ba5344d": {
         "lang": "html",
         "name": "lexer",
         "code": "<div>",
@@ -51,6 +345,7 @@
         "ld": "",
         "rd": "",
         "options": {},
+        "key": "fec739ef69c1ea39136a00c13ba5344d",
         "result": [
             {
                 "type": 256,
@@ -62,21 +357,131 @@
                 "newlines": 0,
                 "comments": []
             }
-        ],
-        "key": "798fa876db6c5be8e33e7e6a69e7f02c"
+        ]
     },
-    "28ec5f28a77accc3f4735fe1fc5a0a84": {
+    "d34d3f49e72cb5b1e51932b6481aeae9": {
         "lang": "html",
         "name": "lexer",
-        "code": "<div class=\"welefen\">",
+        "code": "</div>",
         "tpl": "",
         "ld": "",
         "rd": "",
         "options": {},
+        "key": "d34d3f49e72cb5b1e51932b6481aeae9",
+        "result": [
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2b02c854727e39652075d22369e90e9f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?xml>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2b02c854727e39652075d22369e90e9f",
+        "result": [
+            {
+                "type": 258,
+                "value": "<?xml>",
+                "name": "HTML_TAG_XML",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "1d7d55286567be1301be6e0da18b50e9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!doctype html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1d7d55286567be1301be6e0da18b50e9",
+        "result": [
+            {
+                "type": 263,
+                "value": "<!doctype html>",
+                "name": "HTML_DOCTYPE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "76fa34f77f8652ba7e4e478c1cb19155": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!DOCTYPE html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "76fa34f77f8652ba7e4e478c1cb19155",
+        "result": [
+            {
+                "type": 263,
+                "value": "<!DOCTYPE html>",
+                "name": "HTML_DOCTYPE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "9a5ca98d6e0233694688c77e9e4b87a6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!DOctYPE html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9a5ca98d6e0233694688c77e9e4b87a6",
+        "result": [
+            {
+                "type": 263,
+                "value": "<!DOctYPE html>",
+                "name": "HTML_DOCTYPE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "5a19643cc447a1c4154f2ee80c1ba720": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div class=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5a19643cc447a1c4154f2ee80c1ba720",
         "result": [
             {
                 "type": 256,
-                "value": "<div class=\"welefen\">",
+                "value": "<div class=\"\">",
                 "name": "HTML_TAG_START",
                 "line": 0,
                 "col": 0,
@@ -84,7 +489,588 @@
                 "newlines": 0,
                 "comments": []
             }
-        ],
-        "key": "28ec5f28a77accc3f4735fe1fc5a0a84"
+        ]
+    },
+    "aa3a7cec647de65f0937198f5901485e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div class=\"\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "aa3a7cec647de65f0937198f5901485e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div class=\"\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ff35e5da6d3386eaac45164fb5c8c6cc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<br />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ff35e5da6d3386eaac45164fb5c8c6cc",
+        "result": [
+            {
+                "type": 256,
+                "value": "<br />",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "5d06d213aa17e5305249ebb5c1e3dac6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</br>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5d06d213aa17e5305249ebb5c1e3dac6",
+        "result": [
+            {
+                "type": 257,
+                "value": "</br>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3cc4cc816cb2f47b149e4dced3145a8b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3cc4cc816cb2f47b149e4dced3145a8b",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "021ae9fa4e81648872bde55c02d4096f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>\nwelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "021ae9fa4e81648872bde55c02d4096f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 6,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "4f28d90bb1820e45ffdeb5198d4a23e9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>\nwelefen\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4f28d90bb1820e45ffdeb5198d4a23e9",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 6,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 2,
+                "col": 0,
+                "pos": 14,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "bf65810c46c90a9915f51bd18dc9fbd2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<a href=\"\">welefen</a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "bf65810c46c90a9915f51bd18dc9fbd2",
+        "result": [
+            {
+                "type": 256,
+                "value": "<a href=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 11,
+                "pos": 11,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</a>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f035f6dec54fa8d2c62ccd72fdd94c45": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div></div><!-- / -->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f035f6dec54fa8d2c62ccd72fdd94c45",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!-- / -->",
+                        "line": 0,
+                        "col": 11,
+                        "pos": 11,
+                        "newlines": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "08d4affff1449410b46af4ad92468f67": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div class=name>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "08d4affff1449410b46af4ad92468f67",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div class=name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "7d7e359501474f8cc859861981a17f6c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<link href=\"\" />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7d7e359501474f8cc859861981a17f6c",
+        "result": [
+            {
+                "type": 256,
+                "value": "<link href=\"\" />",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "eb1d806ab17ce3830b816fbbc2f6ae93": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "eb1d806ab17ce3830b816fbbc2f6ae93",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style></style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a564ae9a69302d5cb0865b802d711335": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n\n\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a564ae9a69302d5cb0865b802d711335",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 3,
+                "col": 0,
+                "pos": 10,
+                "newlines": 3,
+                "comments": []
+            }
+        ]
+    },
+    "dc3701cfffdd71aae42991769d6f928e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style>\na{color: red}\n</style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "dc3701cfffdd71aae42991769d6f928e",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style>\na{color: red}\n</style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ddd292736f1257ed195ae5cd07ff2639": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<style>\na{color: red}\n</style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ddd292736f1257ed195ae5cd07ff2639",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style>\na{color: red}\n</style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "e24bfb7d655301f20dd1ec5702124a12": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script src=\"\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e24bfb7d655301f20dd1ec5702124a12",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script src=\"\"></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3eba1e915683e9d6deed0a4accb93981": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script src=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3eba1e915683e9d6deed0a4accb93981",
+        "result": [
+            {
+                "type": 256,
+                "value": "<script src=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "0db14e37010a0036b7d5b8587b673816": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script>\nvar a = 1;\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0db14e37010a0036b7d5b8587b673816",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nvar a = 1;\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a0c6ac1ef8c97082fe81982ad4d89a68": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<script>\nvar a = 1;\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a0c6ac1ef8c97082fe81982ad4d89a68",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nvar a = 1;\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "39427c82774c023d30b58908b22e9914": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<textarea></textarea>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "39427c82774c023d30b58908b22e9914",
+        "result": [
+            {
+                "type": 259,
+                "value": "<textarea></textarea>",
+                "name": "HTML_TAG_TEXTAREA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d4c94628132e623484d34a8c356cb806": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<textarea>\nwelefen\n</textarea>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d4c94628132e623484d34a8c356cb806",
+        "result": [
+            {
+                "type": 259,
+                "value": "<textarea>\nwelefen\n</textarea>",
+                "name": "HTML_TAG_TEXTAREA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "558b358ed2fe8d5ca6cf77223682515b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<pre>\nwelefen\n</pre>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "558b358ed2fe8d5ca6cf77223682515b",
+        "result": [
+            {
+                "type": 262,
+                "value": "<pre>\nwelefen\n</pre>",
+                "name": "HTML_TAG_PRE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "efc528c4b80504f92a8f34129a3c3192": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<pre></pre>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "efc528c4b80504f92a8f34129a3c3192",
+        "result": [
+            {
+                "type": 262,
+                "value": "<pre></pre>",
+                "name": "HTML_TAG_PRE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }

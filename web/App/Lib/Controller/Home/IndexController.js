@@ -115,11 +115,11 @@ module.exports = Controller("Home/BaseController", function(){
         tpl: tpl,
         ld: ld,
         rd: rd,
-        options: options,
-        result: result
+        options: options
       }
       var key = md5(JSON.stringify(data));
       data.key = key;
+      data.result = result;
       var file = ROOT_PATH + '/../../test/case/' + lang + '/' + name + '.json';
       var allData = {};
       if (isFile(file)) {
