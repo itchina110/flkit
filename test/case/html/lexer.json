@@ -2839,5 +2839,60 @@
                 "comments": []
             }
         ]
+    },
+    "376b753b71f2ffb3077673b003ae27fd": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"<%value=\"welefen>\"%>\">",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "376b753b71f2ffb3077673b003ae27fd",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"<%value=\"welefen>\"%>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3c710a6929064604a66d09b4ab681138": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"<%value=\"welefen\"%>\">",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "3c710a6929064604a66d09b4ab681138",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"<%value=\"welefen\"%>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "97549e58ec39544a98912e8155bb9a01": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "97549e58ec39544a98912e8155bb9a01",
+        "result": "can't find > for tag end (line: 0, col: 0, pos: 0)\n"
     }
 }
