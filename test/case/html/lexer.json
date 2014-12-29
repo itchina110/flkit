@@ -1072,5 +1072,1772 @@
                 "comments": []
             }
         ]
+    },
+    "3e0a1608a7898acc178c1fa45ce6127d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if (lt IE 8.0)]><link type=\"text/css\" rel=\"stylesheet\" href=\"http://s11.qhimg.com/static/f39f870cb27849c4/index.src.css\"><![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3e0a1608a7898acc178c1fa45ce6127d",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if (lt IE 8.0)]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<link type=\"text/css\" rel=\"stylesheet\" href=\"http://s11.qhimg.com/static/f39f870cb27849c4/index.src.css\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 126,
+                "pos": 126,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "bdf1f246cfc35f7c706b5b0a7f1da9cc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if (!IE)|(gte IE 8.0)]><!--><link type=\"text/css\" rel=\"stylesheet\" href=\"http://s11.qhimg.com/static/b72c6fe98c4026a6/index.src_datauri.css\"><!--<![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "bdf1f246cfc35f7c706b5b0a7f1da9cc",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if (!IE)|(gte IE 8.0)]><!-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<link type=\"text/css\" rel=\"stylesheet\" href=\"http://s11.qhimg.com/static/b72c6fe98c4026a6/index.src_datauri.css\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 33,
+                "pos": 33,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<!--<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 146,
+                "pos": 146,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "20f6c6391a4e621bcdd07447f3abf7d9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--#include inc/a.html-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "20f6c6391a4e621bcdd07447f3abf7d9",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--#include inc/a.html-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "979a73e4d6cee89d712722e1c19b37a1": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![cdata[welefen]]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "979a73e4d6cee89d712722e1c19b37a1",
+        "result": [
+            {
+                "type": 266,
+                "value": "<![cdata[welefen]]>",
+                "name": "HTML_CDATA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "0a7e2f47a1f03de3651c76f9c997c5b4": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![CDATA[welefen]]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0a7e2f47a1f03de3651c76f9c997c5b4",
+        "result": [
+            {
+                "type": 266,
+                "value": "<![CDATA[welefen]]>",
+                "name": "HTML_CDATA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ba449351e4e47b458e985bb9c8213af0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ba449351e4e47b458e985bb9c8213af0",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "48b59a8a77956b9c6e6a30b0224f58bb": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![endif]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "48b59a8a77956b9c6e6a30b0224f58bb",
+        "result": [
+            {
+                "type": 5,
+                "value": "<![endif]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c070f9ab68ed160d3295d9d8f4d6a962": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![if !supportAnnotations]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c070f9ab68ed160d3295d9d8f4d6a962",
+        "result": [
+            {
+                "type": 5,
+                "value": "<![if !supportAnnotations]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "e1a806b8f06f922ec1d0a140408bf98f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![endif]><![if !supportAnnotations]><style id=\"dynCom\" type=\"text/css\"><!-- --></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e1a806b8f06f922ec1d0a140408bf98f",
+        "result": [
+            {
+                "type": 5,
+                "value": "<![endif]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![if !supportAnnotations]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 10,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 261,
+                "value": "<style id=\"dynCom\" type=\"text/css\"><!-- --></style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 37,
+                "pos": 37,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3b2157f88f1426fc550b0c7100ef12d3": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if IE]><script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script><![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3b2157f88f1426fc550b0c7100ef12d3",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if IE]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 260,
+                "value": "<script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 12,
+                "pos": 12,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 292,
+                "pos": 292,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d596e358057b9f2eff16dcc0a81a9473": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d596e358057b9f2eff16dcc0a81a9473",
+        "result": [
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "7b81de55e20168f66688f2da9cf5b63f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if]><!-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7b81de55e20168f66688f2da9cf5b63f",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if]><!-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "014263a4691b7db2ec0f7714c1cd8dde": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if ]>-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "014263a4691b7db2ec0f7714c1cd8dde",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if ]>-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "905a7d147af75cf63c2c3e229ec04531": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<![if ]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "905a7d147af75cf63c2c3e229ec04531",
+        "result": [
+            {
+                "type": 5,
+                "value": "<![if ]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f7f85afd48e811bc140c0c30374c117f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if IE 6]><script src=\"/resource/js/lib/dd_belatedpng.js\"></script><script>DD_belatedPNG.fix(\".pngfix\")</script><![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f7f85afd48e811bc140c0c30374c117f",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if IE 6]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 260,
+                "value": "<script src=\"/resource/js/lib/dd_belatedpng.js\"></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 14,
+                "pos": 14,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 260,
+                "value": "<script>DD_belatedPNG.fix(\".pngfix\")</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 71,
+                "pos": 71,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 116,
+                "pos": 116,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "31e26263b7e3d4422c97207bb8d54d9e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rss version=\"2.0\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "31e26263b7e3d4422c97207bb8d54d9e",
+        "result": [
+            {
+                "type": 258,
+                "value": "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+                "name": "HTML_TAG_XML",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<rss version=\"2.0\">",
+                "name": "HTML_TAG_START",
+                "line": 1,
+                "col": 0,
+                "pos": 39,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "9a1265604a6bbe801bf749870991cfa2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</item>\n</channel>\n</rss>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9a1265604a6bbe801bf749870991cfa2",
+        "result": [
+            {
+                "type": 257,
+                "value": "</item>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</channel>",
+                "name": "HTML_TAG_END",
+                "line": 1,
+                "col": 0,
+                "pos": 8,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</rss>",
+                "name": "HTML_TAG_END",
+                "line": 2,
+                "col": 0,
+                "pos": 19,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "6562342c6fa4c836474b0b70d143c1ac": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$name&>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "6562342c6fa4c836474b0b70d143c1ac",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$name&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "19b71d78d7486932610f241da8349656": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "{=$name=}",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "19b71d78d7486932610f241da8349656",
+        "result": [
+            {
+                "type": 2,
+                "value": "{=$name=}",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c16dd748fcf83b99f2b802958cc70216": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div/name name=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c16dd748fcf83b99f2b802958cc70216",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div/name name=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "257dfae510911fde22d8cd786ebc8679": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<h1>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "257dfae510911fde22d8cd786ebc8679",
+        "result": [
+            {
+                "type": 256,
+                "value": "<h1>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6889aaba533eea897293c8446b420ecf": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<h2>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6889aaba533eea897293c8446b420ecf",
+        "result": [
+            {
+                "type": 256,
+                "value": "<h2>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "28ddb97c1e90d04b15516b78a52fa5ce": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</h1>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "28ddb97c1e90d04b15516b78a52fa5ce",
+        "result": [
+            {
+                "type": 257,
+                "value": "</h1>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f163529b6ccef33a193e98d142e5a4c4": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</ h1>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f163529b6ccef33a193e98d142e5a4c4",
+        "result": [
+            {
+                "type": 257,
+                "value": "</ h1>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "220590a491445fd22014a46d8d936393": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "< / h1>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "220590a491445fd22014a46d8d936393",
+        "result": [
+            {
+                "type": 265,
+                "value": "< / h1>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "69e143c674d8d2ce1874a05c23b1ec6e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "&lt;welefen&gt;",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "69e143c674d8d2ce1874a05c23b1ec6e",
+        "result": [
+            {
+                "type": 265,
+                "value": "&lt;welefen&gt;",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "51431f1c06d30fe8e00bfea34b494c83": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div onclick=\"alert('name')\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "51431f1c06d30fe8e00bfea34b494c83",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div onclick=\"alert('name')\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a5a2f663de9b73ea5c0bf571f2ad62f0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div onclick=\"alert(\\\"name\\\")\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a5a2f663de9b73ea5c0bf571f2ad62f0",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div onclick=\"alert(\\\"name\\\")\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a1914d3e1abe48caf166555dad7c7ce6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a1914d3e1abe48caf166555dad7c7ce6",
+        "result": "can't find matched quote string (line: 0, col: 11, pos: 11)\n"
+    },
+    "43ef2a40180c5a11e2ddf41038ebb1ec": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\twelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "43ef2a40180c5a11e2ddf41038ebb1ec",
+        "result": [
+            {
+                "type": 265,
+                "value": "\twelefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d0509c31a3b6cd0aeabf4b618a8270ef": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<title><![CDATA[的空间]]></title>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d0509c31a3b6cd0aeabf4b618a8270ef",
+        "result": [
+            {
+                "type": 256,
+                "value": "<title>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 266,
+                "value": "<![CDATA[的空间]]>",
+                "name": "HTML_CDATA",
+                "line": 0,
+                "col": 7,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</title>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 22,
+                "pos": 22,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "21c283551471436e605c46fe1cc58545": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div\nname=\"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "21c283551471436e605c46fe1cc58545",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div\nname=\"welefen\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "eb190f6f1ba8197d3b7b1f1b3f9acdbc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div\n\nname=\"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "eb190f6f1ba8197d3b7b1f1b3f9acdbc",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div\n\nname=\"welefen\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6bfb7c6f63f95e9317227961e26381ab": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"w<&if $name=\"\"&>ww<&$name=\"\"&>\">welefen</div>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "6bfb7c6f63f95e9317227961e26381ab",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"w<&if $name=\"\"&>ww<&$name=\"\"&>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 43,
+                "pos": 43,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 50,
+                "pos": 50,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "189765a2a08281b97e76fecacfe330f7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"w<&if $name=\"\"&>ww<&$name=\"\"&>\">\nwelefen</div>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "189765a2a08281b97e76fecacfe330f7",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"w<&if $name=\"\"&>ww<&$name=\"\"&>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 44,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 1,
+                "col": 7,
+                "pos": 51,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "737516b8010ed85d34877c37e5af56ae": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$welefen&>welefen",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "737516b8010ed85d34877c37e5af56ae",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$welefen&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 12,
+                "pos": 12,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "7e0b0fe8acac1c85805e7f7eacca6754": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$welefen&>\nwelefen",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "7e0b0fe8acac1c85805e7f7eacca6754",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$welefen&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 13,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "361291c8e4519bf4e85db88885eb5cf7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$name=<&$value&>+1&>www",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "361291c8e4519bf4e85db88885eb5cf7",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$name=<&$value&>+1&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "www",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 22,
+                "pos": 22,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2eee2fde2f35d7ec68ad402867e9a29f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$name=<&$value&>+1&>\nwww",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "2eee2fde2f35d7ec68ad402867e9a29f",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$name=<&$value&>+1&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "www",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 23,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "4e857bcff0adc887d275f84fb9ded0aa": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$value=<&$name+<&$test&>&>&>\nwww",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "4e857bcff0adc887d275f84fb9ded0aa",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$value=<&$name+<&$test&>&>&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "www",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 31,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "ffd3a07d418580f810fefad3b30e11ea": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$value=<&$name+<&$test=<&$value&>&>&>&>\nwww",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "ffd3a07d418580f810fefad3b30e11ea",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$value=<&$name+<&$test=<&$value&>&>&>&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "www",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 42,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "34d748a677c023d3dd49533e33a89e8a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$value&>\n\n{=$value=}",
+        "tpl": "smarty",
+        "ld": "<&,{=",
+        "rd": "&>,=}",
+        "options": {},
+        "key": "34d748a677c023d3dd49533e33a89e8a",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$value&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 2,
+                "value": "{=$value=}",
+                "name": "TPL",
+                "line": 2,
+                "col": 0,
+                "pos": 12,
+                "newlines": 2,
+                "comments": []
+            }
+        ]
+    },
+    "fa173e78041880a30a615bfabebb7059": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<&$value&>\nwelefen\n{=$value=}",
+        "tpl": "smarty",
+        "ld": "<&,{=",
+        "rd": "&>,=}",
+        "options": {},
+        "key": "fa173e78041880a30a615bfabebb7059",
+        "result": [
+            {
+                "type": 2,
+                "value": "<&$value&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 11,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 2,
+                "value": "{=$value=}",
+                "name": "TPL",
+                "line": 2,
+                "col": 0,
+                "pos": 19,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "0f389a061a6a23c71191e5d52611edf2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<<&$name&> name=\"welefen\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {},
+        "key": "0f389a061a6a23c71191e5d52611edf2",
+        "result": [
+            {
+                "type": 265,
+                "value": "<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 2,
+                "value": "<&$name&>",
+                "name": "TPL",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": " name=\"welefen\">",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 10,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f10f455d7115ea28c1636a88a0a61642": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script>\ndocument.write('<script><\\/script>')\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f10f455d7115ea28c1636a88a0a61642",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\ndocument.write('<script><\\/script>')\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "0075d6b5c1ae7fc2125e7c2dcbdd9b4d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<+>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0075d6b5c1ae7fc2125e7c2dcbdd9b4d",
+        "result": [
+            {
+                "type": 265,
+                "value": "<+>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d78c79f6b5879d54ddd04daa740f723d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<//>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d78c79f6b5879d54ddd04daa740f723d",
+        "result": [
+            {
+                "type": 257,
+                "value": "<//>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ea2633e8914ad89cd7f903f9793e6369": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n\n\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ea2633e8914ad89cd7f903f9793e6369",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 3,
+                "col": 0,
+                "pos": 3,
+                "newlines": 3,
+                "comments": []
+            }
+        ]
+    },
+    "d23852d51a21594c6ad0f50a8e77d297": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>>>><<</div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d23852d51a21594c6ad0f50a8e77d297",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": ">>><<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 10,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "092a18e5d44d520480803cc49dda0d61": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<</div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "092a18e5d44d520480803cc49dda0d61",
+        "result": [
+            {
+                "type": 265,
+                "value": "<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "5669704cdb9306fda9be3a97f7707634": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script><![endif]><![if !supportAnnotations]>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5669704cdb9306fda9be3a97f7707634",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![endif]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![if !supportAnnotations]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 27,
+                "pos": 27,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "e44a07359dbebd5334567f5b02fe2764": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>//welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e44a07359dbebd5334567f5b02fe2764",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "//welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "bbc44339c1780a3e8cf65e96bf29458f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<a></a> <a></a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "bbc44339c1780a3e8cf65e96bf29458f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<a>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</a>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 3,
+                "pos": 3,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": " ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 7,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</a>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 11,
+                "pos": 11,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "b6b46993ba23a5b45f0131bff20d4dec": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "+++",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "b6b46993ba23a5b45f0131bff20d4dec",
+        "result": [
+            {
+                "type": 265,
+                "value": "+++",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "68dfc62f835a9f8486ebad1334e1583e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?php echo $name ?>",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "68dfc62f835a9f8486ebad1334e1583e",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?php echo $name ?>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "161c8ea224b103930a85cc5f2fb63511": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?= $name;?>",
+        "tpl": "php",
+        "ld": "<?=",
+        "rd": "?>",
+        "options": {},
+        "key": "161c8ea224b103930a85cc5f2fb63511",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?= $name;?>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f8770010751a040d7eac568780f20eed": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?php echo $name; ?>\n<?= $name; ?>",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {},
+        "key": "f8770010751a040d7eac568780f20eed",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?php echo $name; ?>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 2,
+                "value": "<?= $name; ?>",
+                "name": "TPL",
+                "line": 1,
+                "col": 0,
+                "pos": 21,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "8feea298257a8d10b7eb8628a6800746": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<li><i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\"></i><span>不允许，只能从控制台关闭鸣响</span></li>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "8feea298257a8d10b7eb8628a6800746",
+        "result": [
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 4,
+                "pos": 4,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</i>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 236,
+                "pos": 236,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<span>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 240,
+                "pos": 240,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "不允许，只能从控制台关闭鸣响",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 246,
+                "pos": 246,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</span>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 260,
+                "pos": 260,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 267,
+                "pos": 267,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "fa2e9e93c2ad1a7ec326e1a874ca495d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "fa2e9e93c2ad1a7ec326e1a874ca495d",
+        "result": [
+            {
+                "type": 256,
+                "value": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }

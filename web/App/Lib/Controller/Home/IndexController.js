@@ -33,8 +33,8 @@ module.exports = Controller("Home/BaseController", function(){
       data.forEach(function(item){
         var instance = flkit.getInstance(item.lang, item.name, item.code);
         instance.tpl = item.tpl;
-        instance.ld = item.ld;
-        instance.rd = item.rd;
+        instance.ld = (item.ld || '').split(',');
+        instance.rd = (item.rd || '').split(',');
         try{
           var ret = instance.run(item.options);
           if (typeof result === 'string') {
@@ -74,8 +74,8 @@ module.exports = Controller("Home/BaseController", function(){
       }
       try{
         instance.tpl = tpl || '';
-        instance.ld = ld || '';
-        instance.rd = rd || '';
+        instance.ld = (ld || '').split(',');
+        instance.rd = (rd || '').split(',');
         var result = instance.run(options);
         return this.success(result);
       }catch(e){
@@ -102,8 +102,8 @@ module.exports = Controller("Home/BaseController", function(){
       }
       try{
         instance.tpl = tpl || '';
-        instance.ld = ld || '';
-        instance.rd = rd || '';
+        instance.ld = (ld || '').split(',');
+        instance.rd = (rd || '').split(',');
         result = instance.run(options);
       }catch(e){
         result = e.toString();

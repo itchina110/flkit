@@ -67,10 +67,11 @@ $(function(){
     '>': '&gt;',
     '"': '&quot;',
     "'": '&#39;',
-    '\n': '\\n'
+    '\n': '\\n',
+    '\t': '\\t'
   }
   var escape_html = function (str) {
-    return (str + "").replace(/[<>'"\n]/g, function(a){
+    return (str + "").replace(/[<>'"\n\t]/g, function(a){
       return htmlMaps[a];
     })
   }
@@ -90,14 +91,12 @@ $(function(){
       data.data.forEach(function(item){
         caseListData[item.key] = item;
         if (item.success) {
-          html.push('<div data-key="' + item.key + '" class="alert alert-success" role="alert">');
+          html.push('<div data-key="' + item.key + '" class="alert alert-success cast-item" role="alert">');
         }else{
-          html.push('<div data-key="' + item.key + '" class="alert alert-danger" role="alert">');
+          html.push('<div data-key="' + item.key + '" class="alert alert-danger cast-item" role="alert">');
         }
         html.push('<div>' + escape_html(item.code) + '</div>')
-        if (!item.success) {
-          html.push('<span class="glyphicon glyphicon-refresh btn-refresh" title="Retest"></span>');
-        }
+        html.push('<span class="glyphicon glyphicon-refresh btn-refresh" title="Retest"></span>');
         html.push('</div>');
       })
       $('#caseList').html(html.join(''))
