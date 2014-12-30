@@ -1,0 +1,48 @@
+{
+  "name": "flkit",
+  "description": "a front-language(html,css,js) toolkit that supoort tempate syntax(smarty,php)",
+  "version": "3.0",
+  "author": {
+    "name": "welefen",
+    "email": "welefen@gmail.com"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "contributors": [
+    {
+      "name": "welefen",
+      "email": "welefen@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "thinkjs-util": ">=1.0.0"
+  },
+  "devDependencies": {
+    "should": "4.0.4",
+    "jshint": "2.5.1",
+    "mocha": "1.20.1",
+    "muk": "0.3.1",
+    "istanbul": "*"
+  },
+  "keywords": [
+    "fl",
+    "flkit",
+    "html-compress",
+    "html-lexer",
+    "html-beautify",
+    "html-filter",
+    "html-ast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flkit/flkit"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/flkit/flkit/issues"
+  }
+}
