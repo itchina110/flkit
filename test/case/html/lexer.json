@@ -2714,88 +2714,6 @@
             }
         ]
     },
-    "8feea298257a8d10b7eb8628a6800746": {
-        "lang": "html",
-        "name": "lexer",
-        "code": "<li><i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\"></i><span>不允许，只能从控制台关闭鸣响</span></li>",
-        "tpl": "smarty",
-        "ld": "<%",
-        "rd": "%>",
-        "options": {},
-        "key": "8feea298257a8d10b7eb8628a6800746",
-        "result": [
-            {
-                "type": 256,
-                "value": "<li>",
-                "name": "HTML_TAG_START",
-                "line": 0,
-                "col": 0,
-                "pos": 0,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 256,
-                "value": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
-                "name": "HTML_TAG_START",
-                "line": 0,
-                "col": 4,
-                "pos": 4,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 257,
-                "value": "</i>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 236,
-                "pos": 236,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 256,
-                "value": "<span>",
-                "name": "HTML_TAG_START",
-                "line": 0,
-                "col": 240,
-                "pos": 240,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 265,
-                "value": "不允许，只能从控制台关闭鸣响",
-                "name": "HTML_TEXT",
-                "line": 0,
-                "col": 246,
-                "pos": 246,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 257,
-                "value": "</span>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 260,
-                "pos": 260,
-                "newlines": 0,
-                "comments": []
-            },
-            {
-                "type": 257,
-                "value": "</li>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 267,
-                "pos": 267,
-                "newlines": 0,
-                "comments": []
-            }
-        ]
-    },
     "fa2e9e93c2ad1a7ec326e1a874ca495d": {
         "lang": "html",
         "name": "lexer",
@@ -3492,6 +3410,244 @@
                         "newlines": 2
                     }
                 ]
+            }
+        ]
+    },
+    "71b74169cb19d17424e1c8d86c169362": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefen-->\nwelefen\n<!--suredy-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "71b74169cb19d17424e1c8d86c169362",
+        "result": [
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 15,
+                "newlines": 1,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    }
+                ]
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 2,
+                "col": 13,
+                "pos": 36,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "<!--suredy-->",
+                        "line": 2,
+                        "col": 0,
+                        "pos": 23,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "075c692e000533b60ac8259e4b675908": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "075c692e000533b60ac8259e4b675908",
+        "result": [
+            {
+                "type": 258,
+                "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+                "name": "HTML_TAG_XML",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "8b206e3e92b70c50e122e8e0e39046cf": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8b206e3e92b70c50e122e8e0e39046cf",
+        "result": [
+            {
+                "type": 256,
+                "value": "<rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\t>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "181d0470fbdc6482c1405e1fb731fcd2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<atom:link href=\"http://www.welefen.com/feed\" rel=\"self\" type=\"application/rss+xml\" />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "181d0470fbdc6482c1405e1fb731fcd2",
+        "result": [
+            {
+                "type": 256,
+                "value": "<atom:link href=\"http://www.welefen.com/feed\" rel=\"self\" type=\"application/rss+xml\" />",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "362926fa8d2016fe9401c48491fe1e95": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<content:encoded><![CDATA[<p>welefen</p>\n<pre><code class=\"lang-js\">listAction: function(){\n    var self = this;\n    var p1 = D(&#39;Group&#39;).where({id: id}).select().then(function(data){\n        self.assign(&#39;group_list&#39;, data);\n    })\n    var p2 = D(&#39;Article&#39;).select().then(function(data){\n        self.assign(&#39;article_list&#39;, data)\n    })\n}\n</code></pre>\n]]></content:encoded>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "362926fa8d2016fe9401c48491fe1e95",
+        "result": [
+            {
+                "type": 256,
+                "value": "<content:encoded>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 266,
+                "value": "<![CDATA[<p>welefen</p>\n<pre><code class=\"lang-js\">listAction: function(){\n    var self = this;\n    var p1 = D(&#39;Group&#39;).where({id: id}).select().then(function(data){\n        self.assign(&#39;group_list&#39;, data);\n    })\n    var p2 = D(&#39;Article&#39;).select().then(function(data){\n        self.assign(&#39;article_list&#39;, data)\n    })\n}\n</code></pre>\n]]>",
+                "name": "HTML_CDATA",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</content:encoded>",
+                "name": "HTML_TAG_END",
+                "line": 11,
+                "col": 3,
+                "pos": 387,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a6d4a689e4b5c7f0e83cb4d8b1bbdaba": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<li><i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\"></i><span>welefen</span></li>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a6d4a689e4b5c7f0e83cb4d8b1bbdaba",
+        "result": [
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 4,
+                "pos": 4,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</i>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 236,
+                "pos": 236,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<span>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 240,
+                "pos": 240,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 246,
+                "pos": 246,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</span>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 253,
+                "pos": 253,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 260,
+                "pos": 260,
+                "newlines": 0,
+                "comments": []
             }
         ]
     }
