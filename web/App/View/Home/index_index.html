@@ -119,6 +119,8 @@
         <input type="text" id="rd" class="form-control" style="width:103px;">
       </div>
     </form>
+    <form class="form-inline" role="form" id="extraOptions">
+    </form>
   </div>
   <div class="col-lg-1">
     <div style="margin-top:200px;text-align:center">
@@ -130,6 +132,13 @@
     <textarea style="height:370px;" readonly id="testResultArea" class="form-control" cols="30" rows="10"></textarea>
   </div>
 </div>
+</script>
+<script>
+var gOptions = {
+  'html:lexer': {
+    tag_attrs: false
+  }
+}
 </script>
 <script src="/resource/js/page.js"></script>
 </body>
