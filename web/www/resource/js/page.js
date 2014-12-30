@@ -102,6 +102,12 @@ $(function(){
       $('#caseList').html(html.join(''))
     })
   }
+  
+
+  var hash = location.hash.slice(1);
+  if (hash) {
+    $('#langSelect').val(hash);
+  }
   init();
 
   $(document.body).delegates({
@@ -155,6 +161,13 @@ $(function(){
       $('#tpl').val(data.tpl);
       $('#ld').val(data.ld);
       $('#rd').val(data.rd);
+    },
+    '#langSelect': {
+      change: function(){
+        var value = this.value;
+        location.hash = value;
+        init();
+      }
     }
   })
 
