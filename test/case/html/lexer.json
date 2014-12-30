@@ -1728,18 +1728,7 @@
         "rd": "",
         "options": {},
         "key": "f163529b6ccef33a193e98d142e5a4c4",
-        "result": [
-            {
-                "type": 257,
-                "value": "</ h1>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 0,
-                "pos": 0,
-                "newlines": 0,
-                "comments": []
-            }
-        ]
+        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
     },
     "220590a491445fd22014a46d8d936393": {
         "lang": "html",
@@ -2393,18 +2382,7 @@
         "rd": "",
         "options": {},
         "key": "d78c79f6b5879d54ddd04daa740f723d",
-        "result": [
-            {
-                "type": 257,
-                "value": "<//>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 0,
-                "pos": 0,
-                "newlines": 0,
-                "comments": []
-            }
-        ]
+        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
     },
     "ea2633e8914ad89cd7f903f9793e6369": {
         "lang": "html",
@@ -2958,18 +2936,7 @@
         "rd": "",
         "options": {},
         "key": "aabd24a8d14f049ff70865cf03f77f56",
-        "result": [
-            {
-                "type": 257,
-                "value": "</ div>",
-                "name": "HTML_TAG_END",
-                "line": 0,
-                "col": 0,
-                "pos": 0,
-                "newlines": 0,
-                "comments": []
-            }
-        ]
+        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
     },
     "097bf6aa640d004fb9f0f51483d5500e": {
         "lang": "html",
@@ -3039,6 +3006,28 @@
                 "type": 256,
                 "value": "<!@#@!#>",
                 "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "0833a5cea423e44a6e1b6a5b354d9c81": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "< / div >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0833a5cea423e44a6e1b6a5b354d9c81",
+        "result": [
+            {
+                "type": 265,
+                "value": "< / div >",
+                "name": "HTML_TEXT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
