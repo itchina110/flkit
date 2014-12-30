@@ -1,7 +1,7 @@
 {
   "name": "flkit",
   "description": "a front-language(html,css,js) toolkit that supoort tempate syntax(smarty,php)",
-  "version": "3.0",
+  "version": "3.0.0",
   "author": {
     "name": "welefen",
     "email": "welefen@gmail.com"
