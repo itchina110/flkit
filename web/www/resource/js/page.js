@@ -34,7 +34,7 @@ $(function(){
   function initEditor(){
     var lang = getLang();
     editorInstance = CodeMirror.fromTextArea($('#codeArea')[0], {
-        lineNumbers: false,
+        lineNumbers: true,
         styleActiveLine: true,
         matchBrackets: true,
         mode: lang,
