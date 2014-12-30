@@ -2919,18 +2919,7 @@
         "rd": "",
         "options": {},
         "key": "559336bc612fa105ac0a6c5b66c3f01d",
-        "result": [
-            {
-                "type": 256,
-                "value": "<!@#@!#>",
-                "name": "HTML_TAG_START",
-                "line": 0,
-                "col": 0,
-                "pos": 0,
-                "newlines": 0,
-                "comments": []
-            }
-        ]
+        "result": "tag name is not valid (line: 0, col: 0, pos: 0)\n"
     },
     "0833a5cea423e44a6e1b6a5b354d9c81": {
         "lang": "html",
@@ -3650,5 +3639,219 @@
                 "comments": []
             }
         ]
+    },
+    "25272a4142131497f82dfa7994db4420": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"welefen\" welefen<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "25272a4142131497f82dfa7994db4420",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"welefen\" welefen<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2534f6b8ed0763f9e513d23dea37344f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?notxml >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2534f6b8ed0763f9e513d23dea37344f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<?notxml >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "dd0298d78ee4b21f3a14060291f2d3a8": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div <%$name%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "dd0298d78ee4b21f3a14060291f2d3a8",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div <%$name%>>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d9ce5caffad313801f849c65da81bba7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div>welefen",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "d9ce5caffad313801f849c65da81bba7",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d86903807f76db7cc1679a55a0c8de6e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "{=$name=}",
+        "tpl": "smarty",
+        "ld": "{=,<%",
+        "rd": "=}",
+        "options": {},
+        "key": "d86903807f76db7cc1679a55a0c8de6e",
+        "result": "Error: ld & rd length not equaled"
+    },
+    "172945a647457e9419c6faadfdcbe404": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if !IE]>--> non-IE HTML Code <!--<![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "172945a647457e9419c6faadfdcbe404",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if !IE]>-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": " non-IE HTML Code ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<!--<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 34,
+                "pos": 34,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a0c593d77e9e53d2cb419584fbd45267": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if (lt IE 10.0)]>\nwelefen\n<![endif]--><!--[if (!IE)|(gte IE 8.0)]><!-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a0c593d77e9e53d2cb419584fbd45267",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if (lt IE 10.0)]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 23,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 2,
+                "col": 0,
+                "pos": 31,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 5,
+                "value": "<!--[if (!IE)|(gte IE 8.0)]><!-->",
+                "name": "IE_HACK",
+                "line": 2,
+                "col": 12,
+                "pos": 43,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "83a14c6a3c73612b4942105fbf7b74d1": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "werwer<!--[if fasdfasdf",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "83a14c6a3c73612b4942105fbf7b74d1",
+        "result": "tag name is not valid (line: 0, col: 6, pos: 6)\n"
     }
 }
