@@ -1,9 +1,11 @@
-var flkit = require('../lib/index.js');
 var casePath = __dirname + '/case/';
 var fs = require('fs');
 var assert = require('assert');
+var should = require('should');
+var muk = require('muk');
 
 var think = require('thinkjs-util');
+var flkit = require('../lib/index.js');
 
 ['html', 'css', 'js'].forEach(function(lang){
   if (!think.isDir(casePath + lang)) {
