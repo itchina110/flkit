@@ -198,6 +198,13 @@ $(function(){
       $('#tpl').val(data.tpl);
       $('#ld').val(data.ld);
       $('#rd').val(data.rd);
+      var options = data.options;
+      var extraOptions = $('#extraOptions');
+      for(var key in options){
+        if (typeof options[key] === 'boolean') {
+          extraOptions.find('[name="'+key+'"]')[0].checked = options[key];
+        };
+      }
     },
     '#langSelect': {
       change: function(){
