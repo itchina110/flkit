@@ -4083,11 +4083,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "\"\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4116,11 +4118,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "\"welefen\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4307,9 +4311,10 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name"
-                    ]
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4348,11 +4353,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        ""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "",
+                        "quote": "",
+                        "_value": "",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4391,11 +4398,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "\"\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4434,11 +4443,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "\"welefen\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4477,11 +4488,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4520,11 +4533,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4563,11 +4578,13 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
                 ]
             }
         ]
@@ -4606,16 +4623,20 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ],
-                    [
-                        "value",
-                        "=",
-                        "\"\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "value"
+                    }
                 ]
             }
         ]
@@ -4654,16 +4675,20 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ],
-                    [
-                        "value",
-                        "=",
-                        "\"\"\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"\"\"",
+                        "quote": "\"",
+                        "_value": "\"",
+                        "_name": "value"
+                    }
                 ]
             }
         ]
@@ -4702,16 +4727,20 @@
                 "tag": "div",
                 "_tag": "div",
                 "attrs": [
-                    [
-                        "name",
-                        "=",
-                        "welefen"
-                    ],
-                    [
-                        "value",
-                        "=",
-                        "\"cls1 cls2\""
-                    ]
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"cls1 cls2\"",
+                        "quote": "\"",
+                        "_value": "cls1 cls2",
+                        "_name": "value"
+                    }
                 ]
             }
         ]
@@ -4750,9 +4779,1998 @@
                 "tag": "input",
                 "_tag": "input",
                 "attrs": [
-                    [
-                        "disabled"
-                    ]
+                    {
+                        "name": "disabled",
+                        "_name": "disabled"
+                    }
+                ]
+            }
+        ]
+    },
+    "652587155ca9e9aca62e894469737ce0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=<&$spDomain.space&>/name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "652587155ca9e9aca62e894469737ce0",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=<&$spDomain.space&>/name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "<&$spDomain.space&>/name",
+                        "quote": "",
+                        "_value": "<&$spDomain.space&>/name",
+                        "_name": "href"
+                    }
+                ]
+            }
+        ]
+    },
+    "968b0fa3fe6a555cfa702d0c69d1f306": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=\"<&$spDomain.space&>/name\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "968b0fa3fe6a555cfa702d0c69d1f306",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=\"<&$spDomain.space&>/name\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "\"<&$spDomain.space&>/name\"",
+                        "quote": "\"",
+                        "_value": "<&$spDomain.space&>/name",
+                        "_name": "href"
+                    }
+                ]
+            }
+        ]
+    },
+    "0b012cbeabb208c69e97580a3c27f8b2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=we<&$spDomain.space&>/name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "0b012cbeabb208c69e97580a3c27f8b2",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=we<&$spDomain.space&>/name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "we<&$spDomain.space&>/name",
+                        "quote": "",
+                        "_value": "we<&$spDomain.space&>/name",
+                        "_name": "href"
+                    }
+                ]
+            }
+        ]
+    },
+    "5f276aa08616d5f6e41db51e22bfdfe0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href = we<&$spDomain.space&>/name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5f276aa08616d5f6e41db51e22bfdfe0",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href = we<&$spDomain.space&>/name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "we<&$spDomain.space&>/name",
+                        "quote": "",
+                        "_value": "we<&$spDomain.space&>/name",
+                        "_name": "href"
+                    }
+                ]
+            }
+        ]
+    },
+    "c175cc17c145e9a5b2716701a76ed35b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href = we <&$spDomain.space&>/name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "c175cc17c145e9a5b2716701a76ed35b",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href = we <&$spDomain.space&>/name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "we",
+                        "quote": "",
+                        "_value": "we",
+                        "_name": "href"
+                    },
+                    {
+                        "name": "<&$spDomain.space&>",
+                        "_name": "<&$spdomain.space&>"
+                    },
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "bbbdaae727a6d448945024f9d61a128a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href = we <&$spDomain.space&> /name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bbbdaae727a6d448945024f9d61a128a",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href = we <&$spDomain.space&> /name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "we",
+                        "quote": "",
+                        "_value": "we",
+                        "_name": "href"
+                    },
+                    {
+                        "name": "<&$spDomain.space&>",
+                        "_name": "<&$spdomain.space&>"
+                    },
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "340fb063e545e5e691fb39ba9d0173b2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href = we <&$spDomain.space&> / name>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "340fb063e545e5e691fb39ba9d0173b2",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href = we <&$spDomain.space&> / name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "we",
+                        "quote": "",
+                        "_value": "we",
+                        "_name": "href"
+                    },
+                    {
+                        "name": "<&$spDomain.space&>",
+                        "_name": "<&$spdomain.space&>"
+                    },
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "93285cf76be7bf01d86c88d0185f30dd": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <input readable disabled>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "93285cf76be7bf01d86c88d0185f30dd",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<input readable disabled>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "readable",
+                        "_name": "readable"
+                    },
+                    {
+                        "name": "disabled",
+                        "_name": "disabled"
+                    }
+                ]
+            }
+        ]
+    },
+    "bc61b8aa1f0dd4752200276ea498f52f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <area \n\n title=\"<&$bsLogo.bdLogoAlt|sp_no_escape&>\" \n \n <&if $bsLogo.bdLogoRec&>class = \"welefen suredy\"<&else&>class = suredy<&/if&>\n \n >",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bc61b8aa1f0dd4752200276ea498f52f",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<area \n\n title=\"<&$bsLogo.bdLogoAlt|sp_no_escape&>\" \n \n <&if $bsLogo.bdLogoRec&>class = \"welefen suredy\"<&else&>class = suredy<&/if&>\n \n >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "area",
+                "_tag": "area",
+                "attrs": [
+                    {
+                        "name": "title",
+                        "value": "\"<&$bsLogo.bdLogoAlt|sp_no_escape&>\"",
+                        "quote": "\"",
+                        "_value": "<&$bsLogo.bdLogoAlt|sp_no_escape&>",
+                        "_name": "title"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<&if $bsLogo.bdLogoRec&>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 6,
+                        "pos": 6,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<&",
+                        "rd": "&>",
+                        "_value": "if $bsLogo.bdLogoRec",
+                        "tpl": true
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"welefen suredy\"",
+                        "quote": "\"",
+                        "_value": "welefen suredy",
+                        "_name": "class"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<&else&>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 6,
+                        "pos": 6,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<&",
+                        "rd": "&>",
+                        "_value": "else",
+                        "tpl": true
+                    },
+                    {
+                        "name": "class",
+                        "value": "suredy",
+                        "quote": "",
+                        "_value": "suredy",
+                        "_name": "class"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<&/if&>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 6,
+                        "pos": 6,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<&",
+                        "rd": "&>",
+                        "_value": "/if",
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
+    },
+    "de801223e1a6e978f48c1a72cf388c18": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div class=\"welefen\"name=\"suredy\"id=\"ss\"value=sss>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "de801223e1a6e978f48c1a72cf388c18",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div class=\"welefen\"name=\"suredy\"id=\"ss\"value=sss>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "name",
+                        "value": "\"suredy\"",
+                        "quote": "\"",
+                        "_value": "suredy",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "id",
+                        "value": "\"ss\"",
+                        "quote": "\"",
+                        "_value": "ss",
+                        "_name": "id"
+                    },
+                    {
+                        "name": "value",
+                        "value": "sss",
+                        "quote": "",
+                        "_value": "sss",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
+    },
+    "833909f3cd12d8ced2fb3e1944f319ea": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div \n<&if $name==\"welefen\"&>\nclass=\"welefen <&$name&>\"<&/if&> \nvalue=\"<&if $test==\"\"&>11<&else&>22<&/if&>\"\n>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "833909f3cd12d8ced2fb3e1944f319ea",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div \n<&if $name==\"welefen\"&>\nclass=\"welefen <&$name&>\"<&/if&> \nvalue=\"<&if $test==\"\"&>11<&else&>22<&/if&>\"\n>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "type": 2,
+                        "value": "<&if $name==\"welefen\"&>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 6,
+                        "pos": 6,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<&",
+                        "rd": "&>",
+                        "_value": "if $name==\"welefen\"",
+                        "tpl": true
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"welefen <&$name&>\"",
+                        "quote": "\"",
+                        "_value": "welefen <&$name&>",
+                        "_name": "class"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<&/if&>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 6,
+                        "pos": 6,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<&",
+                        "rd": "&>",
+                        "_value": "/if",
+                        "tpl": true
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"<&if $test==\"\"&>11<&else&>22<&/if&>\"",
+                        "quote": "\"",
+                        "_value": "<&if $test==\"\"&>11<&else&>22<&/if&>",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
+    },
+    "b1bf7661bfe332914e0fcee7c8c8747b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div class=\"welefen\"\" <&$name&>=<&$value&>>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "b1bf7661bfe332914e0fcee7c8c8747b",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div class=\"welefen\"\" <&$name&>=<&$value&>>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "\"welefen\"\"",
+                        "quote": "\"",
+                        "_value": "welefen\"",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "<&$name&>",
+                        "value": "<&$value&>",
+                        "quote": "",
+                        "_value": "<&$value&>",
+                        "_name": "<&$name&>"
+                    }
+                ]
+            }
+        ]
+    },
+    "906f88a03e619561a117c34820884130": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <img/welefen//////src=javascript:alert(/xss/)>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "906f88a03e619561a117c34820884130",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<img/welefen//////src=javascript:alert(/xss/)>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "img",
+                "_tag": "img",
+                "attrs": [
+                    {
+                        "name": "welefen",
+                        "_name": "welefen"
+                    },
+                    {
+                        "name": "src",
+                        "value": "javascript:alert(/xss/)",
+                        "quote": "",
+                        "_value": "javascript:alert(/xss/)",
+                        "_name": "src"
+                    }
+                ]
+            }
+        ]
+    },
+    "ab4b116f126e7e743294d577767e63fc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <input disabled>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "ab4b116f126e7e743294d577767e63fc",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<input disabled>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "disabled",
+                        "_name": "disabled"
+                    }
+                ]
+            }
+        ]
+    },
+    "9f95acbad2135e80e7c246fd2c0ac3fc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <input disabled/>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "9f95acbad2135e80e7c246fd2c0ac3fc",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<input disabled/>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "disabled",
+                        "_name": "disabled"
+                    }
+                ]
+            }
+        ]
+    },
+    "fcb2c4288f68cfd6c12304d8a7a42240": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div class=\"welefen\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "fcb2c4288f68cfd6c12304d8a7a42240",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div class=\"welefen\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "class"
+                    }
+                ]
+            }
+        ]
+    },
+    "da38cddeda1e9b7c611448067a031d96": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div class=welefen name=\"suredy\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "da38cddeda1e9b7c611448067a031d96",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div class=welefen name=\"suredy\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "name",
+                        "value": "\"suredy\"",
+                        "quote": "\"",
+                        "_value": "suredy",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "3cf0371bdeb9dad927f1ba7cf55661ff": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div name = welefen value = 'suredy'>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "3cf0371bdeb9dad927f1ba7cf55661ff",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div name = welefen value = 'suredy'>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "'suredy'",
+                        "quote": "'",
+                        "_value": "suredy",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
+    },
+    "6371225656918c3564d2c28f66041b57": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div class=\"welefen\"\n\nname = 'suredy'>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6371225656918c3564d2c28f66041b57",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div class=\"welefen\"\n\nname = 'suredy'>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "name",
+                        "value": "'suredy'",
+                        "quote": "'",
+                        "_value": "suredy",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "bfa7270ae37310f2e443d53e34aa1dc0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=http://www.welefen.com title=你好啊>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bfa7270ae37310f2e443d53e34aa1dc0",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=http://www.welefen.com title=你好啊>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "http://www.welefen.com",
+                        "quote": "",
+                        "_value": "http://www.welefen.com",
+                        "_name": "href"
+                    },
+                    {
+                        "name": "title",
+                        "value": "你好啊",
+                        "quote": "",
+                        "_value": "你好啊",
+                        "_name": "title"
+                    }
+                ]
+            }
+        ]
+    },
+    "f02f2b721e719b5786d9af81245c0200": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=\"<&$has&>name\" class=\"welefen\" >",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "f02f2b721e719b5786d9af81245c0200",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=\"<&$has&>name\" class=\"welefen\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "\"<&$has&>name\"",
+                        "quote": "\"",
+                        "_value": "<&$has&>name",
+                        "_name": "href"
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "class"
+                    }
+                ]
+            }
+        ]
+    },
+    "f4a87228650327df8f45374c279e3164": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <a href=\"<&$has&>name\n\nclass=welefen\" >",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "f4a87228650327df8f45374c279e3164",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<a href=\"<&$has&>name\n\nclass=welefen\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "a",
+                "_tag": "a",
+                "attrs": [
+                    {
+                        "name": "href",
+                        "value": "\"<&$has&>name\n\nclass=welefen\"",
+                        "quote": "\"",
+                        "_value": "<&$has&>name\n\nclass=welefen",
+                        "_name": "href"
+                    }
+                ]
+            }
+        ]
+    },
+    "2aa81e757a56e9813da983f71833c319": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <script/defer>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "2aa81e757a56e9813da983f71833c319",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<script/defer>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "script",
+                "_tag": "script",
+                "attrs": [
+                    {
+                        "name": "defer",
+                        "_name": "defer"
+                    }
+                ]
+            }
+        ]
+    },
+    "0fdbab897594a8fd3b036f57ac216bcf": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div style=\"width:expression(alert(1))\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "0fdbab897594a8fd3b036f57ac216bcf",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div style=\"width:expression(alert(1))\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "style",
+                        "value": "\"width:expression(alert(1))\"",
+                        "quote": "\"",
+                        "_value": "width:expression(alert(1))",
+                        "_name": "style"
+                    }
+                ]
+            }
+        ]
+    },
+    "6ad6e055b4c95ff87ac5ab5b893c2ce0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <div style=\"width:expression(alert('1'))\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6ad6e055b4c95ff87ac5ab5b893c2ce0",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div style=\"width:expression(alert('1'))\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "style",
+                        "value": "\"width:expression(alert('1'))\"",
+                        "quote": "\"",
+                        "_value": "width:expression(alert('1'))",
+                        "_name": "style"
+                    }
+                ]
+            }
+        ]
+    },
+    "b3eb3442043e670d62e5b66c8fbe932a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <wb:follow-button uid=1882164751 type=red_1 width=80 height=24>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "b3eb3442043e670d62e5b66c8fbe932a",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<wb:follow-button uid=1882164751 type=red_1 width=80 height=24>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "wb:follow-button",
+                "_tag": "wb:follow-button",
+                "attrs": [
+                    {
+                        "name": "uid",
+                        "value": "1882164751",
+                        "quote": "",
+                        "_value": "1882164751",
+                        "_name": "uid"
+                    },
+                    {
+                        "name": "type",
+                        "value": "red_1",
+                        "quote": "",
+                        "_value": "red_1",
+                        "_name": "type"
+                    },
+                    {
+                        "name": "width",
+                        "value": "80",
+                        "quote": "",
+                        "_value": "80",
+                        "_name": "width"
+                    },
+                    {
+                        "name": "height",
+                        "value": "24",
+                        "quote": "",
+                        "_value": "24",
+                        "_name": "height"
+                    }
+                ]
+            }
+        ]
+    },
+    "3026a8d0ef9a048ad623c052301ceca6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <frameset rows=\"55,*\"frameborder=0 border=0 framespacing=0>",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "3026a8d0ef9a048ad623c052301ceca6",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<frameset rows=\"55,*\"frameborder=0 border=0 framespacing=0>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "frameset",
+                "_tag": "frameset",
+                "attrs": [
+                    {
+                        "name": "rows",
+                        "value": "\"55,*\"",
+                        "quote": "\"",
+                        "_value": "55,*",
+                        "_name": "rows"
+                    },
+                    {
+                        "name": "frameborder",
+                        "value": "0",
+                        "quote": "",
+                        "_value": "0",
+                        "_name": "frameborder"
+                    },
+                    {
+                        "name": "border",
+                        "value": "0",
+                        "quote": "",
+                        "_value": "0",
+                        "_name": "border"
+                    },
+                    {
+                        "name": "framespacing",
+                        "value": "0",
+                        "quote": "",
+                        "_value": "0",
+                        "_name": "framespacing"
+                    }
+                ]
+            }
+        ]
+    },
+    "bf3eaf6e20231d45022d51a0c672a6fc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <IMG SRC= onmouseover=\"alert('xxs')\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bf3eaf6e20231d45022d51a0c672a6fc",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<IMG SRC= onmouseover=\"alert('xxs')\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "IMG",
+                "_tag": "img",
+                "attrs": [
+                    {
+                        "name": "SRC",
+                        "value": "onmouseover\"alert('xxs')\"",
+                        "quote": "",
+                        "_value": "onmouseover\"alert('xxs')\"",
+                        "_name": "src"
+                    }
+                ]
+            }
+        ]
+    },
+    "51e5aa64d45d5003d7045fdb9b32964e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <IMG SRC=\"javascript:alert('XSS')\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "51e5aa64d45d5003d7045fdb9b32964e",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<IMG SRC=\"javascript:alert('XSS')\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "IMG",
+                "_tag": "img",
+                "attrs": [
+                    {
+                        "name": "SRC",
+                        "value": "\"javascript:alert('XSS')\"",
+                        "quote": "\"",
+                        "_value": "javascript:alert('XSS')",
+                        "_name": "src"
+                    }
+                ]
+            }
+        ]
+    },
+    "16e137d328770eec27c89f825524a603": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <i class=\"icon-checkbox-location location <% if policy.default_policy_value.include? location_setting.value %>checked<% end %><% if policy.default_policy_value==\"ALL\" %>disable<% end %>\" id=<%$ location_setting.id %> value=\"<%= location_setting.value %>\">",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "16e137d328770eec27c89f825524a603",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<i class=\"icon-checkbox-location location <% if policy.default_policy_value.include? location_setting.value %>checked<% end %><% if policy.default_policy_value==\"ALL\" %>disable<% end %>\" id=<%$ location_setting.id %> value=\"<%= location_setting.value %>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "i",
+                "_tag": "i",
+                "attrs": [
+                    {
+                        "name": "class",
+                        "value": "\"icon-checkbox-location location <% if policy.default_policy_value.include? location_setting.value %>checked<% end %><% if policy.default_policy_value==\"ALL\" %>disable<% end %>\"",
+                        "quote": "\"",
+                        "_value": "icon-checkbox-location location <% if policy.default_policy_value.include? location_setting.value %>checked<% end %><% if policy.default_policy_value==\"ALL\" %>disable<% end %>",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "id",
+                        "value": "<%$ location_setting.id %>",
+                        "quote": "",
+                        "_value": "<%$ location_setting.id %>",
+                        "_name": "id"
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"<%= location_setting.value %>\"",
+                        "quote": "\"",
+                        "_value": "<%= location_setting.value %>",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
+    },
+    "4534747599add6638645b0f4350a336c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "4534747599add6638645b0f4350a336c",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<i data-id=\"<%= Settings.ring_alarm_settings.stop_on_console%>\" class=\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\" name=\"permit\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "i",
+                "_tag": "i",
+                "attrs": [
+                    {
+                        "name": "data-id",
+                        "value": "\"<%= Settings.ring_alarm_settings.stop_on_console%>\"",
+                        "quote": "\"",
+                        "_value": "<%= Settings.ring_alarm_settings.stop_on_console%>",
+                        "_name": "data-id"
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>\"",
+                        "quote": "\"",
+                        "_value": "icon-radiobox<%= \" r-checked\" if @device.ring_alarm_setting.nil? or @device.ring_alarm_setting == Settings.ring_alarm_settings.stop_on_console %>",
+                        "_name": "class"
+                    },
+                    {
+                        "name": "name",
+                        "value": "\"permit\"",
+                        "quote": "\"",
+                        "_value": "permit",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "29eb05a869e3ac8fe37b372f4f64499f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "attr: <script name=\"welefen\" NAME=\"1\">",
+        "tpl": "smarty",
+        "ld": "<&",
+        "rd": "&>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "29eb05a869e3ac8fe37b372f4f64499f",
+        "result": [
+            {
+                "type": 265,
+                "value": "attr: ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<script name=\"welefen\" NAME=\"1\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "script",
+                "_tag": "script",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "NAME",
+                        "value": "\"1\"",
+                        "quote": "\"",
+                        "_value": "1",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "32bb29689de7cd6c5e781b088b837427": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div \"name\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "32bb29689de7cd6c5e781b088b837427",
+        "result": "there is no = before quote char (line: 0, col: 6, pos: 6)\n"
+    },
+    "f7ef11dadd04738f511877d923c8e8ca": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"\"",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "f7ef11dadd04738f511877d923c8e8ca",
+        "result": "can't find tag end char > (line: 0, col: 11, pos: 11)\n"
+    },
+    "685608895be8aa68d7663f7c0ca8bad0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"\" // >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "685608895be8aa68d7663f7c0ca8bad0",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"\" // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "5c8ca631c2d116f04a27ce2e60fd3b84": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=<%if()%> // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5c8ca631c2d116f04a27ce2e60fd3b84",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=<%if()%> // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<%if()%>",
+                        "quote": "",
+                        "_value": "<%if()%>",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "e4f5e33b8b8d6c588af13af00ff1e8be": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=<%if()%>www // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "e4f5e33b8b8d6c588af13af00ff1e8be",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=<%if()%>www // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<%if()%>www",
+                        "quote": "",
+                        "_value": "<%if()%>www",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "a0d1468b11f7ad6064ad0fdb6c5b1a6a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=<%if()%> www // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "a0d1468b11f7ad6064ad0fdb6c5b1a6a",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=<%if()%> www // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<%if()%>",
+                        "quote": "",
+                        "_value": "<%if()%>",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "www",
+                        "_name": "www"
+                    }
+                ]
+            }
+        ]
+    },
+    "80cc46c92d6474ef90306450d9ad7e4f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"<%if()%> www\" // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "80cc46c92d6474ef90306450d9ad7e4f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"<%if()%> www\" // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"<%if()%> www\"",
+                        "quote": "\"",
+                        "_value": "<%if()%> www",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "5c83169a53d6c14da9f29988201043d9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name<%if()%> // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5c83169a53d6c14da9f29988201043d9",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name<%if()%> // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%if()%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "if()",
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
+    },
+    "cbaea3ce1368ff080011ac93819add02": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name <%if()%> // >",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "cbaea3ce1368ff080011ac93819add02",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name <%if()%> // >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "_name": "name"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%if()%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "if()",
+                        "tpl": true
+                    }
                 ]
             }
         ]
