@@ -7070,5 +7070,134 @@
                 ]
             }
         ]
+    },
+    "e5539805ab4ef13c30db9b1a37f24025": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "fasdf\n\nfasdf\n\n\n<div name=\"w\\\"w\" >\n\nwelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "e5539805ab4ef13c30db9b1a37f24025",
+        "result": [
+            {
+                "type": 265,
+                "value": "fasdf\n\nfasdf",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div name=\"w\\\"w\" >",
+                "name": "HTML_TAG_START",
+                "line": 5,
+                "col": 0,
+                "pos": 15,
+                "newlines": 3,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"w\\\"w\"",
+                        "quote": "\"",
+                        "_value": "w\\\"w",
+                        "_name": "name"
+                    }
+                ]
+            },
+            {
+                "type": 265,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 7,
+                "col": 0,
+                "pos": 35,
+                "newlines": 2,
+                "comments": []
+            }
+        ]
+    },
+    "aef6105588159ddf8547e0359c1d33af": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=w\"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "aef6105588159ddf8547e0359c1d33af",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=w\"welefen\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "w\"welefen\"",
+                        "quote": "",
+                        "_value": "w\"welefen\"",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "0f599700288dc49576387170ff867c38": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"welefen\"www>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "0f599700288dc49576387170ff867c38",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"welefen\"www>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"welefen\"",
+                        "quote": "\"",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "www",
+                        "_name": "www"
+                    }
+                ]
+            }
+        ]
     }
 }
