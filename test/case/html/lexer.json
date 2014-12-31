@@ -6780,5 +6780,111 @@
                 ]
             }
         ]
+    },
+    "25e8262d1b22fef2e00f52584fa577eb": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n\n\n<div wer\n\nwerwer",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "25e8262d1b22fef2e00f52584fa577eb",
+        "result": "can't find tag end char > (line: 3, col: 0, pos: 10)\n"
+    },
+    "f4299dddfc71269b31633b081a363511": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<name></name>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "f4299dddfc71269b31633b081a363511",
+        "result": [
+            {
+                "type": 256,
+                "value": "<name>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "name",
+                "_tag": "name",
+                "attrs": []
+            },
+            {
+                "type": 257,
+                "value": "</name>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "tag": "name",
+                "_tag": "name"
+            }
+        ]
+    },
+    "0ad5ecd7a7ba2f7d3474dc1f507bc71f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<br />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "0ad5ecd7a7ba2f7d3474dc1f507bc71f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<br />",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "br",
+                "_tag": "br",
+                "attrs": []
+            }
+        ]
+    },
+    "d75ca2b6155b311b1ffe3d054c6cd642": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<br/>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "d75ca2b6155b311b1ffe3d054c6cd642",
+        "result": [
+            {
+                "type": 256,
+                "value": "<br/>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "br",
+                "_tag": "br",
+                "attrs": []
+            }
+        ]
     }
 }
