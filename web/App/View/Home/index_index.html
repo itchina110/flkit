@@ -41,18 +41,12 @@
             <li>
               <div style="padding-top:8px;width:200px;">
                 <select class="form-control" id="langSelect">
-                  <optgroup label="html">
-                    <option value="html:lexer">lexer</option>
-                    <option value="html:tag_lexer">tag lexer</option>
-                    <option value="html:compress">compress</option>
-                    <option value="html:beautify">beautify</option>
-                  </optgroup>
-                  <optgroup label="css">
-                    <option>lexer</option>
-                    <option>tag lexer</option>
-                    <option>compress</option>
-                    <option>beautify</option>
-                  </optgroup>
+                  <%for(var l in lang){%>
+                  <optgroup label="<%=l%>">
+                  <%for(var f in lang[l]){%>
+                  <option value="<%=l%>:<%=f%>"><%=f%></option>
+                  <%}%>
+                  <%}%>
                 </select>
               </div>
             </li>
@@ -119,6 +113,7 @@
         <input type="text" id="rd" class="form-control" style="width:103px;">
       </div>
     </form>
+    <hr>
     <form class="form-inline" role="form" id="extraOptions">
     </form>
   </div>
@@ -134,11 +129,7 @@
 </div>
 </script>
 <script>
-var gOptions = {
-  'html:lexer': {
-    tag_attrs: false
-  }
-}
+var gOptions = <%-JSON.stringify(lang)%>;
 </script>
 <script src="/resource/js/page.js"></script>
 </body>

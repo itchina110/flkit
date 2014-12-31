@@ -7,7 +7,26 @@ var flkit = require(ROOT_PATH + '/../../index.js');
 module.exports = Controller("Home/BaseController", function(){
   "use strict";
   return {
+    lang: {
+      html: ['lexer', 'compress', 'beautify', 'filter']
+    },
+    /**
+     * 首页
+     * @return {[type]} [description]
+     */
     indexAction: function(){
+      var data = {};
+      for(var lang in this.lang){
+        data[lang] = {};
+        this.lang[lang].forEach(function(item){
+          var file = ROOT_PATH + '/../../lib/lang/' + lang + '/' + item + '.js';
+          if (isFile(file)) {
+            var cls = require(file);
+            data[lang][item] = cls.__prop.options;
+          }
+        })
+      }
+      this.assign('lang', data);
       //render View/Home/index_index.html file
       this.display();
     },

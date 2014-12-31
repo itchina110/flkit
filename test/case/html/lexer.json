@@ -3853,5 +3853,49 @@
         "options": {},
         "key": "83a14c6a3c73612b4942105fbf7b74d1",
         "result": "tag name is not valid (line: 0, col: 6, pos: 6)\n"
+    },
+    "9ca0507dcdcfd5cbde1598c401069f80": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<9www>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9ca0507dcdcfd5cbde1598c401069f80",
+        "result": [
+            {
+                "type": 265,
+                "value": "<9www>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "95e107ab2897fce30a375283422cddb5": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<+++>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "95e107ab2897fce30a375283422cddb5",
+        "result": [
+            {
+                "type": 265,
+                "value": "<+++>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
