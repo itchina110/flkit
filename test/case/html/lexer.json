@@ -5225,6 +5225,7 @@
                         "ld": "<&",
                         "rd": "&>",
                         "_value": "if $bsLogo.bdLogoRec",
+                        "spaceBefore": true,
                         "tpl": true
                     },
                     {
@@ -5246,6 +5247,7 @@
                         "ld": "<&",
                         "rd": "&>",
                         "_value": "else",
+                        "spaceBefore": false,
                         "tpl": true
                     },
                     {
@@ -5385,6 +5387,7 @@
                         "ld": "<&",
                         "rd": "&>",
                         "_value": "if $name==\"welefen\"",
+                        "spaceBefore": true,
                         "tpl": true
                     },
                     {
@@ -5406,6 +5409,7 @@
                         "ld": "<&",
                         "rd": "&>",
                         "_value": "/if",
+                        "spaceBefore": false,
                         "tpl": true
                     },
                     {
@@ -6723,6 +6727,7 @@
                         "ld": "<%",
                         "rd": "%>",
                         "_value": "if()",
+                        "spaceBefore": false,
                         "tpl": true
                     }
                 ]
@@ -6769,6 +6774,7 @@
                         "ld": "<%",
                         "rd": "%>",
                         "_value": "if()",
+                        "spaceBefore": true,
                         "tpl": true
                     }
                 ]
