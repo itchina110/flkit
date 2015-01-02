@@ -7199,5 +7199,53 @@
                 ]
             }
         ]
+    },
+    "da3a87962034f7b48349f7cd3cab7b19": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"www\"><div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "da3a87962034f7b48349f7cd3cab7b19",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name=\"www\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"www\"",
+                        "quote": "\"",
+                        "_value": "www",
+                        "_name": "name"
+                    }
+                ]
+            },
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": []
+            }
+        ]
     }
 }
