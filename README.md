@@ -9,7 +9,7 @@ FLKit is a front-end language(HTML、CSS、JS) toolkit support template syntax(e
 * PHP
 * all template syntax with delimiter
 
-delimiter also support advanced features:
+advanced support:
 
 * support nesting delimiter: `<% $value = <%$name%> + 1 %>`
 * support multi delimiter: `<% $value = 1%> <& $value &>`
