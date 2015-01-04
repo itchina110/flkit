@@ -1,0 +1,90 @@
+{
+    "1e1c914f1fd0851e3ab9889d5d163425": {
+        "lang": "html",
+        "name": "compress",
+        "code": "welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1e1c914f1fd0851e3ab9889d5d163425",
+        "result": "welefen"
+    },
+    "3a5e55f8fa4b23aa364e9a15a90e176a": {
+        "lang": "html",
+        "name": "compress",
+        "code": " welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3a5e55f8fa4b23aa364e9a15a90e176a",
+        "result": " welefen"
+    },
+    "51b84636b0788bca3d6960a3150768fc": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n\nwelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "51b84636b0788bca3d6960a3150768fc",
+        "result": " welefen"
+    },
+    "ccfbfbe563283a913ddfec4d1f9ad649": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n\n welefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ccfbfbe563283a913ddfec4d1f9ad649",
+        "result": " welefen"
+    },
+    "2debbcf1b4a1e123d35180df3685bf05": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n\n welefen \n \n ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2debbcf1b4a1e123d35180df3685bf05",
+        "result": " welefen "
+    },
+    "2e2270cfd87ccb9b6f76c6f4c21fa901": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\twelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2e2270cfd87ccb9b6f76c6f4c21fa901",
+        "result": " welefen"
+    },
+    "6970f7c3dea8b3179a97022fcc28b692": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6970f7c3dea8b3179a97022fcc28b692",
+        "result": "<div>"
+    },
+    "5dfd29bab07c5c00db7a929f81e64d75": {
+        "lang": "html",
+        "name": "compress",
+        "code": "welefen  <div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5dfd29bab07c5c00db7a929f81e64d75",
+        "result": "welefen <div>"
+    }
+}

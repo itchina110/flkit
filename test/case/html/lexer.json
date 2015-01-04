@@ -7247,5 +7247,408 @@
                 "attrs": []
             }
         ]
+    },
+    "6f4d6c15752ccc3528833005e767e71d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name = welefen >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6f4d6c15752ccc3528833005e767e71d",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name = welefen >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "3158736bccc152a28c68a15e34b6b29c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name = welefen value = suredy >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "3158736bccc152a28c68a15e34b6b29c",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div name = welefen value = suredy >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "welefen",
+                        "quote": "",
+                        "_value": "welefen",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "suredy",
+                        "quote": "",
+                        "_value": "suredy",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
+    },
+    "bb691f08393c6c1e8cfc0989aa85e9e7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<meta http-equiv=Content-Type content=\"text/html;charset=utf-8\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bb691f08393c6c1e8cfc0989aa85e9e7",
+        "result": [
+            {
+                "type": 256,
+                "value": "<meta http-equiv=Content-Type content=\"text/html;charset=utf-8\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "meta",
+                "_tag": "meta",
+                "attrs": [
+                    {
+                        "name": "http-equiv",
+                        "value": "Content-Type",
+                        "quote": "",
+                        "_value": "Content-Type",
+                        "_name": "http-equiv"
+                    },
+                    {
+                        "name": "content",
+                        "value": "\"text/html;charset=utf-8\"",
+                        "quote": "\"",
+                        "_value": "text/html;charset=utf-8",
+                        "_name": "content"
+                    }
+                ]
+            }
+        ]
+    },
+    "0e0ce4eb1369d12e9abfefc7d3065230": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<ul>\n\t<li>1</li>\n    <li>2</li>\n</ul>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0e0ce4eb1369d12e9abfefc7d3065230",
+        "result": [
+            {
+                "type": 256,
+                "value": "<ul>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "\t",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 5,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 1,
+                "col": 1,
+                "pos": 6,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "1",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 5,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 1,
+                "col": 6,
+                "pos": 11,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "    ",
+                "name": "HTML_TEXT",
+                "line": 2,
+                "col": 0,
+                "pos": 17,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 2,
+                "col": 4,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "2",
+                "name": "HTML_TEXT",
+                "line": 2,
+                "col": 8,
+                "pos": 25,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 2,
+                "col": 9,
+                "pos": 26,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</ul>",
+                "name": "HTML_TAG_END",
+                "line": 3,
+                "col": 0,
+                "pos": 32,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "b9f4347a111f543ec2dff9b98f30d83b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div <%if $name%>class=\"cl1\"<%else%>class=\"cls2\"<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "b9f4347a111f543ec2dff9b98f30d83b",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div <%if $name%>class=\"cl1\"<%else%>class=\"cls2\"<%/if%>>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "type": 2,
+                        "value": "<%if $name%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "if $name",
+                        "spaceBefore": false,
+                        "tpl": true
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"cl1\"",
+                        "quote": "\"",
+                        "_value": "cl1",
+                        "_name": "class"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%else%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "else",
+                        "spaceBefore": false,
+                        "tpl": true
+                    },
+                    {
+                        "name": "class",
+                        "value": "\"cls2\"",
+                        "quote": "\"",
+                        "_value": "cls2",
+                        "_name": "class"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%/if%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "/if",
+                        "spaceBefore": false,
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
+    },
+    "1106a188e9543231022b3a4339368526": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div attrname1 <%if $name%>attrname1<%else%>attrname2<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "1106a188e9543231022b3a4339368526",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div attrname1 <%if $name%>attrname1<%else%>attrname2<%/if%>>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "attrname1",
+                        "_name": "attrname1"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%if $name%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "if $name",
+                        "spaceBefore": true,
+                        "tpl": true
+                    },
+                    {
+                        "name": "attrname1",
+                        "_name": "attrname1"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%else%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "else",
+                        "spaceBefore": false,
+                        "tpl": true
+                    },
+                    {
+                        "name": "attrname2",
+                        "_name": "attrname2"
+                    },
+                    {
+                        "type": 2,
+                        "value": "<%/if%>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<%",
+                        "rd": "%>",
+                        "_value": "/if",
+                        "spaceBefore": false,
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
     }
 }

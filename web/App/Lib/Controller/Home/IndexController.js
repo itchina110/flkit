@@ -8,7 +8,7 @@ module.exports = Controller("Home/BaseController", function(){
   "use strict";
   return {
     lang: {
-      html: ['lexer', 'compress', 'beautify', 'filter']
+      html: ['lexer', 'compress']
     },
     /**
      * 首页
