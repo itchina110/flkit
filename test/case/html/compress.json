@@ -546,5 +546,51 @@
         "options": {},
         "key": "38d14c60cdc8f44d42ea37a986685750",
         "result": "<a class=we>"
+    },
+    "13f0a4c4df7c575dd7860c575b2a1b60": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<?xml>\n<a>\n\n</a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "13f0a4c4df7c575dd7860c575b2a1b60",
+        "result": "<?xml>\n<a>\n\n</a>"
+    },
+    "fede325ca50d84cd1ec11e3aa8c89e14": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "fede325ca50d84cd1ec11e3aa8c89e14",
+        "result": "<meta charset=utf-8>"
+    },
+    "92edcecbfe8a97f741a6397801dd74e6": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<meta http-equiv=\"content-type\" content=\"text/html;charset=gbk\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "92edcecbfe8a97f741a6397801dd74e6",
+        "result": "<meta charset=gbk>"
+    },
+    "8e1e7444f68d54320f9bdd80051e95b7": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<meta http-equiv=\"content-type\" content=\"text/html;charset=gbk\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "simple_charset": false
+        },
+        "key": "8e1e7444f68d54320f9bdd80051e95b7",
+        "result": "<meta http-equiv=content-type content=\"text/html;charset=gbk\">"
     }
 }
