@@ -680,5 +680,571 @@
         "options": {},
         "key": "be5df0863da5b4c27b074e5999cc46d8",
         "result": "<div></div>"
+    },
+    "141743a125e69bb2e10b06833604ab5c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<span>welefen</span>\n<span>suredy</span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "141743a125e69bb2e10b06833604ab5c",
+        "result": "<span>welefen</span> <span>suredy</span>"
+    },
+    "d5973a0835af8f6fde285735b564dfd0": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</div></div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d5973a0835af8f6fde285735b564dfd0",
+        "result": "</div></div>"
+    },
+    "ef09b5a314a134cccf0d41774fe1292e": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</span> </span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ef09b5a314a134cccf0d41774fe1292e",
+        "result": "</span> </span>"
+    },
+    "5745551e59421c756df9110250a1f0f8": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</span></span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5745551e59421c756df9110250a1f0f8",
+        "result": "</span></span>"
+    },
+    "7a1728a5a41b24c531a1effc3c09d319": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</span>\n</span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7a1728a5a41b24c531a1effc3c09d319",
+        "result": "</span> </span>"
+    },
+    "0b11ed2181badeb1e2ed3c0052933a48": {
+        "lang": "html",
+        "name": "compress",
+        "code": "start\n<span>\n  welefen <span>suredy</span>\n</span>\nend",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0b11ed2181badeb1e2ed3c0052933a48",
+        "result": "start <span> welefen <span>suredy</span> </span> end"
+    },
+    "9b8e93da71120804df0d828a849db68f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<title>Fl Test Platform</title>\n<style></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9b8e93da71120804df0d828a849db68f",
+        "result": "<title>Fl Test Platform</title><style></style>"
+    },
+    "e9942adf7fd3597cf27ed5745d27d08b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n<title>Fl Test Platform</title>\n<style></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e9942adf7fd3597cf27ed5745d27d08b",
+        "result": "<title>Fl Test Platform</title><style></style>"
+    },
+    "9482b065b5ad8759d45bca7ac8e3d045": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a>welefen </a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9482b065b5ad8759d45bca7ac8e3d045",
+        "result": "<a>welefen </a>"
+    },
+    "f3c06b95979207eaefc9846df244f04b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "start\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f3c06b95979207eaefc9846df244f04b",
+        "result": "start<div>"
+    },
+    "768346d858c511af720c4a04c0254450": {
+        "lang": "html",
+        "name": "compress",
+        "code": "start\n <div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "768346d858c511af720c4a04c0254450",
+        "result": "start <div>"
+    },
+    "a344cc6a9b6723deaa995c3ea1f80c18": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a href=\"\" class=\"cls1 cls2\" onclick=\"alert(1)\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a344cc6a9b6723deaa995c3ea1f80c18",
+        "result": "<a href=\"\"class=\"cls1 cls2\"onclick=\"alert(1)\">"
+    },
+    "6ca04b9a0249b493b594ebf9befb6701": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a href=\"\" class=\"cls1 cls2\" onclick=\"alert(1)\"></a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6ca04b9a0249b493b594ebf9befb6701",
+        "result": "<a href=\"\"class=\"cls1 cls2\"onclick=\"alert(1)\"></a>"
+    },
+    "db7c6350bd04d5bfb6e12075d379fd67": {
+        "lang": "html",
+        "name": "compress",
+        "code": "start\n<div>\n\n    welefen   </div>\nend",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "db7c6350bd04d5bfb6e12075d379fd67",
+        "result": "start<div>welefen</div>end"
+    },
+    "7cf4cf2db3bd99429106678db8b337d2": {
+        "lang": "html",
+        "name": "compress",
+        "code": "start\n<div>\n\n    welefen   </div>\nend",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_space_in_block_tag": false
+        },
+        "key": "7cf4cf2db3bd99429106678db8b337d2",
+        "result": "start <div> welefen </div> end"
+    },
+    "76ce9eea325ec219040086e5599c185a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "{a:\"welefen\",\nb:1\n}\n<div>welefen            </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "76ce9eea325ec219040086e5599c185a",
+        "result": "{a:\"welefen\", b:1 }<div>welefen</div>"
+    },
+    "17ea66b8346c4a0df5fb42fa9c7d1d79": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!--[30,69,1] published at 2012-06-20 18:19:07 from #150 by system-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\n<title>新浪首页</title>\n<meta name=\"description\" content=\"\" />\n<meta name=\"stencil\" content=\"PGLS000022\" />\n<meta name=\"publishid\" content=\"30,69,1\" />\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "17ea66b8346c4a0df5fb42fa9c7d1d79",
+        "result": "<!DOCTYPE html><html><head><meta charset=gb2312><title>新浪首页</title><meta name=description content=\"\"><meta name=stencil content=PGLS000022><meta name=publishid content=\"30,69,1\"> "
+    },
+    "961dc731bd037abdbb3b6fbc610c8d9d": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!--[30,69,1] published at 2012-06-20 18:19:07 from #150 by system-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\n<title>新浪首页</title>\n<meta name=\"description\" content=\"\" />\n<meta name=\"stencil\" content=\"PGLS000022\" />\n<meta name=\"publishid\" content=\"30,69,1\" />\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "simple_doctype": false
+        },
+        "key": "961dc731bd037abdbb3b6fbc610c8d9d",
+        "result": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html><head><meta charset=gb2312><title>新浪首页</title><meta name=description content=\"\"><meta name=stencil content=PGLS000022><meta name=publishid content=\"30,69,1\"> "
+    },
+    "eac7c6a64bc4f769acea2b43673321aa": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!--[30,69,1] published at 2012-06-20 18:19:07 from #150 by system-->\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\n<title>新浪首页</title>\n<meta name=\"description\" content=\"\" />\n<meta name=\"stencil\" content=\"PGLS000022\" />\n<meta name=\"publishid\" content=\"30,69,1\" />\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "simple_doctype": false,
+            "remove_http_xmlns": false,
+            "remove_optional_attrs": false
+        },
+        "key": "eac7c6a64bc4f769acea2b43673321aa",
+        "result": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=http://www.w3.org/1999/xhtml><head><meta charset=gb2312><title>新浪首页</title><meta name=description content=\"\"><meta name=stencil content=PGLS000022><meta name=publishid content=\"30,69,1\"> "
+    },
+    "88585f4a24b5662aa72c79296b69c337": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--!welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "88585f4a24b5662aa72c79296b69c337",
+        "result": "<!--!welefen-->"
+    },
+    "fd652b3bf46d30d0900bbec9bec4ea43": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "fd652b3bf46d30d0900bbec9bec4ea43",
+        "result": ""
+    },
+    "f19e5fa4cac5bc3b660e010ca3d32e7f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_comment": false
+        },
+        "key": "f19e5fa4cac5bc3b660e010ca3d32e7f",
+        "result": "<!--welefen-->"
+    },
+    "755ce5b4a1698712269e0f4933f5f684": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n<li><a href=\"javascript:void(0);\" id=\"L_2008mail\" onclick=\"loginManager.LoginSelect('2008mail');return false;\">2008邮箱</a></li>\n\n\t\t\t\t\t<!-- <li><a href=\"javascript:void(0);\" id=\"L_263mail\" onclick=\"loginManager.LoginSelect('263mail');return false;\">同名邮箱</a></li> -->\n\n\t\t\t\t\t<li><a href=\"javascript:void(0);\" id=\"L_cnmail\" onclick=\"loginManager.LoginSelect('cnmail');return false;\">CN邮箱</a></li>\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_comment": false
+        },
+        "key": "755ce5b4a1698712269e0f4933f5f684",
+        "result": " <li><a href=\"javascript:void(0);\"id=L_2008mail onclick=\"loginManager.LoginSelect('2008mail');return false\">2008邮箱</a> <li><a href=\"javascript:void(0);\"id=L_cnmail onclick=\"loginManager.LoginSelect('cnmail');return false\">CN邮箱</a></li> "
+    },
+    "bfee2df0faadbeb61cd64bdde0e93e0e": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n<div class=\"weather\">\n\t\t<span class=\"weatherBlk\"><iframe width=\"150\" height=\"20\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\" scrolling=\"no\" src=\"http://news.sina.com.cn/iframe/2010/0820/564.html\"></iframe></span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_comment": false
+        },
+        "key": "bfee2df0faadbeb61cd64bdde0e93e0e",
+        "result": " <div class=weather> <span class=weatherBlk><iframe width=150 height=20 frameborder=0 marginheight=0 marginwidth=0 scrolling=no src=http://news.sina.com.cn/iframe/2010/0820/564.html></iframe></span>"
+    },
+    "2ff63c974e8d8dbfe1ff87f0db9c5395": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n<ul>\n\t\t\t\t<li><a href=\"http://news.sina.com.cn/\"><b>新闻</b></a></li>\n\t\t\t\t<li><a href=\"http://mil.news.sina.com.cn\">军事</a></li>\n\t\t\t\t<li><a href=\"http://news.sina.com.cn/society/\">社会</a></li>\n\t\t\t</ul>\n\t\t\t<ul>\n\t\t\t\t<li><a href=\"http://finance.sina.com.cn/\"><b>财经</b></a></li>\n\t\t\t\t<li><a href=\"http://finance.sina.com.cn/stock/\">股票</a></li>\n\t\t\t\t<li><a href=\"http://finance.sina.com.cn/fund/\">基金</a></li>\n\t\t\t</ul>\n\t\t\t<ul>\n\t\t\t\t<li><a href=\"http://tech.sina.com.cn/\"><b>科技</b></a></li>\n\t\t\t\t<li><a href=\"http://mobile.sina.com.cn/\">手机</a></li>\n\t\t\t\t<li><a href=\"http://digi.sina.com.cn/\">数码</a></li>\n\n\t\t\t</ul>\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_comment": false
+        },
+        "key": "2ff63c974e8d8dbfe1ff87f0db9c5395",
+        "result": " <ul> <li><a href=http://news.sina.com.cn/><b>新闻</b></a> <li><a href=http://mil.news.sina.com.cn>军事</a> <li><a href=http://news.sina.com.cn/society/>社会</a> </ul><ul> <li><a href=http://finance.sina.com.cn/><b>财经</b></a> <li><a href=http://finance.sina.com.cn/stock/>股票</a> <li><a href=http://finance.sina.com.cn/fund/>基金</a> </ul><ul> <li><a href=http://tech.sina.com.cn/><b>科技</b></a> <li><a href=http://mobile.sina.com.cn/>手机</a> <li><a href=http://digi.sina.com.cn/>数码</a> </ul> "
+    },
+    "4fa892f33e7e8a5bf78fd808c6c50dbb": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--[if IE]>\n<style type=\"text/css\"> #nav_extra .body, #nav_extra_app .body,.nav-extra .body {top:19px;} </style>\n<![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4fa892f33e7e8a5bf78fd808c6c50dbb",
+        "result": "<!--[if IE]><style type=\"text/css\"> #nav_extra .body, #nav_extra_app .body,.nav-extra .body {top:19px;} </style><![endif]-->"
+    },
+    "81bf233f6d7faf52ed88d51bf2bbe152": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div style=\"font-size: 12px; color: red;\"></div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "81bf233f6d7faf52ed88d51bf2bbe152",
+        "result": "<div style=\"font-size: 12px; color: red;\"></div>"
+    },
+    "41a6c8278a7fecd16ce8e541dd696469": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "41a6c8278a7fecd16ce8e541dd696469",
+        "result": "</div>"
+    },
+    "6542012bbc7036c424113f5f7c09fc61": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</div >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6542012bbc7036c424113f5f7c09fc61",
+        "result": "</div>"
+    },
+    "be7bbf30d03e4d280a146c49b2d9d116": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</body>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "be7bbf30d03e4d280a146c49b2d9d116",
+        "result": "</body>"
+    },
+    "8ae403e1fafbfcc212e7090a40c2df79": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</body></html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8ae403e1fafbfcc212e7090a40c2df79",
+        "result": "</body></html>"
+    },
+    "4d5c408846ed24370547bed5cbbe44c7": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--#welefen-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4d5c408846ed24370547bed5cbbe44c7",
+        "result": "<!--#welefen-->"
+    },
+    "6743bc5b98afad1c910aa43d84f73328": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input disabled=\"disabled\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6743bc5b98afad1c910aa43d84f73328",
+        "result": "<input disabled>"
+    },
+    "b207adaf585f6b47755901ad339665a8": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input readonly=\"true\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "b207adaf585f6b47755901ad339665a8",
+        "result": "<input readonly>"
+    },
+    "187b27857365e5238823c0483aab7c79": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input class=\"chkbox\" type=\"checkbox\" checked=\"checked\" id=\"cb_1\" />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "187b27857365e5238823c0483aab7c79",
+        "result": "<input class=chkbox type=checkbox checked id=cb_1>"
+    },
+    "a20a2134494af8b919aa9ce4f2bf086f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=GBK\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a20a2134494af8b919aa9ce4f2bf086f",
+        "result": "<meta charset=GBK>"
+    },
+    "2220a9e32e30f6cdffd9eaa81e727c61": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<dc:creator><![CDATA[welefen]]></dc:creator>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2220a9e32e30f6cdffd9eaa81e727c61",
+        "result": "<dc:creator><![CDATA[welefen]]></dc:creator>"
+    },
+    "e4a560f0558700b8ccaed45563654763": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</div>    </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e4a560f0558700b8ccaed45563654763",
+        "result": "</div></div>"
+    },
+    "431043cebda3d1d50bbdfc89e06464ae": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a> </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "431043cebda3d1d50bbdfc89e06464ae",
+        "result": "<a> </div>"
+    },
+    "7ffce08a7ad6381ea8a4765608477b69": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<html >   <meta>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7ffce08a7ad6381ea8a4765608477b69",
+        "result": "<html><meta>"
+    },
+    "15bd690fbdda58c1effda9bc0c53803f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<html >      <meta>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "15bd690fbdda58c1effda9bc0c53803f",
+        "result": "<html><meta>"
+    },
+    "d96d21501865a00323222b8b3454b8af": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div style=\"width:{%$srv_info['cpu']|default:0%}\">",
+        "tpl": "smarty",
+        "ld": "{%",
+        "rd": "%}",
+        "options": {},
+        "key": "d96d21501865a00323222b8b3454b8af",
+        "result": "<div style=\"width:{%$srv_info['cpu']|default:0%}\">"
+    },
+    "09139f0549f19600a7ba27acce892b59": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div style=\"width:{%$srv_info['cpu']|default:0%}px\">",
+        "tpl": "smarty",
+        "ld": "{%",
+        "rd": "%}",
+        "options": {},
+        "key": "09139f0549f19600a7ba27acce892b59",
+        "result": "<div style=\"width:{%$srv_info['cpu']|default:0%}px\">"
+    },
+    "2ba89263fbd931d1c24419ac08c97a62": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<td class=\"name\">{=$item.name=}</td>\n<td class=\"desc\">{=$item.desc=}</td>",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "2ba89263fbd931d1c24419ac08c97a62",
+        "result": "<td class=name>{=$item.name=}<td class=desc>{=$item.desc=}</td>"
+    },
+    "9f2282917a6135f81ba81abf529c472b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div attrname1 <%if $name%>attrname1<%else%>attrname2<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "9f2282917a6135f81ba81abf529c472b",
+        "result": "<div attrname1 <%if $name%> attrname1 <%else%> attrname2 <%/if%>>"
+    },
+    "cfe289b8569e1feceec9f4b7865ceb1b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div attrname1 <%if $name%>class=\"cl1\"<%else%>class=\"cl2\"<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "cfe289b8569e1feceec9f4b7865ceb1b",
+        "result": "<div attrname1 <%if $name%> class=cl1 <%else%> class=cl2 <%/if%>>"
+    },
+    "9338a9802a25f11c653b7b1869a607be": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div attrname1 class=\"cl1\" class=\"cl2\" <%if $name%>class=\"cl1\"<%else%>class=\"cl2\"<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "9338a9802a25f11c653b7b1869a607be",
+        "result": "<div attrname1 class=cl1 <%if $name%> class=cl1 <%else%> class=cl2 <%/if%>>"
+    },
+    "c06d4f762f2601da438fd733f3b4a4a5": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div attrname1 class=\"cl1\" class=\"cl2\" <%if $name%>class=\"cl1\"<%/if%>>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "c06d4f762f2601da438fd733f3b4a4a5",
+        "result": "<div attrname1 class=cl1 <%if $name%> class=cl1 <%/if%>>"
+    },
+    "57f8bd2c379d0535f5f8aa1e01589239": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<%if $name%>\n<div>\n<%else%>\n<span>\n<%/if%>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {},
+        "key": "57f8bd2c379d0535f5f8aa1e01589239",
+        "result": "<%if $name%><div><%else%> <span><%/if%>"
+    },
+    "59c2d13ab2c24d05ca02df76af14dec1": {
+        "lang": "html",
+        "name": "compress",
+        "code": "{=$name=1=}\n{=$value=}",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "59c2d13ab2c24d05ca02df76af14dec1",
+        "result": "{=$name=1=}{=$value=}"
     }
 }
