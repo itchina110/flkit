@@ -7820,5 +7820,311 @@
                 "comments": []
             }
         ]
+    },
+    "c9f03057e1ff8766e7c596d78d3f2f1f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c9f03057e1ff8766e7c596d78d3f2f1f",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "d462aa7f5d5ace98a85f04475e102df1": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script>\nalert(1)\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d462aa7f5d5ace98a85f04475e102df1",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nalert(1)\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "59d839a49d8596a1bebad269536d4c4a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script>\nalert(1)\n</script >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "59d839a49d8596a1bebad269536d4c4a",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nalert(1)\n</script >",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ca4ff4652f300fb6f61bb881d9d2e570": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script>\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ca4ff4652f300fb6f61bb881d9d2e570",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nalert(1)\n</script\n>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "b272f597b1bd83421a81d994c638532b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script >\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "b272f597b1bd83421a81d994c638532b",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script >\nalert(1)\n</script\n>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "66d7be5f4366310c6773def86df1da0b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script/s>\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "66d7be5f4366310c6773def86df1da0b",
+        "result": [
+            {
+                "type": 256,
+                "value": "<script/s>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 265,
+                "value": "alert(1)",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 11,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</script\n>",
+                "name": "HTML_TAG_END",
+                "line": 2,
+                "col": 0,
+                "pos": 20,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "5ee6aac9a2b065687ec0d264840e16bc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script/s>\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5ee6aac9a2b065687ec0d264840e16bc",
+        "result": [
+            {
+                "type": 256,
+                "value": "<script/s>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "script",
+                "_tag": "script",
+                "attrs": [
+                    {
+                        "name": "s",
+                        "_name": "s"
+                    }
+                ]
+            },
+            {
+                "type": 265,
+                "value": "alert(1)",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 11,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</script\n>",
+                "name": "HTML_TAG_END",
+                "line": 2,
+                "col": 0,
+                "pos": 20,
+                "newlines": 1,
+                "comments": [],
+                "tag": "script",
+                "_tag": "script"
+            }
+        ]
+    },
+    "fde136d46b73abd131d4a0329777a162": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "fde136d46b73abd131d4a0329777a162",
+        "result": [
+            {
+                "type": 265,
+                "value": "<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3996869e0035bee4afd751fd5b3f217e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3996869e0035bee4afd751fd5b3f217e",
+        "result": [
+            {
+                "type": 265,
+                "value": "<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6eb0589843b852eeeaba7fd9ee143e96": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<   \n\n\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6eb0589843b852eeeaba7fd9ee143e96",
+        "result": [
+            {
+                "type": 265,
+                "value": "<   ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 3,
+                "col": 0,
+                "pos": 7,
+                "newlines": 3,
+                "comments": []
+            }
+        ]
+    },
+    "5bc2ce0a3aa3662947e6a587fc1114ee": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<   \n\n\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5bc2ce0a3aa3662947e6a587fc1114ee",
+        "result": [
+            {
+                "type": 265,
+                "value": "<   \n\n\n>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
