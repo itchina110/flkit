@@ -592,5 +592,93 @@
         },
         "key": "8e1e7444f68d54320f9bdd80051e95b7",
         "result": "<meta http-equiv=content-type content=\"text/html;charset=gbk\">"
+    },
+    "4690736e7c4f765744a814840f703548": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div style=\"\">a</div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4690736e7c4f765744a814840f703548",
+        "result": "<div>a</div>"
+    },
+    "6ab525a0b8a50a925f610e7bce148a09": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--www-->aaa",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6ab525a0b8a50a925f610e7bce148a09",
+        "result": "aaa"
+    },
+    "e13d53c791d3baaf862562ed89892dd8": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a href=\"http://www.baidu.com\">welefen</a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e13d53c791d3baaf862562ed89892dd8",
+        "result": "<a href=http://www.baidu.com>welefen</a>"
+    },
+    "49cb5df33ad5f400ccd840cfde330338": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<br>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "49cb5df33ad5f400ccd840cfde330338",
+        "result": "<br>"
+    },
+    "15ff0eb7b89d67724d2da8fd21e7d4fc": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<br />",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "15ff0eb7b89d67724d2da8fd21e7d4fc",
+        "result": "<br>"
+    },
+    "e91d5e2abb9bf18127f08f80f21143de": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</br>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e91d5e2abb9bf18127f08f80f21143de",
+        "result": "</br>"
+    },
+    "384c01d752cbced3e9b2e54cec075257": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "384c01d752cbced3e9b2e54cec075257",
+        "result": "<div>"
+    },
+    "be5df0863da5b4c27b074e5999cc46d8": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<DIV></DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "be5df0863da5b4c27b074e5999cc46d8",
+        "result": "<div></div>"
     }
 }
