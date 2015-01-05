@@ -1734,7 +1734,7 @@
         "rd": "",
         "options": {},
         "key": "f163529b6ccef33a193e98d142e5a4c4",
-        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
+        "result": "end tag is not valid (line: 1, col: 1)\n"
     },
     "220590a491445fd22014a46d8d936393": {
         "lang": "html",
@@ -1833,7 +1833,7 @@
         "rd": "",
         "options": {},
         "key": "a1914d3e1abe48caf166555dad7c7ce6",
-        "result": "can't find matched quote string (line: 0, col: 11, pos: 11)\n"
+        "result": "can't find matched quote string (line: 1, col: 12)\n"
     },
     "43ef2a40180c5a11e2ddf41038ebb1ec": {
         "lang": "html",
@@ -2421,7 +2421,7 @@
         "rd": "",
         "options": {},
         "key": "d78c79f6b5879d54ddd04daa740f723d",
-        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
+        "result": "end tag is not valid (line: 1, col: 1)\n"
     },
     "ea2633e8914ad89cd7f903f9793e6369": {
         "lang": "html",
@@ -2840,7 +2840,7 @@
         "rd": "",
         "options": {},
         "key": "97549e58ec39544a98912e8155bb9a01",
-        "result": "can't find > for tag end (line: 0, col: 0, pos: 0)\n"
+        "result": "can't find > for tag end (line: 1, col: 1)\n"
     },
     "d0bc30f8f856acb18de03fb9c6936a90": {
         "lang": "html",
@@ -2905,7 +2905,7 @@
         "rd": "",
         "options": {},
         "key": "aabd24a8d14f049ff70865cf03f77f56",
-        "result": "end tag is not valid (line: 0, col: 0, pos: 0)\n"
+        "result": "end tag is not valid (line: 1, col: 1)\n"
     },
     "097bf6aa640d004fb9f0f51483d5500e": {
         "lang": "html",
@@ -2970,7 +2970,7 @@
         "rd": "",
         "options": {},
         "key": "559336bc612fa105ac0a6c5b66c3f01d",
-        "result": "tag name is not valid (line: 0, col: 0, pos: 0)\n"
+        "result": "tag name is not valid (line: 1, col: 1)\n"
     },
     "0833a5cea423e44a6e1b6a5b354d9c81": {
         "lang": "html",
@@ -3092,7 +3092,7 @@
         "rd": "",
         "options": {},
         "key": "2150e8c2b981bb5f98b180dae39aeede",
-        "result": "can't find matched quote string (line: 0, col: 6, pos: 6)\n"
+        "result": "can't find matched quote string (line: 1, col: 7)\n"
     },
     "adae88960bb44729262ad2ec9d6efac6": {
         "lang": "html",
@@ -3906,7 +3906,7 @@
         "rd": "",
         "options": {},
         "key": "83a14c6a3c73612b4942105fbf7b74d1",
-        "result": "tag name is not valid (line: 0, col: 6, pos: 6)\n"
+        "result": "tag name is not valid (line: 1, col: 7)\n"
     },
     "9ca0507dcdcfd5cbde1598c401069f80": {
         "lang": "html",
@@ -6493,7 +6493,7 @@
             "tag_attrs": true
         },
         "key": "32bb29689de7cd6c5e781b088b837427",
-        "result": "there is no = before quote char (line: 0, col: 6, pos: 6)\n"
+        "result": "there is no = before quote char (line: 1, col: 7)\n"
     },
     "f7ef11dadd04738f511877d923c8e8ca": {
         "lang": "html",
@@ -6506,7 +6506,7 @@
             "tag_attrs": true
         },
         "key": "f7ef11dadd04738f511877d923c8e8ca",
-        "result": "can't find tag end char > (line: 0, col: 11, pos: 11)\n"
+        "result": "can't find tag end char > (line: 1, col: 12)\n"
     },
     "685608895be8aa68d7663f7c0ca8bad0": {
         "lang": "html",
@@ -6792,7 +6792,7 @@
             "tag_attrs": true
         },
         "key": "25e8262d1b22fef2e00f52584fa577eb",
-        "result": "can't find tag end char > (line: 3, col: 0, pos: 10)\n"
+        "result": "can't find tag end char > (line: 4, col: 1)\n"
     },
     "f4299dddfc71269b31633b081a363511": {
         "lang": "html",
