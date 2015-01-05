@@ -7776,5 +7776,49 @@
                 "comments": []
             }
         ]
+    },
+    "f5ee8d4c2019e3fab0969c5c326142bf": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script\n>\nalert(1)\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f5ee8d4c2019e3fab0969c5c326142bf",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script\n>\nalert(1)\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c7b75ec3862ad5dbb6186194cee51f20": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style\n>\na{color:red}\n</style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c7b75ec3862ad5dbb6186194cee51f20",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style\n>\na{color:red}\n</style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
