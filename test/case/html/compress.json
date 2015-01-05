@@ -86,5 +86,465 @@
         "options": {},
         "key": "5dfd29bab07c5c00db7a929f81e64d75",
         "result": "welefen <div>"
+    },
+    "44fd2e96a1b2c51a10a2281c07cd34a6": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!DOCTYPE html test>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "44fd2e96a1b2c51a10a2281c07cd34a6",
+        "result": "<!DOCTYPE html>"
+    },
+    "671faacd3a767462d2844506444715bb": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!DOCTYPE html test>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "simple_doctype": false
+        },
+        "key": "671faacd3a767462d2844506444715bb",
+        "result": "<!DOCTYPE html test>"
+    },
+    "48faf58a5149ee8979641e25d469299a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div class=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "48faf58a5149ee8979641e25d469299a",
+        "result": "<div>"
+    },
+    "173249ff9d662f4cb342d6908d56c378": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form method=\"get\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "173249ff9d662f4cb342d6908d56c378",
+        "result": "<form>"
+    },
+    "5424e97e0e44a4ed03f82770db1d70f1": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form method=\"GET\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5424e97e0e44a4ed03f82770db1d70f1",
+        "result": "<form>"
+    },
+    "d5e791ec059ade50eacb72e00afdfaaf": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form method=\"POST\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d5e791ec059ade50eacb72e00afdfaaf",
+        "result": "<form method=POST>"
+    },
+    "cef8054e3bc51d3a9a31d6e13762316c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form method=\"post\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "cef8054e3bc51d3a9a31d6e13762316c",
+        "result": "<form method=post>"
+    },
+    "6e2169e0f6c3a5e915a621665a26af51": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form disabled>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6e2169e0f6c3a5e915a621665a26af51",
+        "result": "<form disabled>"
+    },
+    "052cdb14068bb4af4a89cd24cad46613": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form disabled=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "052cdb14068bb4af4a89cd24cad46613",
+        "result": "<form disabled>"
+    },
+    "6883c8b46c50d5f8c65a5f9d2133ec2e": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form disabled=\"disabled\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6883c8b46c50d5f8c65a5f9d2133ec2e",
+        "result": "<form disabled>"
+    },
+    "aaefdc433c42ac90381f64063e291352": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form disabled=\"disabled\"name=\"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "aaefdc433c42ac90381f64063e291352",
+        "result": "<form disabled name=welefen>"
+    },
+    "09b037d14cf2263fa13dc29deaf26a18": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<form name=\"welefen\"disabled=\"disabled\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "09b037d14cf2263fa13dc29deaf26a18",
+        "result": "<form name=welefen disabled>"
+    },
+    "96fd17e46e5fc2a3a0bfac74657665ea": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<option selected></option>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "96fd17e46e5fc2a3a0bfac74657665ea",
+        "result": "<option selected></option>"
+    },
+    "321061ee746f80475804a992bb5509d6": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<option selected=\"\"></option>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "321061ee746f80475804a992bb5509d6",
+        "result": "<option selected></option>"
+    },
+    "1b2a38b83bab25847d7ff3a94500946f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<option selected=\"selected\"></option>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1b2a38b83bab25847d7ff3a94500946f",
+        "result": "<option selected></option>"
+    },
+    "3ef0f747af97aab8de29e42d25ab334c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<option selected=\"selected\"></option>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_attrs_quote": false,
+            "remove_attrs_optional_value": false
+        },
+        "key": "3ef0f747af97aab8de29e42d25ab334c",
+        "result": "<option selected=\"selected\"></option>"
+    },
+    "f1c95a7880d17afedef024719cd5e4ae": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input type=\"checkbox\" checked=\"checked\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f1c95a7880d17afedef024719cd5e4ae",
+        "result": "<input type=checkbox checked>"
+    },
+    "27886e980fda45a28b76ca86bd3b371f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input type=\"checkbox\" checked=\"checked\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_attrs_quote": false
+        },
+        "key": "27886e980fda45a28b76ca86bd3b371f",
+        "result": "<input type=\"checkbox\"checked>"
+    },
+    "0379f985ef0d84b80e35631b1442a550": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input checked readonly >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0379f985ef0d84b80e35631b1442a550",
+        "result": "<input checked readonly>"
+    },
+    "c49d80f4d4548fdf2b30f37d802db972": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<link media=\"screen\" href=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c49d80f4d4548fdf2b30f37d802db972",
+        "result": "<link href=\"\">"
+    },
+    "44e593c38f3908fa3df890f384fdd26c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<link media=\"screen\" href=\"http://www.welefen.com\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "44e593c38f3908fa3df890f384fdd26c",
+        "result": "<link href=http://www.welefen.com>"
+    },
+    "e4dcb93b8431d8246e68f862c3c7546a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a title=\"\" title=\"welefen\"></a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e4dcb93b8431d8246e68f862c3c7546a",
+        "result": "<a></a>"
+    },
+    "49151c866b9efafd59d1518b7b7cf64b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a id>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "49151c866b9efafd59d1518b7b7cf64b",
+        "result": "<a>"
+    },
+    "ef1e06d628d5c4a5a345b25a800621fe": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a id=>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ef1e06d628d5c4a5a345b25a800621fe",
+        "result": "<a>"
+    },
+    "0c3518bf552fc1c1473c6bc00bf7a8dc": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a id=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0c3518bf552fc1c1473c6bc00bf7a8dc",
+        "result": "<a>"
+    },
+    "001690a1134d67e8ee5b83f5d54b0b22": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a style=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "001690a1134d67e8ee5b83f5d54b0b22",
+        "result": "<a>"
+    },
+    "84f3e727f3b85eea900934ac0c37b8e3": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "84f3e727f3b85eea900934ac0c37b8e3",
+        "result": "<a>"
+    },
+    "1c62a1ed9a7ece7d213a46f24cba16ce": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a style=\"  \">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1c62a1ed9a7ece7d213a46f24cba16ce",
+        "result": "<a>"
+    },
+    "91ed214b820ea92ea4e044c2f48b3cc4": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a style=\"\n\n\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "91ed214b820ea92ea4e044c2f48b3cc4",
+        "result": "<a>"
+    },
+    "69616205d61063953cdf1063a8925110": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a class=\"cls1 cls2\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "69616205d61063953cdf1063a8925110",
+        "result": "<a class=\"cls1 cls2\">"
+    },
+    "7df47c979b90d5892b7a6ae5febb1d3a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a class=\"cls1    cls2\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7df47c979b90d5892b7a6ae5febb1d3a",
+        "result": "<a class=\"cls1 cls2\">"
+    },
+    "43ff70b7316825b36c1168f0dc5c11ed": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a class=\"cls1\ncls2\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "43ff70b7316825b36c1168f0dc5c11ed",
+        "result": "<a class=\"cls1 cls2\">"
+    },
+    "9d1864b3df92d56b2ac3fc01474940f0": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<html xmlns=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9d1864b3df92d56b2ac3fc01474940f0",
+        "result": "<html>"
+    },
+    "97373bb56f450cacf31106806294f9e2": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<html xmlns=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_http_xmlns": false
+        },
+        "key": "97373bb56f450cacf31106806294f9e2",
+        "result": "<html xmlns=\"\">"
+    },
+    "97afbe5e9b409c511a4b86bfe66f658d": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a onclick=\"alert(1);\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "97afbe5e9b409c511a4b86bfe66f658d",
+        "result": "<a onclick=\"alert(1)\">"
+    },
+    "ef6e0840245bc96faa1c7bf02b34f3e7": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a onclick=\"alert(1)\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ef6e0840245bc96faa1c7bf02b34f3e7",
+        "result": "<a onclick=\"alert(1)\">"
+    },
+    "48fae6badd62f987b11706b93b3f9bd1": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a onclick=\" alert(1); \">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "48fae6badd62f987b11706b93b3f9bd1",
+        "result": "<a onclick=\"alert(1)\">"
+    },
+    "5f4f4058222cd83a63e8d6f201a06477": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a onclick=\"alert(1);;;;\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5f4f4058222cd83a63e8d6f201a06477",
+        "result": "<a onclick=\"alert(1)\">"
+    },
+    "fc34a75414b6f0bbf253ff721e23d4db": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<A>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "fc34a75414b6f0bbf253ff721e23d4db",
+        "result": "<a>"
+    },
+    "830cb761382e9563b3a00b7fa12d5561": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<A CLASS=\"we\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "830cb761382e9563b3a00b7fa12d5561",
+        "result": "<a class=we>"
+    },
+    "38d14c60cdc8f44d42ea37a986685750": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<A CLASS=\"we\" class=\"we1\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "38d14c60cdc8f44d42ea37a986685750",
+        "result": "<a class=we>"
     }
 }
