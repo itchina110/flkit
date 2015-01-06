@@ -981,7 +981,7 @@
         "rd": "",
         "options": {},
         "key": "4fa892f33e7e8a5bf78fd808c6c50dbb",
-        "result": "<!--[if IE]><style type=\"text/css\"> #nav_extra .body, #nav_extra_app .body,.nav-extra .body {top:19px;} </style><![endif]-->"
+        "result": "<!--[if IE]><style> #nav_extra .body, #nav_extra_app .body,.nav-extra .body {top:19px;} </style><![endif]-->"
     },
     "81bf233f6d7faf52ed88d51bf2bbe152": {
         "lang": "html",
@@ -1695,5 +1695,132 @@
         },
         "key": "30894370f93a2a13ac4eb9becad776d1",
         "result": "</head>welefen"
+    },
+    "47b059e82ffa936a19c09e11c500374b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script></script>",
+        "tpl": "smarty",
+        "ld": "<%",
+        "rd": "%>",
+        "options": {
+            "remove_comment": false,
+            "remove_http_protocal": true,
+            "remove_https_protocal": true,
+            "remove_optional_endtag": false,
+            "compress_inline_js": false
+        },
+        "key": "47b059e82ffa936a19c09e11c500374b",
+        "result": "<script></script>"
+    },
+    "9a4ba415c722fa1c3e9b705dee37b125": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script src=\"\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9a4ba415c722fa1c3e9b705dee37b125",
+        "result": "<script src=\"\"></script>"
+    },
+    "30c13d68d09799063a26e132e5d60e77": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<pre>\nwww\n</pre>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "30c13d68d09799063a26e132e5d60e77",
+        "result": "<pre>\nwww\n</pre>"
+    },
+    "bb4fae0230670c8c8f26d52ad289667f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script type=\"text/javascript\" src=\"\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "bb4fae0230670c8c8f26d52ad289667f",
+        "result": "<script src=\"\"></script>"
+    },
+    "5e89481aca2f373b4b6df9d0c60ff0b5": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script type=\"text/javascript\" src=\"\"></script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5e89481aca2f373b4b6df9d0c60ff0b5",
+        "result": "<script src=\"\"></script>"
+    },
+    "e077631e10fbf9b1d6fa1f5db7649ae3": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script \n\ntype=\"text/javascript\" \n\nsrc=\"\"\n\n></script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e077631e10fbf9b1d6fa1f5db7649ae3",
+        "result": "<script src=\"\"></script>"
+    },
+    "2009c995b6e80ffdc7943e6042955013": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<style type=\"text/css\"></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2009c995b6e80ffdc7943e6042955013",
+        "result": "<style></style>"
+    },
+    "0650af361c0d5cef1e0153825318e3bb": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script language=\"javascript\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0650af361c0d5cef1e0153825318e3bb",
+        "result": "<script></script>"
+    },
+    "09f05b01be9f4ff39edd420566cdbeef": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<style rel=\"stylesheet\"></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "09f05b01be9f4ff39edd420566cdbeef",
+        "result": "<style></style>"
+    },
+    "8dda03e3d8de646d9440a99146b4801d": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<style rel=\"stylesheet\"></style1>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8dda03e3d8de646d9440a99146b4801d",
+        "result": "<style></style1>"
+    },
+    "9835d266e652b96e6dd8548e036082c4": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script language=\"javascript\"></scrieept>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9835d266e652b96e6dd8548e036082c4",
+        "result": "<script></scrieept>"
     }
 }

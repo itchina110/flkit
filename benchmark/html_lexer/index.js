@@ -3,7 +3,7 @@ var flkit = require('../../index.js');
 var startTime = Date.now();
 var lexerInstance = flkit.getInstance('html', 'lexer', content);
 lexerInstance.run({
-  tag_attrs: true
+  tag_attrs: false
 });
 var endTime = Date.now();
 console.log(endTime - startTime);

@@ -814,8 +814,8 @@
                 "value": "<style></style>",
                 "name": "HTML_TAG_STYLE",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 7,
+                "pos": 7,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -828,14 +828,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 7,
+                    "pos": 7,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 7,
+                    "pos": 7,
                     "newlines": 0,
                     "comments": []
                 }
@@ -888,9 +897,9 @@
                 "type": 261,
                 "value": "<style>\na{color: red}\n</style>",
                 "name": "HTML_TAG_STYLE",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 22,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -903,14 +912,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\na{color: red}\n",
+                "content": {
+                    "type": 267,
+                    "value": "\na{color: red}\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 7,
+                    "pos": 7,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 22,
                     "newlines": 0,
                     "comments": []
                 }
@@ -931,10 +949,10 @@
                 "type": 261,
                 "value": "<style>\na{color: red}\n</style>",
                 "name": "HTML_TAG_STYLE",
-                "line": 1,
+                "line": 3,
                 "col": 0,
-                "pos": 1,
-                "newlines": 1,
+                "pos": 23,
+                "newlines": 0,
                 "comments": [],
                 "start": {
                     "type": 256,
@@ -946,15 +964,24 @@
                     "newlines": 1,
                     "comments": []
                 },
-                "content": "\na{color: red}\n",
+                "content": {
+                    "type": 267,
+                    "value": "\na{color: red}\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 7,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
-                    "line": 1,
+                    "line": 3,
                     "col": 0,
-                    "pos": 1,
-                    "newlines": 1,
+                    "pos": 23,
+                    "newlines": 0,
                     "comments": []
                 }
             }
@@ -975,8 +1002,8 @@
                 "value": "<script src=\"\"></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 15,
+                "pos": 15,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -989,14 +1016,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 15,
+                    "pos": 15,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 15,
+                    "pos": 15,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1039,9 +1075,9 @@
                 "type": 260,
                 "value": "<script>\nvar a = 1;\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 20,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1054,14 +1090,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nvar a = 1;\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nvar a = 1;\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 20,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1082,10 +1127,10 @@
                 "type": 260,
                 "value": "<script>\nvar a = 1;\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 1,
+                "line": 3,
                 "col": 0,
-                "pos": 1,
-                "newlines": 1,
+                "pos": 21,
+                "newlines": 0,
                 "comments": [],
                 "start": {
                     "type": 256,
@@ -1097,15 +1142,24 @@
                     "newlines": 1,
                     "comments": []
                 },
-                "content": "\nvar a = 1;\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nvar a = 1;\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 8,
+                    "pos": 9,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 1,
+                    "line": 3,
                     "col": 0,
-                    "pos": 1,
-                    "newlines": 1,
+                    "pos": 21,
+                    "newlines": 0,
                     "comments": []
                 }
             }
@@ -1126,8 +1180,8 @@
                 "value": "<textarea></textarea>",
                 "name": "HTML_TAG_TEXTAREA",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 10,
+                "pos": 10,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1140,14 +1194,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 10,
+                    "pos": 10,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</textarea>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 10,
+                    "pos": 10,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1168,9 +1231,9 @@
                 "type": 259,
                 "value": "<textarea>\nwelefen\n</textarea>",
                 "name": "HTML_TAG_TEXTAREA",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 19,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1183,14 +1246,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nwelefen\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nwelefen\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 10,
+                    "pos": 10,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</textarea>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 19,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1211,9 +1283,9 @@
                 "type": 262,
                 "value": "<pre>\nwelefen\n</pre>",
                 "name": "HTML_TAG_PRE",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 14,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1226,14 +1298,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nwelefen\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nwelefen\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</pre>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 14,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1255,8 +1336,8 @@
                 "value": "<pre></pre>",
                 "name": "HTML_TAG_PRE",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 5,
+                "pos": 5,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1269,14 +1350,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</pre>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 5,
+                    "pos": 5,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1534,8 +1624,8 @@
                 "value": "<style id=\"dynCom\" type=\"text/css\"><!-- --></style>",
                 "name": "HTML_TAG_STYLE",
                 "line": 0,
-                "col": 37,
-                "pos": 37,
+                "col": 80,
+                "pos": 80,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1548,14 +1638,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "<!-- -->",
+                "content": {
+                    "type": 267,
+                    "value": "<!-- -->",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 72,
+                    "pos": 72,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 37,
-                    "pos": 37,
+                    "col": 80,
+                    "pos": 80,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1587,8 +1686,8 @@
                 "value": "<script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 12,
-                "pos": 12,
+                "col": 283,
+                "pos": 283,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1601,14 +1700,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                "content": {
+                    "type": 267,
+                    "value": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 43,
+                    "pos": 43,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 12,
-                    "pos": 12,
+                    "col": 283,
+                    "pos": 283,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1738,8 +1846,8 @@
                 "value": "<script src=\"/resource/js/lib/dd_belatedpng.js\"></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 14,
-                "pos": 14,
+                "col": 62,
+                "pos": 62,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1752,14 +1860,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 62,
+                    "pos": 62,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 14,
-                    "pos": 14,
+                    "col": 62,
+                    "pos": 62,
                     "newlines": 0,
                     "comments": []
                 }
@@ -1769,8 +1886,8 @@
                 "value": "<script>DD_belatedPNG.fix(\".pngfix\")</script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 71,
-                "pos": 71,
+                "col": 107,
+                "pos": 107,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -1783,14 +1900,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "DD_belatedPNG.fix(\".pngfix\")",
+                "content": {
+                    "type": 267,
+                    "value": "DD_belatedPNG.fix(\".pngfix\")",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 79,
+                    "pos": 79,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 71,
-                    "pos": 71,
+                    "col": 107,
+                    "pos": 107,
                     "newlines": 0,
                     "comments": []
                 }
@@ -2676,9 +2802,9 @@
                 "type": 260,
                 "value": "<script>\ndocument.write('<script><\\/script>')\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 46,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -2691,14 +2817,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\ndocument.write('<script><\\/script>')\n",
+                "content": {
+                    "type": 267,
+                    "value": "\ndocument.write('<script><\\/script>')\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 46,
                     "newlines": 0,
                     "comments": []
                 }
@@ -2849,8 +2984,8 @@
                 "value": "<script></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 8,
+                "pos": 8,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -2863,14 +2998,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 8,
+                    "pos": 8,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8127,9 +8271,9 @@
                 "type": 260,
                 "value": "<script\n>\nalert(1)\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 3,
                 "col": 0,
-                "pos": 0,
+                "pos": 19,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8142,14 +8286,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 1,
+                    "pos": 9,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 3,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 19,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8170,9 +8323,9 @@
                 "type": 261,
                 "value": "<style\n>\na{color:red}\n</style>",
                 "name": "HTML_TAG_STYLE",
-                "line": 0,
+                "line": 3,
                 "col": 0,
-                "pos": 0,
+                "pos": 22,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8185,14 +8338,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\na{color:red}\n",
+                "content": {
+                    "type": 267,
+                    "value": "\na{color:red}\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 1,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 3,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 22,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8214,8 +8376,8 @@
                 "value": "<script></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 8,
+                "pos": 8,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8228,14 +8390,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 8,
+                    "pos": 8,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8256,9 +8427,9 @@
                 "type": 260,
                 "value": "<script>\nalert(1)\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 18,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8271,14 +8442,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 18,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8299,9 +8479,9 @@
                 "type": 260,
                 "value": "<script>\nalert(1)\n</script >",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 18,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8314,14 +8494,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script >",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 18,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8342,9 +8531,9 @@
                 "type": 260,
                 "value": "<script>\nalert(1)\n</script\n>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 18,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8357,14 +8546,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script\n>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 18,
                     "newlines": 0,
                     "comments": []
                 }
@@ -8385,9 +8583,9 @@
                 "type": 260,
                 "value": "<script >\nalert(1)\n</script\n>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 19,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -8400,14 +8598,23 @@
                     "newlines": 0,
                     "comments": []
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 9,
+                    "pos": 9,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script\n>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 19,
                     "newlines": 0,
                     "comments": []
                 }
@@ -9129,9 +9336,9 @@
                 "type": 260,
                 "value": "<script >\nalert(1)\n</script\n>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 19,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9150,14 +9357,23 @@
                     "isExternal": false,
                     "isTpl": false
                 },
-                "content": "\nalert(1)\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 9,
+                    "pos": 9,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script\n>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 19,
                     "newlines": 0,
                     "comments": [],
                     "tag": "script",
@@ -9183,8 +9399,8 @@
                 "value": "<script></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 8,
+                "pos": 8,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9203,14 +9419,23 @@
                     "isExternal": false,
                     "isTpl": false
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 8,
+                    "pos": 8,
                     "newlines": 0,
                     "comments": [],
                     "tag": "script",
@@ -9235,9 +9460,9 @@
                 "type": 261,
                 "value": "<style\n>\na{color:red}\n</style>",
                 "name": "HTML_TAG_STYLE",
-                "line": 0,
+                "line": 3,
                 "col": 0,
-                "pos": 0,
+                "pos": 22,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9253,14 +9478,23 @@
                     "_tag": "style",
                     "attrs": []
                 },
-                "content": "\na{color:red}\n",
+                "content": {
+                    "type": 267,
+                    "value": "\na{color:red}\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 1,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 3,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 22,
                     "newlines": 0,
                     "comments": [],
                     "tag": "style",
@@ -9296,8 +9530,8 @@
                 "value": "<script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 12,
-                "pos": 12,
+                "col": 283,
+                "pos": 283,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9324,14 +9558,23 @@
                     "isExternal": false,
                     "isTpl": false
                 },
-                "content": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                "content": {
+                    "type": 267,
+                    "value": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 43,
+                    "pos": 43,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 12,
-                    "pos": 12,
+                    "col": 283,
+                    "pos": 283,
                     "newlines": 0,
                     "comments": [],
                     "tag": "script",
@@ -9367,8 +9610,8 @@
                 "value": "<pre></pre>",
                 "name": "HTML_TAG_PRE",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 5,
+                "pos": 5,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9384,14 +9627,23 @@
                     "_tag": "pre",
                     "attrs": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</pre>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 5,
+                    "pos": 5,
                     "newlines": 0,
                     "comments": [],
                     "tag": "pre",
@@ -9416,9 +9668,9 @@
                 "type": 262,
                 "value": "<pre>\nwelefen\n</pre>",
                 "name": "HTML_TAG_PRE",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 14,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9434,14 +9686,23 @@
                     "_tag": "pre",
                     "attrs": []
                 },
-                "content": "\nwelefen\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nwelefen\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</pre>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 14,
                     "newlines": 0,
                     "comments": [],
                     "tag": "pre",
@@ -9466,9 +9727,9 @@
                 "type": 259,
                 "value": "<textarea>\nwelefen\n</textarea>",
                 "name": "HTML_TAG_TEXTAREA",
-                "line": 0,
+                "line": 2,
                 "col": 0,
-                "pos": 0,
+                "pos": 19,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9484,14 +9745,23 @@
                     "_tag": "textarea",
                     "attrs": []
                 },
-                "content": "\nwelefen\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nwelefen\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 10,
+                    "pos": 10,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</textarea>",
                     "name": "HTML_TAG_END",
-                    "line": 0,
+                    "line": 2,
                     "col": 0,
-                    "pos": 0,
+                    "pos": 19,
                     "newlines": 0,
                     "comments": [],
                     "tag": "textarea",
@@ -9516,10 +9786,10 @@
                 "type": 260,
                 "value": "<script>\nvar a = 1;\n</script>",
                 "name": "HTML_TAG_SCRIPT",
-                "line": 1,
+                "line": 3,
                 "col": 0,
-                "pos": 1,
-                "newlines": 1,
+                "pos": 21,
+                "newlines": 0,
                 "comments": [],
                 "start": {
                     "type": 256,
@@ -9537,15 +9807,24 @@
                     "isExternal": false,
                     "isTpl": false
                 },
-                "content": "\nvar a = 1;\n",
+                "content": {
+                    "type": 267,
+                    "value": "\nvar a = 1;\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 8,
+                    "pos": 9,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
-                    "line": 1,
+                    "line": 3,
                     "col": 0,
-                    "pos": 1,
-                    "newlines": 1,
+                    "pos": 21,
+                    "newlines": 0,
                     "comments": [],
                     "tag": "script",
                     "_tag": "script"
@@ -9570,8 +9849,8 @@
                 "value": "<script src=\"\"></script>",
                 "name": "HTML_TAG_SCRIPT",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 15,
+                "pos": 15,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9598,14 +9877,23 @@
                     "isExternal": true,
                     "isTpl": false
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 15,
+                    "pos": 15,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</script>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 15,
+                    "pos": 15,
                     "newlines": 0,
                     "comments": [],
                     "tag": "script",
@@ -9630,10 +9918,10 @@
                 "type": 261,
                 "value": "<style>\na{color: red}\n</style>",
                 "name": "HTML_TAG_STYLE",
-                "line": 1,
+                "line": 3,
                 "col": 0,
-                "pos": 1,
-                "newlines": 1,
+                "pos": 23,
+                "newlines": 0,
                 "comments": [],
                 "start": {
                     "type": 256,
@@ -9648,15 +9936,24 @@
                     "_tag": "style",
                     "attrs": []
                 },
-                "content": "\na{color: red}\n",
+                "content": {
+                    "type": 267,
+                    "value": "\na{color: red}\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 1,
+                    "col": 7,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
-                    "line": 1,
+                    "line": 3,
                     "col": 0,
-                    "pos": 1,
-                    "newlines": 1,
+                    "pos": 23,
+                    "newlines": 0,
                     "comments": [],
                     "tag": "style",
                     "_tag": "style"
@@ -9681,8 +9978,8 @@
                 "value": "<style></style>",
                 "name": "HTML_TAG_STYLE",
                 "line": 0,
-                "col": 0,
-                "pos": 0,
+                "col": 7,
+                "pos": 7,
                 "newlines": 0,
                 "comments": [],
                 "start": {
@@ -9698,18 +9995,142 @@
                     "_tag": "style",
                     "attrs": []
                 },
-                "content": "",
+                "content": {
+                    "type": 267,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 7,
+                    "pos": 7,
+                    "newlines": 0,
+                    "comments": []
+                },
                 "end": {
                     "type": 257,
                     "value": "</style>",
                     "name": "HTML_TAG_END",
                     "line": 0,
-                    "col": 0,
-                    "pos": 0,
+                    "col": 7,
+                    "pos": 7,
                     "newlines": 0,
                     "comments": [],
                     "tag": "style",
                     "_tag": "style"
+                }
+            }
+        ]
+    },
+    "80a353548eca51608c385ab8abc49c94": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script name=\" >\n\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "80a353548eca51608c385ab8abc49c94",
+        "result": "can't find matched quote string (line: 1, col: 15)\n"
+    },
+    "c004bec22f43368020d4b45d26b38b86": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script\n\n>\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c004bec22f43368020d4b45d26b38b86",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script\n\n>\nalert(1)\n</script\n>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 4,
+                "col": 0,
+                "pos": 20,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script\n\n>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 2,
+                    "col": 1,
+                    "pos": 10,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script\n>",
+                    "name": "HTML_TAG_END",
+                    "line": 4,
+                    "col": 0,
+                    "pos": 20,
+                    "newlines": 0,
+                    "comments": []
+                }
+            }
+        ]
+    },
+    "59aaf779f183b2a6090b25b6f417157a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script\n\n>\nalert(1)\n</script >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "59aaf779f183b2a6090b25b6f417157a",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script\n\n>\nalert(1)\n</script >",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 4,
+                "col": 0,
+                "pos": 20,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script\n\n>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 267,
+                    "value": "\nalert(1)\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 2,
+                    "col": 1,
+                    "pos": 10,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script >",
+                    "name": "HTML_TAG_END",
+                    "line": 4,
+                    "col": 0,
+                    "pos": 20,
+                    "newlines": 0,
+                    "comments": []
                 }
             }
         ]
