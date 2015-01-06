@@ -1822,5 +1822,83 @@
         "options": {},
         "key": "9835d266e652b96e6dd8548e036082c4",
         "result": "<script></scrieept>"
+    },
+    "c3ce206d48a9f4f5a8c63f47fb6519c0": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_script": true
+        },
+        "key": "c3ce206d48a9f4f5a8c63f47fb6519c0",
+        "result": ""
+    },
+    "16a609c83fbbee0740a51680b820e0cb": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script type=\"text/html\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_script": true
+        },
+        "key": "16a609c83fbbee0740a51680b820e0cb",
+        "result": "<script type=text/html></script>"
+    },
+    "a32bb05e22670101fd6ca218bcfe4a3f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script type=\"xxx\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_script": true
+        },
+        "key": "a32bb05e22670101fd6ca218bcfe4a3f",
+        "result": "<script type=xxx></script>"
+    },
+    "5485d4e7cc19c19fa687d61633866fd2": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script type=\"\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_script": true
+        },
+        "key": "5485d4e7cc19c19fa687d61633866fd2",
+        "result": ""
+    },
+    "e608d89d093ff5743aeff9a55288d88a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<style></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_style": true
+        },
+        "key": "e608d89d093ff5743aeff9a55288d88a",
+        "result": ""
+    },
+    "ed4d8f7d7a7821a42b3d0ee08a39028f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<style type=\"tex\"></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_empty_style": true
+        },
+        "key": "ed4d8f7d7a7821a42b3d0ee08a39028f",
+        "result": ""
     }
 }
