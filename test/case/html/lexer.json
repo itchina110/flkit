@@ -817,7 +817,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -871,7 +892,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\na{color: red}\n",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -893,7 +935,28 @@
                 "col": 0,
                 "pos": 1,
                 "newlines": 1,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style>",
+                    "name": "HTML_TAG_START",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": []
+                },
+                "content": "\na{color: red}\n",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": []
+                }
             }
         ]
     },
@@ -915,7 +978,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script src=\"\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -959,7 +1043,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nvar a = 1;\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -981,7 +1086,28 @@
                 "col": 0,
                 "pos": 1,
                 "newlines": 1,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": []
+                },
+                "content": "\nvar a = 1;\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1003,7 +1129,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<textarea>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</textarea>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1025,7 +1172,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<textarea>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nwelefen\n",
+                "end": {
+                    "type": 257,
+                    "value": "</textarea>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1047,7 +1215,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<pre>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nwelefen\n",
+                "end": {
+                    "type": 257,
+                    "value": "</pre>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1069,7 +1258,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<pre>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</pre>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1327,7 +1537,28 @@
                 "col": 37,
                 "pos": 37,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style id=\"dynCom\" type=\"text/css\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 37,
+                    "pos": 37,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "<!-- -->",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 37,
+                    "pos": 37,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -1359,7 +1590,28 @@
                 "col": 12,
                 "pos": 12,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script type=\"text/javascript\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 12,
+                    "pos": 12,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 12,
+                    "pos": 12,
+                    "newlines": 0,
+                    "comments": []
+                }
             },
             {
                 "type": 5,
@@ -1489,7 +1741,28 @@
                 "col": 14,
                 "pos": 14,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script src=\"/resource/js/lib/dd_belatedpng.js\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 14,
+                    "pos": 14,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 14,
+                    "pos": 14,
+                    "newlines": 0,
+                    "comments": []
+                }
             },
             {
                 "type": 260,
@@ -1499,7 +1772,28 @@
                 "col": 71,
                 "pos": 71,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 71,
+                    "pos": 71,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "DD_belatedPNG.fix(\".pngfix\")",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 71,
+                    "pos": 71,
+                    "newlines": 0,
+                    "comments": []
+                }
             },
             {
                 "type": 5,
@@ -2386,7 +2680,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\ndocument.write('<script><\\/script>')\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -2537,7 +2852,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             },
             {
                 "type": 5,
@@ -7795,7 +8131,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script\n>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7817,7 +8174,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style\n>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\na{color:red}\n",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7839,7 +8217,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7861,7 +8260,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7883,7 +8303,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script >",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7905,7 +8346,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script\n>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -7927,7 +8389,28 @@
                 "col": 0,
                 "pos": 0,
                 "newlines": 0,
-                "comments": []
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script >",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script\n>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                }
             }
         ]
     },
@@ -8627,6 +9110,607 @@
                         "newlines": 2
                     }
                 ]
+            }
+        ]
+    },
+    "3189f8963620cfbfdb13ab4b98057139": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script >\nalert(1)\n</script\n>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "3189f8963620cfbfdb13ab4b98057139",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script >\nalert(1)\n</script\n>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script >",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": "\nalert(1)\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script\n>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "3ed899de44ede56fb357f9f5c9e05353": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "3ed899de44ede56fb357f9f5c9e05353",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "5799adf2fcb8e268770e26424394fcec": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style\n>\na{color:red}\n</style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5799adf2fcb8e268770e26424394fcec",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style\n>\na{color:red}\n</style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style\n>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style",
+                    "attrs": []
+                },
+                "content": "\na{color:red}\n",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style"
+                }
+            }
+        ]
+    },
+    "401bb10cd431ef97147666c442bb8590": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--[if IE]><script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script><![endif]-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "401bb10cd431ef97147666c442bb8590",
+        "result": [
+            {
+                "type": 5,
+                "value": "<!--[if IE]>",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 260,
+                "value": "<script type=\"text/javascript\">(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 12,
+                "pos": 12,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script type=\"text/javascript\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 12,
+                    "pos": 12,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "type",
+                            "value": "\"text/javascript\"",
+                            "quote": "\"",
+                            "_value": "text/javascript",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": "(function(){var b=(\"abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video\").split(\",\"),a=b.length;while(a--){document.createElement(b[a])}})();",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 12,
+                    "pos": 12,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            },
+            {
+                "type": 5,
+                "value": "<![endif]-->",
+                "name": "IE_HACK",
+                "line": 0,
+                "col": 292,
+                "pos": 292,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "fbc701b817c346dd40501c656bc5f7fd": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<pre></pre>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "fbc701b817c346dd40501c656bc5f7fd",
+        "result": [
+            {
+                "type": 262,
+                "value": "<pre></pre>",
+                "name": "HTML_TAG_PRE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<pre>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "pre",
+                    "_tag": "pre",
+                    "attrs": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</pre>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "pre",
+                    "_tag": "pre"
+                }
+            }
+        ]
+    },
+    "6b5e286068d6262815aa495f21a62a95": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<pre>\nwelefen\n</pre>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6b5e286068d6262815aa495f21a62a95",
+        "result": [
+            {
+                "type": 262,
+                "value": "<pre>\nwelefen\n</pre>",
+                "name": "HTML_TAG_PRE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<pre>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "pre",
+                    "_tag": "pre",
+                    "attrs": []
+                },
+                "content": "\nwelefen\n",
+                "end": {
+                    "type": 257,
+                    "value": "</pre>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "pre",
+                    "_tag": "pre"
+                }
+            }
+        ]
+    },
+    "4bfce4540eef339893d02e3e98d61c41": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<textarea>\nwelefen\n</textarea>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "4bfce4540eef339893d02e3e98d61c41",
+        "result": [
+            {
+                "type": 259,
+                "value": "<textarea>\nwelefen\n</textarea>",
+                "name": "HTML_TAG_TEXTAREA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<textarea>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "textarea",
+                    "_tag": "textarea",
+                    "attrs": []
+                },
+                "content": "\nwelefen\n",
+                "end": {
+                    "type": 257,
+                    "value": "</textarea>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "textarea",
+                    "_tag": "textarea"
+                }
+            }
+        ]
+    },
+    "d3a8dd9c602b3f7e03c20ceab843c532": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<script>\nvar a = 1;\n</script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "d3a8dd9c602b3f7e03c20ceab843c532",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script>\nvar a = 1;\n</script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": "\nvar a = 1;\n",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "6b3bcb4827dbcc52bded246ae8f6b26e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script src=\"\"></script>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6b3bcb4827dbcc52bded246ae8f6b26e",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script src=\"\"></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script src=\"\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "src",
+                            "value": "\"\"",
+                            "quote": "\"",
+                            "_value": "",
+                            "_name": "src"
+                        }
+                    ],
+                    "isScript": true,
+                    "isExternal": true,
+                    "isTpl": false
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "5da83662afe4547821097f76263522dd": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<style>\na{color: red}\n</style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5da83662afe4547821097f76263522dd",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style>\na{color: red}\n</style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style>",
+                    "name": "HTML_TAG_START",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style",
+                    "attrs": []
+                },
+                "content": "\na{color: red}\n",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 1,
+                    "col": 0,
+                    "pos": 1,
+                    "newlines": 1,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style"
+                }
+            }
+        ]
+    },
+    "0bb45ebf03cdc8aa35c360040754257f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "0bb45ebf03cdc8aa35c360040754257f",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style></style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style",
+                    "attrs": []
+                },
+                "content": "",
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style"
+                }
             }
         ]
     }
