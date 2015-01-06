@@ -3,7 +3,7 @@ FLKit
 
 FLKit is a front-end language(HTML、CSS、JS) toolkit support template syntax(etc: Smarty, PHP). 
 
-## Support Tempalte Syntax
+## Support Template Syntax
 
 * Smarty
 * PHP
