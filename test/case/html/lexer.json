@@ -10407,5 +10407,49 @@
                 "comments": []
             }
         ]
+    },
+    "42707f806568bfe013fafc9458791784": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "@page thin:first { size: 3in 8in } ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "42707f806568bfe013fafc9458791784",
+        "result": [
+            {
+                "type": 265,
+                "value": "@page thin:first { size: 3in 8in } ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "736c9fdcc4a41347d3e2c9da16fdcc37": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "@font-face{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "736c9fdcc4a41347d3e2c9da16fdcc37",
+        "result": [
+            {
+                "type": 265,
+                "value": "@font-face{}",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }

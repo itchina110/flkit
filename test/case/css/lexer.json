@@ -176,7 +176,18 @@
         "rd": "",
         "options": {},
         "key": "b09b66b3e8df253bc1f61556cb34daf6",
-        "result": "get @ token error (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 783,
+                "value": "@xxx",
+                "name": "CSS_AT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "947ed64f3f34f96631703501a762e88b": {
         "lang": "css",
@@ -195,6 +206,817 @@
                 "line": 0,
                 "col": 0,
                 "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "9ec66fec665a194f112a43a18227443f": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@font-face 'www';",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9ec66fec665a194f112a43a18227443f",
+        "result": [
+            {
+                "type": 781,
+                "value": "@font-face 'www';",
+                "name": "CSS_FONT_FACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "a844af5e445aa80e9c456c58c4bd52f1": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@FONT-FACE 'www';",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a844af5e445aa80e9c456c58c4bd52f1",
+        "result": [
+            {
+                "type": 781,
+                "value": "@FONT-FACE 'www';",
+                "name": "CSS_FONT_FACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2bef76913794ee0b61c876eb3f95d597": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@IMPORT URL('xxx');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2bef76913794ee0b61c876eb3f95d597",
+        "result": [
+            {
+                "type": 779,
+                "value": "@IMPORT URL('xxx');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "3eaa011d3a330763488e24d903554298": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@import /***/ url('');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3eaa011d3a330763488e24d903554298",
+        "result": [
+            {
+                "type": 779,
+                "value": "@import /***/url('');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "255a8cfc81684d10c08a394ea54d8f1d": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@import /**;*/ url('');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "255a8cfc81684d10c08a394ea54d8f1d",
+        "result": [
+            {
+                "type": 779,
+                "value": "@import /**;*/url('');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "cd70366b96d8e3071e48cf17341cc20a": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@import /**';*/ url('');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "cd70366b96d8e3071e48cf17341cc20a",
+        "result": [
+            {
+                "type": 779,
+                "value": "@import /**';*/url('');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f7b7c35eba28f96c96c245766be534ec": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@import/**';*/ url('');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f7b7c35eba28f96c96c245766be534ec",
+        "result": [
+            {
+                "type": 779,
+                "value": "@import/**';*/url('');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "99bd804f6116f05b95d02cdae1d69f10": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@charset 'utf-8';",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "99bd804f6116f05b95d02cdae1d69f10",
+        "result": [
+            {
+                "type": 780,
+                "value": "@charset 'utf-8';",
+                "name": "CSS_CHARSET",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "5fff3af557c1d21c05429e17a79f6177": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@charset 'utf-8'\ndiv{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5fff3af557c1d21c05429e17a79f6177",
+        "result": [
+            {
+                "type": 780,
+                "value": "@charset 'utf-8'\ndiv",
+                "name": "CSS_CHARSET",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 1,
+                "col": 3,
+                "pos": 20,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 1,
+                "col": 4,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "093a08af1502f9998100404cbca6f7ac": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@charset'utf-8';",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "093a08af1502f9998100404cbca6f7ac",
+        "result": [
+            {
+                "type": 780,
+                "value": "@charset'utf-8';",
+                "name": "CSS_CHARSET",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c13c68f4c7ca64290b41bcce08df5dcf": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@charset\"utf-8';",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c13c68f4c7ca64290b41bcce08df5dcf",
+        "result": "can't find matched quote string (line: 1, col: 10)\n"
+    },
+    "05efd98c7fa6bb7441feef55ea9c4e23": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@charset\"utf-8\";",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "05efd98c7fa6bb7441feef55ea9c4e23",
+        "result": [
+            {
+                "type": 780,
+                "value": "@charset\"utf-8\";",
+                "name": "CSS_CHARSET",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "54bcac4872b4642b486c3de864e50b6d": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@keyframes{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "54bcac4872b4642b486c3de864e50b6d",
+        "result": [
+            {
+                "type": 772,
+                "value": "@keyframes",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 10,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 11,
+                "pos": 11,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "589c49dca6aa0ada5b3cea1d111fa073": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@keyframes name{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "589c49dca6aa0ada5b3cea1d111fa073",
+        "result": [
+            {
+                "type": 772,
+                "value": "@keyframes name",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 15,
+                "pos": 15,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f4a27fb7153b3b63f81b25b2c76e41fd": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f4a27fb7153b3b63f81b25b2c76e41fd",
+        "result": [
+            {
+                "type": 772,
+                "value": "@keyframes name ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c4f6c76fdbc8dc3a65abd36cba4fc182": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@keyframes\nname {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c4f6c76fdbc8dc3a65abd36cba4fc182",
+        "result": [
+            {
+                "type": 772,
+                "value": "@keyframes\nname ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 1,
+                "col": 5,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 1,
+                "col": 6,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "99fe9c8cdf79e3699284bdb3cac8f52e": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-webkit-keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "99fe9c8cdf79e3699284bdb3cac8f52e",
+        "result": [
+            {
+                "type": 772,
+                "value": "@-webkit-keyframes name ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 24,
+                "pos": 24,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 25,
+                "pos": 25,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f67388dd314ba6f60fdca36157ed9776": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-moz-keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f67388dd314ba6f60fdca36157ed9776",
+        "result": [
+            {
+                "type": 772,
+                "value": "@-moz-keyframes name ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 22,
+                "pos": 22,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6e4be5d88362831d63aa037ead52b03b": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-o-keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6e4be5d88362831d63aa037ead52b03b",
+        "result": [
+            {
+                "type": 772,
+                "value": "@-o-keyframes name ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 19,
+                "pos": 19,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 20,
+                "pos": 20,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "c60ff3d11284949ff5414dd1b2dfaf82": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-ms-keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c60ff3d11284949ff5414dd1b2dfaf82",
+        "result": [
+            {
+                "type": 772,
+                "value": "@-ms-keyframes name ",
+                "name": "CSS_KEYFRAMES",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 20,
+                "pos": 20,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ff1c62e37aed7fa09ade03df92dc0555": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-xss-keyframes name {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "ff1c62e37aed7fa09ade03df92dc0555",
+        "result": [
+            {
+                "type": 783,
+                "value": "@-xss-keyframes name ",
+                "name": "CSS_AT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 22,
+                "pos": 22,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "4c5e30a9babbd48c2ee644fd96bb152d": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@-moz{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4c5e30a9babbd48c2ee644fd96bb152d",
+        "result": [
+            {
+                "type": 783,
+                "value": "@-moz",
+                "name": "CSS_AT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "337246e2204de5f754ca139386427bfc": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@namespace \"http://www.w3.org/1999/xhtml\"; ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "337246e2204de5f754ca139386427bfc",
+        "result": [
+            {
+                "type": 778,
+                "value": "@namespace \"http://www.w3.org/1999/xhtml\";",
+                "name": "CSS_NAMESPACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "1109cf72eaa6d588cf175d7090d824b9": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@namespace svg \"http://www.w3.org/2000/svg\"; ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1109cf72eaa6d588cf175d7090d824b9",
+        "result": [
+            {
+                "type": 778,
+                "value": "@namespace svg \"http://www.w3.org/2000/svg\";",
+                "name": "CSS_NAMESPACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2ba66f2b20384aec45eb393fdbf873d9": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@page thin:first { size: 3in 8in } ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2ba66f2b20384aec45eb393fdbf873d9",
+        "result": [
+            {
+                "type": 782,
+                "value": "@page thin:first ",
+                "name": "CSS_PAGE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "22f3cbfa03613b8f4bd6cc9fe24d362c": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@font-face{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "22f3cbfa03613b8f4bd6cc9fe24d362c",
+        "result": [
+            {
+                "type": 781,
+                "value": "@font-face",
+                "name": "CSS_FONT_FACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 10,
+                "pos": 10,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 11,
+                "pos": 11,
                 "newlines": 0,
                 "comments": []
             }
