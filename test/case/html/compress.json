@@ -1900,5 +1900,31 @@
         },
         "key": "ed4d8f7d7a7821a42b3d0ee08a39028f",
         "result": ""
+    },
+    "2ad9e3bebab0f8e5b78e03b209d3c5f7": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<link href=\"https://www.\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_https_protocal": true
+        },
+        "key": "2ad9e3bebab0f8e5b78e03b209d3c5f7",
+        "result": "<link href=//www.>"
+    },
+    "c8461d7dd62fd4c00f2ddc9a4bc7747b": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<img src=\"https://www\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_https_protocal": true
+        },
+        "key": "c8461d7dd62fd4c00f2ddc9a4bc7747b",
+        "result": "<img src=//www>"
     }
 }

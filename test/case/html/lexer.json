@@ -10134,5 +10134,256 @@
                 }
             }
         ]
+    },
+    "a9b9cfc3c9d4c1e8b212a9c6ac12f1ec": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\t",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a9b9cfc3c9d4c1e8b212a9c6ac12f1ec",
+        "result": [
+            {
+                "type": 265,
+                "value": "\t",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "af38cff82ca3b7094df0117349840b70": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "af38cff82ca3b7094df0117349840b70",
+        "result": [
+            {
+                "type": 4,
+                "value": "",
+                "name": "LAST",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "6d2a60a512a4201a518e9a0585eb7216": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<><><>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6d2a60a512a4201a518e9a0585eb7216",
+        "result": [
+            {
+                "type": 265,
+                "value": "<><><>",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "9a67c6d1b5bd168b1efdfa9a91e5a16f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "&<",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9a67c6d1b5bd168b1efdfa9a91e5a16f",
+        "result": [
+            {
+                "type": 265,
+                "value": "&<",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "31bccaeef1b2e76f3d8320ba9354d105": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_comment": true,
+            "simple_doctype": true,
+            "simple_charset": true,
+            "remove_http_xmlns": true,
+            "remove_empty_script": false,
+            "remove_empty_style": false,
+            "remove_optional_attrs": true,
+            "remove_attrs_quote": true,
+            "remove_attrs_optional_value": true,
+            "remove_http_protocal": false,
+            "remove_https_protocal": false,
+            "remove_optional_endtag": true,
+            "remove_space_in_block_tag": true,
+            "compress_style_value": true,
+            "compress_inline_css": true,
+            "compress_inline_js": true,
+            "compress_js_tpl": false,
+            "merge_adjacent_inline_css": false,
+            "merge_adjacent_inline_js": false
+        },
+        "key": "31bccaeef1b2e76f3d8320ba9354d105",
+        "result": [
+            {
+                "type": 256,
+                "value": "<a>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "8f35544709520506134ca266dba416d4": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=/>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8f35544709520506134ca266dba416d4",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=/>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "8ed98de8ea5b14aa3bb5e7afe7f23983": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=www/>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "8ed98de8ea5b14aa3bb5e7afe7f23983",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=www/>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "www/",
+                        "quote": "",
+                        "_value": "www/",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "91485f7721897fd34607f9b136b0475e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=www/>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "91485f7721897fd34607f9b136b0475e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=www/>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6e991edbe53fc0cb64ca10099b282279": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=www/ value=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6e991edbe53fc0cb64ca10099b282279",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=www/ value=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "www/",
+                        "quote": "",
+                        "_value": "www/",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "value",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "value"
+                    }
+                ]
+            }
+        ]
     }
 }
