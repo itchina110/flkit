@@ -10,6 +10,8 @@ http://www.unicode.org/Public/UNIDATA/PropList.txt
 
 http://www.w3.org/TR/html5/syntax.html
 
+http://www.w3.org/TR/html5/dom.html#document
+
 ## ES5 doc
 
 http://www.ecma-international.org/ecma-262/5.1/index.html

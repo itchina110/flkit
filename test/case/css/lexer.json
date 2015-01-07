@@ -1,0 +1,203 @@
+{
+    "c24732dcbec20fa3a7a91a373fc34a15": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@media{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c24732dcbec20fa3a7a91a373fc34a15",
+        "result": [
+            {
+                "type": 777,
+                "value": "@media",
+                "name": "CSS_MEDIA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 7,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "52cf14cbdd18f7353f1251b6ccfeadc1": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@media {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "52cf14cbdd18f7353f1251b6ccfeadc1",
+        "result": [
+            {
+                "type": 777,
+                "value": "@media ",
+                "name": "CSS_MEDIA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 7,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "6c066b738446116898813ce1594ad4e4": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@media\n{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6c066b738446116898813ce1594ad4e4",
+        "result": [
+            {
+                "type": 777,
+                "value": "@media\n",
+                "name": "CSS_MEDIA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 1,
+                "col": 0,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 1,
+                "col": 1,
+                "pos": 8,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "fc11be3a9ae66f249f930a464615168d": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@media\t{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "fc11be3a9ae66f249f930a464615168d",
+        "result": [
+            {
+                "type": 777,
+                "value": "@media\t",
+                "name": "CSS_MEDIA",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 7,
+                "pos": 7,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 774,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "b09b66b3e8df253bc1f61556cb34daf6": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@xxx",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "b09b66b3e8df253bc1f61556cb34daf6",
+        "result": "get @ token error (line: 1, col: 1)\n"
+    },
+    "947ed64f3f34f96631703501a762e88b": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@import url('');",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "947ed64f3f34f96631703501a762e88b",
+        "result": [
+            {
+                "type": 779,
+                "value": "@import url('');",
+                "name": "CSS_IMPORT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    }
+}
