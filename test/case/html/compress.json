@@ -1937,5 +1937,16 @@
         "options": {},
         "key": "a6e0e0e887789b7251af8ad5eb09fb1f",
         "result": "<input name={=$name\n\n\n=}www>"
+    },
+    "0e6dd6b3eeae20833ee241cbf142a10c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<!--welefme-->welefen",
+        "tpl": "smarty",
+        "ld": "<!--",
+        "rd": "-->",
+        "options": {},
+        "key": "0e6dd6b3eeae20833ee241cbf142a10c",
+        "result": "<!--welefme-->welefen"
     }
 }

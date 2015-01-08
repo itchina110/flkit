@@ -10739,5 +10739,65 @@
                 "comments": []
             }
         ]
+    },
+    "a953876380087dbb04ce36e40e6c7360": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefen-->",
+        "tpl": "smarty",
+        "ld": "<!--",
+        "rd": "-->",
+        "options": {},
+        "key": "a953876380087dbb04ce36e40e6c7360",
+        "result": [
+            {
+                "type": 2,
+                "value": "<!--welefen-->",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<!--",
+                "rd": "-->",
+                "_value": "welefen"
+            }
+        ]
+    },
+    "872400866b2e1e14dc65f8b2046fa5da": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!--welefme-->welefen",
+        "tpl": "smarty",
+        "ld": "<!--",
+        "rd": "-->",
+        "options": {},
+        "key": "872400866b2e1e14dc65f8b2046fa5da",
+        "result": [
+            {
+                "type": 2,
+                "value": "<!--welefme-->",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<!--",
+                "rd": "-->",
+                "_value": "welefme"
+            },
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 14,
+                "pos": 14,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
