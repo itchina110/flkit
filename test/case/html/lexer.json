@@ -9476,7 +9476,8 @@
                     "comments": [],
                     "tag": "style",
                     "_tag": "style",
-                    "attrs": []
+                    "attrs": [],
+                    "isStyle": true
                 },
                 "content": {
                     "type": 266,
@@ -9934,7 +9935,8 @@
                     "comments": [],
                     "tag": "style",
                     "_tag": "style",
-                    "attrs": []
+                    "attrs": [],
+                    "isStyle": true
                 },
                 "content": {
                     "type": 266,
@@ -9993,7 +9995,8 @@
                     "comments": [],
                     "tag": "style",
                     "_tag": "style",
-                    "attrs": []
+                    "attrs": [],
+                    "isStyle": true
                 },
                 "content": {
                     "type": 266,
@@ -10860,6 +10863,126 @@
                 "ld": "<?php",
                 "rd": "?>",
                 "_value": "\n\n$name = '';\n\n"
+            }
+        ]
+    },
+    "cc33db6453bbac36c72591af275a73f6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style type=\"text/xxx\"></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "cc33db6453bbac36c72591af275a73f6",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style type=\"text/xxx\"></style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 23,
+                "pos": 23,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style type=\"text/xxx\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                }
+            }
+        ]
+    },
+    "b8f27fb2042a2d82acf891d951ae38d2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<style type=\"text/xxx\"></style>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "b8f27fb2042a2d82acf891d951ae38d2",
+        "result": [
+            {
+                "type": 261,
+                "value": "<style type=\"text/xxx\"></style>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 23,
+                "pos": 23,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<style type=\"text/xxx\">",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style",
+                    "attrs": [
+                        {
+                            "name": "type",
+                            "value": "\"text/xxx\"",
+                            "quote": "\"",
+                            "_value": "text/xxx",
+                            "_name": "type"
+                        }
+                    ],
+                    "isStyle": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</style>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "style",
+                    "_tag": "style"
+                }
             }
         ]
     }
