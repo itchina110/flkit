@@ -10625,5 +10625,97 @@
                 "_value": "\n/**\n?>\n*/$str = '?>';"
             }
         ]
+    },
+    "6342c2059b083646fff8461b81cd6d8e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=<?php $name?>wwww >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6342c2059b083646fff8461b81cd6d8e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=<?php $name?>wwww >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<?php $name?>wwww",
+                        "quote": "",
+                        "_value": "<?php $name?>wwww",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "a053554718091526b08adfe6182f54e2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=<?php $name?>wwww >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "a053554718091526b08adfe6182f54e2",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=<?php $name?>wwww >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "dd8ee7016d570c3b704e7f3de6326ae8": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "www<?php\n/**\n?>\n*/\n$str = '?>';",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "dd8ee7016d570c3b704e7f3de6326ae8",
+        "result": [
+            {
+                "type": 264,
+                "value": "www",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 2,
+                "value": "<?php\n/**\n?>\n*/$str = '?>';",
+                "name": "TPL",
+                "line": 0,
+                "col": 3,
+                "pos": 3,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<?php",
+                "rd": "?>",
+                "_value": "\n/**\n?>\n*/$str = '?>';"
+            }
+        ]
     }
 }
