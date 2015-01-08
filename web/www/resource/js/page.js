@@ -179,6 +179,7 @@ $(function(){
         return;
       }
       $.post('/index/save', data).done(function(data){
+        //location.reload();
         $('.modal-add-test').modal({
           show: false
         })
@@ -202,9 +203,12 @@ $(function(){
       var extraOptions = $('#extraOptions');
       for(var key in options){
         if (typeof options[key] === 'boolean') {
-          extraOptions.find('[name="'+key+'"]')[0].checked = options[key];
+          extraOptions.find('[name="' + key + '"]')[0].checked = options[key];
         };
       }
+      // setTimeout(function(){
+      //   $('#saveCaseBtn').trigger('click')
+      // }, 100)
     },
     '#langSelect': {
       change: function(){

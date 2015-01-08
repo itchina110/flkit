@@ -10,7 +10,7 @@
         "key": "c24732dcbec20fa3a7a91a373fc34a15",
         "result": [
             {
-                "type": 777,
+                "type": 776,
                 "value": "@media",
                 "name": "CSS_MEDIA",
                 "line": 0,
@@ -20,7 +20,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -30,7 +30,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -52,7 +52,7 @@
         "key": "52cf14cbdd18f7353f1251b6ccfeadc1",
         "result": [
             {
-                "type": 777,
+                "type": 776,
                 "value": "@media ",
                 "name": "CSS_MEDIA",
                 "line": 0,
@@ -62,7 +62,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -72,7 +72,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -94,7 +94,7 @@
         "key": "6c066b738446116898813ce1594ad4e4",
         "result": [
             {
-                "type": 777,
+                "type": 776,
                 "value": "@media\n",
                 "name": "CSS_MEDIA",
                 "line": 0,
@@ -104,7 +104,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 1,
@@ -114,7 +114,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 1,
@@ -136,7 +136,7 @@
         "key": "fc11be3a9ae66f249f930a464615168d",
         "result": [
             {
-                "type": 777,
+                "type": 776,
                 "value": "@media\t",
                 "name": "CSS_MEDIA",
                 "line": 0,
@@ -146,7 +146,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -156,7 +156,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -178,7 +178,7 @@
         "key": "b09b66b3e8df253bc1f61556cb34daf6",
         "result": [
             {
-                "type": 783,
+                "type": 782,
                 "value": "@xxx",
                 "name": "CSS_AT",
                 "line": 0,
@@ -200,7 +200,7 @@
         "key": "947ed64f3f34f96631703501a762e88b",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@import url('');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -222,7 +222,7 @@
         "key": "9ec66fec665a194f112a43a18227443f",
         "result": [
             {
-                "type": 781,
+                "type": 780,
                 "value": "@font-face 'www';",
                 "name": "CSS_FONT_FACE",
                 "line": 0,
@@ -244,7 +244,7 @@
         "key": "a844af5e445aa80e9c456c58c4bd52f1",
         "result": [
             {
-                "type": 781,
+                "type": 780,
                 "value": "@FONT-FACE 'www';",
                 "name": "CSS_FONT_FACE",
                 "line": 0,
@@ -266,7 +266,7 @@
         "key": "2bef76913794ee0b61c876eb3f95d597",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@IMPORT URL('xxx');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -288,7 +288,7 @@
         "key": "3eaa011d3a330763488e24d903554298",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@import /***/url('');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -310,7 +310,7 @@
         "key": "255a8cfc81684d10c08a394ea54d8f1d",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@import /**;*/url('');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -332,7 +332,7 @@
         "key": "cd70366b96d8e3071e48cf17341cc20a",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@import /**';*/url('');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -354,7 +354,7 @@
         "key": "f7b7c35eba28f96c96c245766be534ec",
         "result": [
             {
-                "type": 779,
+                "type": 778,
                 "value": "@import/**';*/url('');",
                 "name": "CSS_IMPORT",
                 "line": 0,
@@ -376,7 +376,7 @@
         "key": "99bd804f6116f05b95d02cdae1d69f10",
         "result": [
             {
-                "type": 780,
+                "type": 779,
                 "value": "@charset 'utf-8';",
                 "name": "CSS_CHARSET",
                 "line": 0,
@@ -398,7 +398,7 @@
         "key": "5fff3af557c1d21c05429e17a79f6177",
         "result": [
             {
-                "type": 780,
+                "type": 779,
                 "value": "@charset 'utf-8'\ndiv",
                 "name": "CSS_CHARSET",
                 "line": 0,
@@ -408,7 +408,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 1,
@@ -418,7 +418,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 1,
@@ -440,7 +440,7 @@
         "key": "093a08af1502f9998100404cbca6f7ac",
         "result": [
             {
-                "type": 780,
+                "type": 779,
                 "value": "@charset'utf-8';",
                 "name": "CSS_CHARSET",
                 "line": 0,
@@ -473,7 +473,7 @@
         "key": "05efd98c7fa6bb7441feef55ea9c4e23",
         "result": [
             {
-                "type": 780,
+                "type": 779,
                 "value": "@charset\"utf-8\";",
                 "name": "CSS_CHARSET",
                 "line": 0,
@@ -495,7 +495,7 @@
         "key": "54bcac4872b4642b486c3de864e50b6d",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@keyframes",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -505,7 +505,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -515,7 +515,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -537,7 +537,7 @@
         "key": "589c49dca6aa0ada5b3cea1d111fa073",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@keyframes name",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -547,7 +547,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -557,7 +557,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -579,7 +579,7 @@
         "key": "f4a27fb7153b3b63f81b25b2c76e41fd",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@keyframes name ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -589,7 +589,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -599,7 +599,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -621,7 +621,7 @@
         "key": "c4f6c76fdbc8dc3a65abd36cba4fc182",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@keyframes\nname ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -631,7 +631,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 1,
@@ -641,7 +641,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 1,
@@ -663,7 +663,7 @@
         "key": "99fe9c8cdf79e3699284bdb3cac8f52e",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@-webkit-keyframes name ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -673,7 +673,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -683,7 +683,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -705,7 +705,7 @@
         "key": "f67388dd314ba6f60fdca36157ed9776",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@-moz-keyframes name ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -715,7 +715,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -725,7 +725,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -747,7 +747,7 @@
         "key": "6e4be5d88362831d63aa037ead52b03b",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@-o-keyframes name ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -757,7 +757,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -767,7 +767,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -789,7 +789,7 @@
         "key": "c60ff3d11284949ff5414dd1b2dfaf82",
         "result": [
             {
-                "type": 772,
+                "type": 771,
                 "value": "@-ms-keyframes name ",
                 "name": "CSS_KEYFRAMES",
                 "line": 0,
@@ -799,7 +799,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -809,7 +809,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -831,7 +831,7 @@
         "key": "ff1c62e37aed7fa09ade03df92dc0555",
         "result": [
             {
-                "type": 783,
+                "type": 782,
                 "value": "@-xss-keyframes name ",
                 "name": "CSS_AT",
                 "line": 0,
@@ -841,7 +841,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -851,7 +851,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -873,7 +873,7 @@
         "key": "4c5e30a9babbd48c2ee644fd96bb152d",
         "result": [
             {
-                "type": 783,
+                "type": 782,
                 "value": "@-moz",
                 "name": "CSS_AT",
                 "line": 0,
@@ -883,7 +883,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -893,7 +893,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -915,7 +915,7 @@
         "key": "337246e2204de5f754ca139386427bfc",
         "result": [
             {
-                "type": 778,
+                "type": 777,
                 "value": "@namespace \"http://www.w3.org/1999/xhtml\";",
                 "name": "CSS_NAMESPACE",
                 "line": 0,
@@ -937,7 +937,7 @@
         "key": "1109cf72eaa6d588cf175d7090d824b9",
         "result": [
             {
-                "type": 778,
+                "type": 777,
                 "value": "@namespace svg \"http://www.w3.org/2000/svg\";",
                 "name": "CSS_NAMESPACE",
                 "line": 0,
@@ -959,7 +959,7 @@
         "key": "2ba66f2b20384aec45eb393fdbf873d9",
         "result": [
             {
-                "type": 782,
+                "type": 781,
                 "value": "@page thin:first ",
                 "name": "CSS_PAGE",
                 "line": 0,
@@ -969,12 +969,32 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 769,
+                "value": "size",
+                "name": "CSS_PROPERTY",
+                "line": 0,
+                "col": 19,
+                "pos": 19,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "name": "CSS_COLON",
+                "line": 0,
+                "col": 23,
+                "pos": 23,
                 "newlines": 0,
                 "comments": []
             }
@@ -991,7 +1011,7 @@
         "key": "22f3cbfa03613b8f4bd6cc9fe24d362c",
         "result": [
             {
-                "type": 781,
+                "type": 780,
                 "value": "@font-face",
                 "name": "CSS_FONT_FACE",
                 "line": 0,
@@ -1001,7 +1021,7 @@
                 "comments": []
             },
             {
-                "type": 773,
+                "type": 772,
                 "value": "{",
                 "name": "CSS_LEFT_BRACE",
                 "line": 0,
@@ -1011,7 +1031,7 @@
                 "comments": []
             },
             {
-                "type": 774,
+                "type": 773,
                 "value": "}",
                 "name": "CSS_RIGHT_BRACE",
                 "line": 0,
@@ -1019,6 +1039,133 @@
                 "pos": 11,
                 "newlines": 0,
                 "comments": []
+            }
+        ]
+    },
+    "cf19cdcae826f40373e8a3f12e4f3953": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "/***/",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "cf19cdcae826f40373e8a3f12e4f3953",
+        "result": [
+            {
+                "type": 1,
+                "value": "",
+                "name": "EOS",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "95b379c7b3454425c9932590d3f84ed2": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "\n/***/",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "95b379c7b3454425c9932590d3f84ed2",
+        "result": [
+            {
+                "type": 1,
+                "value": "",
+                "name": "EOS",
+                "line": 1,
+                "col": 5,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "4d0965f6045191831c849615e6682978": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "\n/**\nwelefen\n*/",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4d0965f6045191831c849615e6682978",
+        "result": [
+            {
+                "type": 1,
+                "value": "",
+                "name": "EOS",
+                "line": 3,
+                "col": 2,
+                "pos": 15,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/**\nwelefen\n*/",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "4c3f98864ab9a1e393c39575e93107c5": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "/**//***/",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4c3f98864ab9a1e393c39575e93107c5",
+        "result": [
+            {
+                "type": 1,
+                "value": "",
+                "name": "EOS",
+                "line": 0,
+                "col": 9,
+                "pos": 9,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/**/",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0
+                    },
+                    {
+                        "value": "/***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 0
+                    }
+                ]
             }
         ]
     }

@@ -99,6 +99,7 @@ module.exports = Controller("Home/BaseController", function(){
         var result = instance.run(options);
         return this.success(result);
       }catch(e){
+        console.log(e.stack);
         return this.error(100, e.toString());
       }
     },
