@@ -1926,5 +1926,16 @@
         },
         "key": "c8461d7dd62fd4c00f2ddc9a4bc7747b",
         "result": "<img src=//www>"
+    },
+    "a6e0e0e887789b7251af8ad5eb09fb1f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name={=$name\n\n\n=}www >",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "a6e0e0e887789b7251af8ad5eb09fb1f",
+        "result": "<input name={=$name\n\n\n=}www>"
     }
 }

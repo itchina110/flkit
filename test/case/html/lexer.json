@@ -10717,5 +10717,27 @@
                 "_value": "\n/**\n?>\n*/$str = '?>';"
             }
         ]
+    },
+    "74558068cee4b1a636f595ff12d63e4d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name={=$name\n\n\n=}www >",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "74558068cee4b1a636f595ff12d63e4d",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name={=$name\n\n\n=}www >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
