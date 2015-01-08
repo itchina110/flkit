@@ -10799,5 +10799,68 @@
                 "comments": []
             }
         ]
+    },
+    "3b5711dcab784d1367d5ecd40bdc5b8e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<!-- welefen --><!-- suredy -->",
+        "tpl": "smarty",
+        "ld": "<!--",
+        "rd": "-->",
+        "options": {},
+        "key": "3b5711dcab784d1367d5ecd40bdc5b8e",
+        "result": [
+            {
+                "type": 2,
+                "value": "<!-- welefen -->",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<!--",
+                "rd": "-->",
+                "_value": " welefen "
+            },
+            {
+                "type": 2,
+                "value": "<!-- suredy -->",
+                "name": "TPL",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<!--",
+                "rd": "-->",
+                "_value": " suredy "
+            }
+        ]
+    },
+    "969d714446029834c1a9e6e741e7068a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?php\n\n$name = '';\n\n",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "969d714446029834c1a9e6e741e7068a",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?php\n\n$name = '';\n\n",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<?php",
+                "rd": "?>",
+                "_value": "\n\n$name = '';\n\n"
+            }
+        ]
     }
 }
