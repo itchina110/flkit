@@ -1992,5 +1992,49 @@
         "options": {},
         "key": "1985921f207046ed88b93bdda5d5f7bf",
         "result": "<input name=ww <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>>"
+    },
+    "19570e0f81419f08b50dea68f8e1dce7": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input \n\nname=\"<?php\necho 1;\n$name = '<?php ?>';\n?>\n\n<?php\necho 1;\n$name = '<?php ?>';\n?>\"\n\n>",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "19570e0f81419f08b50dea68f8e1dce7",
+        "result": "<input name=\"<?php\necho 1;\n$name = '<?php ?>';\n?>\n\n<?php\necho 1;\n$name = '<?php ?>';\n?>\">"
+    },
+    "cef9783ceea62748ad45810efbcab66f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input \n\nname=\"<?php\necho 1;\n$name = '<?php ?>';\n?>\n\n<?php\necho 1;\n$name = '<?php ?>';\n\n/***\n?>\n*/\n?>\"\n\n>",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "cef9783ceea62748ad45810efbcab66f",
+        "result": "<input name=\"<?php\necho 1;\n$name = '<?php ?>';\n?>\n\n<?php\necho 1;\n$name = '<?php ?>';\n\n/***\n?>\n*/\n?>\">"
+    },
+    "5378399bb05e76587b4607c570f3a299": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name{=$NAME=}=\"welefen\" >",
+        "tpl": "smarty",
+        "ld": "{=",
+        "rd": "=}",
+        "options": {},
+        "key": "5378399bb05e76587b4607c570f3a299",
+        "result": "<input name{=$NAME=}=welefen>"
+    },
+    "9800fbd7bb5f315b1809f3413a4d36a1": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name<?= $NAME;?>=welefen >",
+        "tpl": "php",
+        "ld": "<?=",
+        "rd": "?>",
+        "options": {},
+        "key": "9800fbd7bb5f315b1809f3413a4d36a1",
+        "result": "<input name<?= $NAME;?>=welefen>"
     }
 }
