@@ -1948,5 +1948,49 @@
         "options": {},
         "key": "0e6dd6b3eeae20833ee241cbf142a10c",
         "result": "<!--welefme-->welefen"
+    },
+    "75c9fc63d8dd1ff555c97e4a771f6a53": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "75c9fc63d8dd1ff555c97e4a771f6a53",
+        "result": "<input <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>>"
+    },
+    "a9e3a922696f7da24b64dc43e3f9d4a9": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\"welefen<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\" >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "a9e3a922696f7da24b64dc43e3f9d4a9",
+        "result": "<input name=\"welefen<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">"
+    },
+    "175086d870180c4df15171ee880fdfe1": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\"<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\" >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "175086d870180c4df15171ee880fdfe1",
+        "result": "<input name=\"<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">"
+    },
+    "1985921f207046ed88b93bdda5d5f7bf": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\"ww\" <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "1985921f207046ed88b93bdda5d5f7bf",
+        "result": "<input name=ww <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>>"
     }
 }

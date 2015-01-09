@@ -10591,7 +10591,7 @@
         "result": [
             {
                 "type": 2,
-                "value": "<?php\n/**\n?>\n*/$str = '?>';\n?>",
+                "value": "<?php\n/**\n?>\n*/\n$str = '?>';\n?>",
                 "name": "TPL",
                 "line": 0,
                 "col": 0,
@@ -10600,7 +10600,7 @@
                 "comments": [],
                 "ld": "<?php",
                 "rd": "?>",
-                "_value": "\n/**\n?>\n*/$str = '?>';\n"
+                "_value": "\n/**\n?>\n*/\n$str = '?>';\n"
             }
         ]
     },
@@ -10616,7 +10616,7 @@
         "result": [
             {
                 "type": 2,
-                "value": "<?php\n/**\n?>\n*/$str = '?>';",
+                "value": "<?php\n/**\n?>\n*/\n$str = '?>';",
                 "name": "TPL",
                 "line": 0,
                 "col": 0,
@@ -10625,7 +10625,7 @@
                 "comments": [],
                 "ld": "<?php",
                 "rd": "?>",
-                "_value": "\n/**\n?>\n*/$str = '?>';"
+                "_value": "\n/**\n?>\n*/\n$str = '?>';"
             }
         ]
     },
@@ -10708,7 +10708,7 @@
             },
             {
                 "type": 2,
-                "value": "<?php\n/**\n?>\n*/$str = '?>';",
+                "value": "<?php\n/**\n?>\n*/\n$str = '?>';",
                 "name": "TPL",
                 "line": 0,
                 "col": 3,
@@ -10717,7 +10717,7 @@
                 "comments": [],
                 "ld": "<?php",
                 "rd": "?>",
-                "_value": "\n/**\n?>\n*/$str = '?>';"
+                "_value": "\n/**\n?>\n*/\n$str = '?>';"
             }
         ]
     },
@@ -10983,6 +10983,394 @@
                     "tag": "style",
                     "_tag": "style"
                 }
+            }
+        ]
+    },
+    "053f749909b95f32054e80a05aa92415": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"<?= $name;?>\">",
+        "tpl": "",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "053f749909b95f32054e80a05aa92415",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"<?= $name;?>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"<?= $name;?>\"",
+                        "quote": "\"",
+                        "_value": "<?= $name;?>",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "e2689601d03d54a69b1ea1c413e7413a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"<?= $name;?>\">",
+        "tpl": "",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {},
+        "key": "e2689601d03d54a69b1ea1c413e7413a",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"<?= $name;?>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "b724dcc9a1da2beb60661421c5364dfe": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {},
+        "key": "b724dcc9a1da2beb60661421c5364dfe",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "bc0c6915a53a8657ef0682790b480d5c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bc0c6915a53a8657ef0682790b480d5c",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>\"",
+                        "quote": "\"",
+                        "_value": "<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "7bb3d17101351bf02cd4107fd2e452c6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input <?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {},
+        "key": "7bb3d17101351bf02cd4107fd2e452c6",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input <?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "035bedb6f7d08d88131f9f98b368d280": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input <?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "035bedb6f7d08d88131f9f98b368d280",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input <?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "type": 2,
+                        "value": "<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<?php",
+                        "rd": "?>",
+                        "_value": "\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n",
+                        "spaceBefore": false,
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
+    },
+    "66c28cf2115272647964559947d2792c": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "66c28cf2115272647964559947d2792c",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "quote": "",
+                        "_value": "<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "47b8cd15319361f91d1de214b0020c1e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "47b8cd15319361f91d1de214b0020c1e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "quote": "",
+                        "_value": "<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
+    },
+    "a6ddbcf4e57f7913adc0e2f451a87cd1": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php,<?=",
+        "rd": "?>,?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "a6ddbcf4e57f7913adc0e2f451a87cd1",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input <?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "type": 2,
+                        "value": "<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n?>",
+                        "name": "TPL",
+                        "line": 0,
+                        "col": 0,
+                        "pos": 0,
+                        "newlines": 0,
+                        "comments": [],
+                        "ld": "<?php",
+                        "rd": "?>",
+                        "_value": "\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n",
+                        "spaceBefore": false,
+                        "tpl": true
+                    }
+                ]
+            }
+        ]
+    },
+    "6705bcea87c76ef34f10517a11d0689e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "6705bcea87c76ef34f10517a11d0689e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "ef5727957def3ef9b02e0656f5fdc715": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?> >",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "ef5727957def3ef9b02e0656f5fdc715",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?>",
+                        "_name": "name<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\necho $name;\n\n?>"
+                    }
+                ]
+            }
+        ]
+    },
+    "1248fa40feda360d1d6796ae229f0c49": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n\n\necho $name;\n\n?> >\n",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "1248fa40feda360d1d6796ae229f0c49",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n\n\necho $name;\n\n?> >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name<?php\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n\n\necho $name;\n\n?>",
+                        "_name": "name<?php\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n\n\necho $name;\n\n?>"
+                    }
+                ]
+            },
+            {
+                "type": 1,
+                "value": "",
+                "name": "EOS",
+                "line": 13,
+                "col": 0,
+                "pos": 83,
+                "newlines": 1,
+                "comments": []
             }
         ]
     }
