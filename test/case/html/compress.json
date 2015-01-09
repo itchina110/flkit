@@ -2058,5 +2058,38 @@
         "options": {},
         "key": "412e62d1be7e060ebf701ac33c974387",
         "result": "<input name=\\\"welefen\\\" value=suredy>"
+    },
+    "46ce5dca66ae282686943d4ab18129c3": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<STYLE TYPE=\"XXX\">\n\n</STYLE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "46ce5dca66ae282686943d4ab18129c3",
+        "result": "<style type=XXX>\n\n</style>"
+    },
+    "e3acbd501c526f2a20b68084534a9b12": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<STYLE TYPE=\"XXX\">\n\n</STYLE >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e3acbd501c526f2a20b68084534a9b12",
+        "result": "<style type=XXX>\n\n</style>"
+    },
+    "b6fc4abfc0b75f107165d47a639169df": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<DIV NAME=\"\"></DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "b6fc4abfc0b75f107165d47a639169df",
+        "result": "<div></div>"
     }
 }

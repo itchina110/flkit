@@ -11544,5 +11544,853 @@
                 ]
             }
         ]
+    },
+    "85e354d5ad0ecb9cefae7374fc07d11d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<DIV NAME=\"\"></DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "85e354d5ad0ecb9cefae7374fc07d11d",
+        "result": [
+            {
+                "type": 256,
+                "value": "<DIV NAME=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</DIV>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 13,
+                "pos": 13,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "8959fa17ced1ace460099a2583d20bb3": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<DIV NAME=\"\"></DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "8959fa17ced1ace460099a2583d20bb3",
+        "result": [
+            {
+                "type": 256,
+                "value": "<DIV NAME=\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "DIV",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "NAME",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "name"
+                    }
+                ]
+            },
+            {
+                "type": 257,
+                "value": "</DIV>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 13,
+                "pos": 13,
+                "newlines": 0,
+                "comments": [],
+                "tag": "DIV",
+                "_tag": "div"
+            }
+        ]
+    },
+    "0a799917082cbe912c92ab9f0103f9a7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<STYLE TYPE='TEXT/CSS'></STYLE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0a799917082cbe912c92ab9f0103f9a7",
+        "result": [
+            {
+                "type": 261,
+                "value": "<STYLE TYPE='TEXT/CSS'></STYLE>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 23,
+                "pos": 23,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<STYLE TYPE='TEXT/CSS'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</STYLE>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                }
+            }
+        ]
+    },
+    "d814a4f354db0be350756dca3e72b3bc": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<STYLE TYPE='TEXT/CSS'></STYLE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "d814a4f354db0be350756dca3e72b3bc",
+        "result": [
+            {
+                "type": 261,
+                "value": "<STYLE TYPE='TEXT/CSS'></STYLE>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 23,
+                "pos": 23,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<STYLE TYPE='TEXT/CSS'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'TEXT/CSS'",
+                            "quote": "'",
+                            "_value": "TEXT/CSS",
+                            "_name": "type"
+                        }
+                    ],
+                    "isStyle": true
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</STYLE>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 23,
+                    "pos": 23,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style"
+                }
+            }
+        ]
+    },
+    "6907547f9dc51a076c9ef87105d43e75": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<STYLE TYPE='TEXT/CSS '></STYLE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6907547f9dc51a076c9ef87105d43e75",
+        "result": [
+            {
+                "type": 261,
+                "value": "<STYLE TYPE='TEXT/CSS '></STYLE>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 24,
+                "pos": 24,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<STYLE TYPE='TEXT/CSS '>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'TEXT/CSS '",
+                            "quote": "'",
+                            "_value": "TEXT/CSS ",
+                            "_name": "type"
+                        }
+                    ],
+                    "isStyle": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 24,
+                    "pos": 24,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</STYLE>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 24,
+                    "pos": 24,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style"
+                }
+            }
+        ]
+    },
+    "bdd0810e21f855bbc85a10610339dc0d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<STYLE TYPE=' TEXT/CSS'></STYLE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "bdd0810e21f855bbc85a10610339dc0d",
+        "result": [
+            {
+                "type": 261,
+                "value": "<STYLE TYPE=' TEXT/CSS'></STYLE>",
+                "name": "HTML_TAG_STYLE",
+                "line": 0,
+                "col": 24,
+                "pos": 24,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<STYLE TYPE=' TEXT/CSS'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "' TEXT/CSS'",
+                            "quote": "'",
+                            "_value": " TEXT/CSS",
+                            "_name": "type"
+                        }
+                    ],
+                    "isStyle": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 24,
+                    "pos": 24,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</STYLE>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 24,
+                    "pos": 24,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "STYLE",
+                    "_tag": "style"
+                }
+            }
+        ]
+    },
+    "50c7c2224e71ec4db416db52cb89bfaf": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE='TEXT/JAVSCRIPT'>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "50c7c2224e71ec4db416db52cb89bfaf",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE='TEXT/JAVSCRIPT'>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 32,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE='TEXT/JAVSCRIPT'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 30,
+                    "pos": 30,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 32,
+                    "newlines": 0,
+                    "comments": []
+                }
+            }
+        ]
+    },
+    "39ddf5912573bb04a54bc5b66615e9df": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE='TEXT/JAVASCRIPT'>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "39ddf5912573bb04a54bc5b66615e9df",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE='TEXT/JAVASCRIPT'>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 33,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE='TEXT/JAVASCRIPT'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'TEXT/JAVASCRIPT'",
+                            "quote": "'",
+                            "_value": "TEXT/JAVASCRIPT",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 31,
+                    "pos": 31,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 33,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "51c882209d69364ddaa7cfc3de7a70e7": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE='TEXT/JAVaSCRIPT'>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "51c882209d69364ddaa7cfc3de7a70e7",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE='TEXT/JAVaSCRIPT'>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 33,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE='TEXT/JAVaSCRIPT'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'TEXT/JAVaSCRIPT'",
+                            "quote": "'",
+                            "_value": "TEXT/JAVaSCRIPT",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 31,
+                    "pos": 31,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 33,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "756a72f7fca4e9ca4478b50a41ee9060": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE='text/JAVaSCRIPT'>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "756a72f7fca4e9ca4478b50a41ee9060",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE='text/JAVaSCRIPT'>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 33,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE='text/JAVaSCRIPT'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'text/JAVaSCRIPT'",
+                            "quote": "'",
+                            "_value": "text/JAVaSCRIPT",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 31,
+                    "pos": 31,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 33,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "8f7e69e79b3bab7ab0239b7d95fbb596": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE=' text/JAVaSCRIPT'>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "8f7e69e79b3bab7ab0239b7d95fbb596",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE=' text/JAVaSCRIPT'>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 34,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE=' text/JAVaSCRIPT'>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "' text/JAVaSCRIPT'",
+                            "quote": "'",
+                            "_value": " text/JAVaSCRIPT",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": false,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 32,
+                    "pos": 32,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 34,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "d5e0fc8e087458c68b6a23c451566ae4": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<SCRIPT TYPE='text/JAVaSCRIPT '>\n\n</SCRIPT>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "d5e0fc8e087458c68b6a23c451566ae4",
+        "result": [
+            {
+                "type": 260,
+                "value": "<SCRIPT TYPE='text/JAVaSCRIPT '>\n\n</SCRIPT>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 2,
+                "col": 0,
+                "pos": 34,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<SCRIPT TYPE='text/JAVaSCRIPT '>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script",
+                    "attrs": [
+                        {
+                            "name": "TYPE",
+                            "value": "'text/JAVaSCRIPT '",
+                            "quote": "'",
+                            "_value": "text/JAVaSCRIPT ",
+                            "_name": "type"
+                        }
+                    ],
+                    "isScript": false,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 32,
+                    "pos": 32,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</SCRIPT>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 34,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "SCRIPT",
+                    "_tag": "script"
+                }
+            }
+        ]
+    },
+    "189ac990ebff511b00864e1df1fca137": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<PRE>\n\n</PRE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "189ac990ebff511b00864e1df1fca137",
+        "result": [
+            {
+                "type": 262,
+                "value": "<PRE>\n\n</PRE>",
+                "name": "HTML_TAG_PRE",
+                "line": 2,
+                "col": 0,
+                "pos": 7,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<PRE>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</PRE>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 7,
+                    "newlines": 0,
+                    "comments": []
+                }
+            }
+        ]
+    },
+    "cf2c3056f7a40a38a6e8eac2fd696f44": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<PRE>\n\n</PRE>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "cf2c3056f7a40a38a6e8eac2fd696f44",
+        "result": [
+            {
+                "type": 262,
+                "value": "<PRE>\n\n</PRE>",
+                "name": "HTML_TAG_PRE",
+                "line": 2,
+                "col": 0,
+                "pos": 7,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<PRE>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "PRE",
+                    "_tag": "pre",
+                    "attrs": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "\n\n",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 5,
+                    "pos": 5,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</PRE>",
+                    "name": "HTML_TAG_END",
+                    "line": 2,
+                    "col": 0,
+                    "pos": 7,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "PRE",
+                    "_tag": "pre"
+                }
+            }
+        ]
     }
 }
