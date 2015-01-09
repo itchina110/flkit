@@ -11487,5 +11487,62 @@
                 ]
             }
         ]
+    },
+    "22844d19a323081cebf1d0b14c10017f": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\\\"welefen\\\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "22844d19a323081cebf1d0b14c10017f",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\\\"welefen\\\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "dd0d5d79fc143e812822dc6f2f00d138": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\\\"welefen\\\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "dd0d5d79fc143e812822dc6f2f00d138",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\\\"welefen\\\" >",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\\\"welefen\\\"",
+                        "quote": "",
+                        "_value": "\\\"welefen\\\"",
+                        "_name": "name"
+                    }
+                ]
+            }
+        ]
     }
 }

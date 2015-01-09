@@ -2036,5 +2036,27 @@
         "options": {},
         "key": "9800fbd7bb5f315b1809f3413a4d36a1",
         "result": "<input name<?= $NAME;?>=welefen>"
+    },
+    "9dec119c065e3d615b4eed0ce90d6123": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\\\"welefen\\\" >",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9dec119c065e3d615b4eed0ce90d6123",
+        "result": "<input name=\\\"welefen\\\">"
+    },
+    "412e62d1be7e060ebf701ac33c974387": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\\\"welefen\\\" value=\"suredy\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "412e62d1be7e060ebf701ac33c974387",
+        "result": "<input name=\\\"welefen\\\" value=suredy>"
     }
 }
