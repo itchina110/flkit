@@ -2253,7 +2253,19 @@
         "rd": "",
         "options": {},
         "key": "a1914d3e1abe48caf166555dad7c7ce6",
-        "result": "can't find matched quote string (line: 1, col: 12)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<div name=\"'>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "message": "cant not find end quote char"
+            }
+        ]
     },
     "43ef2a40180c5a11e2ddf41038ebb1ec": {
         "lang": "html",
@@ -3320,7 +3332,19 @@
         "rd": "",
         "options": {},
         "key": "97549e58ec39544a98912e8155bb9a01",
-        "result": "can't find > for tag end (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<div ",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "message": "can not find tag end char `>`"
+            }
+        ]
     },
     "d0bc30f8f856acb18de03fb9c6936a90": {
         "lang": "html",
@@ -3572,7 +3596,19 @@
         "rd": "",
         "options": {},
         "key": "2150e8c2b981bb5f98b180dae39aeede",
-        "result": "can't find matched quote string (line: 1, col: 7)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<div \">",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "message": "cant not find end quote char"
+            }
+        ]
     },
     "adae88960bb44729262ad2ec9d6efac6": {
         "lang": "html",
@@ -10032,7 +10068,19 @@
         "rd": "",
         "options": {},
         "key": "80a353548eca51608c385ab8abc49c94",
-        "result": "can't find matched quote string (line: 1, col: 15)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<script name=\" >\n\n</script>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "message": "cant not find end quote char"
+            }
+        ]
     },
     "c004bec22f43368020d4b45d26b38b86": {
         "lang": "html",
