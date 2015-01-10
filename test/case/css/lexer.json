@@ -460,7 +460,18 @@
         "rd": "",
         "options": {},
         "key": "c13c68f4c7ca64290b41bcce08df5dcf",
-        "result": "can't find matched quote string (line: 1, col: 10)\n"
+        "result": [
+            {
+                "type": 779,
+                "value": "@charset\"utf-8';",
+                "name": "CSS_CHARSET",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "05efd98c7fa6bb7441feef55ea9c4e23": {
         "lang": "css",
