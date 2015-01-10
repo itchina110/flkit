@@ -2154,7 +2154,18 @@
         "rd": "",
         "options": {},
         "key": "f163529b6ccef33a193e98d142e5a4c4",
-        "result": "end tag is not valid (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "</ h1>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "220590a491445fd22014a46d8d936393": {
         "lang": "html",
@@ -2883,7 +2894,18 @@
         "rd": "",
         "options": {},
         "key": "d78c79f6b5879d54ddd04daa740f723d",
-        "result": "end tag is not valid (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<//>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "ea2633e8914ad89cd7f903f9793e6369": {
         "lang": "html",
@@ -3409,7 +3431,18 @@
         "rd": "",
         "options": {},
         "key": "aabd24a8d14f049ff70865cf03f77f56",
-        "result": "end tag is not valid (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "</ div>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "097bf6aa640d004fb9f0f51483d5500e": {
         "lang": "html",
@@ -3474,7 +3507,18 @@
         "rd": "",
         "options": {},
         "key": "559336bc612fa105ac0a6c5b66c3f01d",
-        "result": "tag name is not valid (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<!@#@!#>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "0833a5cea423e44a6e1b6a5b354d9c81": {
         "lang": "html",
@@ -4422,7 +4466,29 @@
         "rd": "",
         "options": {},
         "key": "83a14c6a3c73612b4942105fbf7b74d1",
-        "result": "tag name is not valid (line: 1, col: 7)\n"
+        "result": [
+            {
+                "type": 264,
+                "value": "werwer",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 6,
+                "value": "<!--[if fasdfasdf",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 6,
+                "pos": 6,
+                "newlines": 0,
+                "comments": [],
+                "message": "can not find tag end char `>`"
+            }
+        ]
     },
     "9ca0507dcdcfd5cbde1598c401069f80": {
         "lang": "html",
@@ -7009,7 +7075,26 @@
             "tag_attrs": true
         },
         "key": "32bb29689de7cd6c5e781b088b837427",
-        "result": "there is no = before quote char (line: 1, col: 7)\n"
+        "result": [
+            {
+                "type": 256,
+                "value": "<div \"name\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "\"name\"",
+                        "_name": "\"name\""
+                    }
+                ]
+            }
+        ]
     },
     "f7ef11dadd04738f511877d923c8e8ca": {
         "lang": "html",
@@ -7022,7 +7107,19 @@
             "tag_attrs": true
         },
         "key": "f7ef11dadd04738f511877d923c8e8ca",
-        "result": "can't find tag end char > (line: 1, col: 12)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<div name=\"\"",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "message": "can not find tag end char `>`"
+            }
+        ]
     },
     "685608895be8aa68d7663f7c0ca8bad0": {
         "lang": "html",
@@ -7308,7 +7405,29 @@
             "tag_attrs": true
         },
         "key": "25e8262d1b22fef2e00f52584fa577eb",
-        "result": "can't find tag end char > (line: 4, col: 1)\n"
+        "result": [
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 6,
+                "value": "<div wer\n\nwerwer",
+                "name": "ILLEGAL",
+                "line": 3,
+                "col": 0,
+                "pos": 10,
+                "newlines": 3,
+                "comments": [],
+                "message": "can not find tag end char `>`"
+            }
+        ]
     },
     "f4299dddfc71269b31633b081a363511": {
         "lang": "html",
@@ -8982,7 +9101,18 @@
         "rd": "",
         "options": {},
         "key": "1a2afcce198629536a601f7b88c29867",
-        "result": "tag name is not valid (line: 1, col: 1)\n"
+        "result": [
+            {
+                "type": 6,
+                "value": "<!<div>",
+                "name": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     },
     "0b093742dc19769751a8e110ba0f093b": {
         "lang": "html",
@@ -12438,6 +12568,108 @@
                     "tag": "PRE",
                     "_tag": "pre"
                 }
+            }
+        ]
+    },
+    "2bfd637e35631131cff1e3b10eb872a3": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div 'name'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "2bfd637e35631131cff1e3b10eb872a3",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div 'name'>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "'name'",
+                        "_name": "'name'"
+                    }
+                ]
+            }
+        ]
+    },
+    "ceb1160e9c07ec3548bf73216dddaaf2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div 'name'=\"www\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "ceb1160e9c07ec3548bf73216dddaaf2",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div 'name'=\"www\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "'name'",
+                        "value": "\"www\"",
+                        "quote": "\"",
+                        "_value": "www",
+                        "_name": "'name'"
+                    }
+                ]
+            }
+        ]
+    },
+    "6360eed2e68d0db47d5fc9c85f43fb0a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div www'name'=\"www\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "6360eed2e68d0db47d5fc9c85f43fb0a",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div www'name'=\"www\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div",
+                "attrs": [
+                    {
+                        "name": "www'name'",
+                        "value": "\"www\"",
+                        "quote": "\"",
+                        "_value": "www",
+                        "_name": "www'name'"
+                    }
+                ]
             }
         ]
     }

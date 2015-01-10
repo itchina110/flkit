@@ -2091,5 +2091,104 @@
         "options": {},
         "key": "b6fc4abfc0b75f107165d47a639169df",
         "result": "<div></div>"
+    },
+    "228efd66a2e30fb518b1c58152038855": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div name=\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "228efd66a2e30fb518b1c58152038855",
+        "result": ""
+    },
+    "8ff4017386bcaa77f50aec1c21a5a9eb": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div name=\"\"",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8ff4017386bcaa77f50aec1c21a5a9eb",
+        "result": ""
+    },
+    "0b1a37a3d0b99c5bbd0176952e5b530d": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div \"welefen\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0b1a37a3d0b99c5bbd0176952e5b530d",
+        "result": "<div \"welefen\">"
+    },
+    "579aaebd13208da05aa4310d6ebf2595": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div 'welefen'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "579aaebd13208da05aa4310d6ebf2595",
+        "result": "<div 'welefen'>"
+    },
+    "200b84c0c756cbf501ac1044b6df5520": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div 'welefen'=\"wwww\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "200b84c0c756cbf501ac1044b6df5520",
+        "result": "<div 'welefen'=wwww>"
+    },
+    "2ca2770d4b68f46aafe39b6e9f1cb2db": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div www'welefen'=\"wwww\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2ca2770d4b68f46aafe39b6e9f1cb2db",
+        "result": "<div www'welefen'=wwww>"
+    },
+    "aa8301e5c0124ed72915b9a76c19062c": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div WWW'welefen'=\"wwww\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "aa8301e5c0124ed72915b9a76c19062c",
+        "result": "<div www'welefen'=wwww>"
+    },
+    "7b7825459615aa23058f32532de2bf25": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div WWW'FDSFSD'=\"wwww\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7b7825459615aa23058f32532de2bf25",
+        "result": "<div www'fdsfsd'=wwww>"
+    },
+    "8a779b3e594a711f3da29188d2724380": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div WWW'FDSFSD'=\"FSDFD\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "8a779b3e594a711f3da29188d2724380",
+        "result": "<div www'fdsfsd'=FSDFD>"
     }
 }
