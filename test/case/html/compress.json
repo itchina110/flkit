@@ -2190,5 +2190,38 @@
         "options": {},
         "key": "8a779b3e594a711f3da29188d2724380",
         "result": "<div www'fdsfsd'=FSDFD>"
+    },
+    "9580826a6461fa521a394eeecf5246a6": {
+        "lang": "html",
+        "name": "compress",
+        "code": "\n<!DOCTYPE html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9580826a6461fa521a394eeecf5246a6",
+        "result": "<!DOCTYPE html>"
+    },
+    "d2e5d35d1ad337b86c63490307658f9a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "           \n<!DOCTYPE html> ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d2e5d35d1ad337b86c63490307658f9a",
+        "result": "<!DOCTYPE html>"
+    },
+    "af025bfc1fdf384a44a6ca0e50ba84f6": {
+        "lang": "html",
+        "name": "compress",
+        "code": "        \n        \n        \n            \n<!DOCTYPE html> ",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "af025bfc1fdf384a44a6ca0e50ba84f6",
+        "result": "<!DOCTYPE html>"
     }
 }

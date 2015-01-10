@@ -12777,5 +12777,59 @@
                 "comments": []
             }
         ]
+    },
+    "66dd1b87898217d0e72ac9e2fa983975": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<!DOCTYPE html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "66dd1b87898217d0e72ac9e2fa983975",
+        "result": [
+            {
+                "type": 263,
+                "value": "<!DOCTYPE html>",
+                "name": "HTML_DOCTYPE",
+                "line": 1,
+                "col": 0,
+                "pos": 1,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "d1b2c9d02b2def14ee3f23b6f769b2d2": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "       \n<!DOCTYPE html>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d1b2c9d02b2def14ee3f23b6f769b2d2",
+        "result": [
+            {
+                "type": 264,
+                "value": "       ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 263,
+                "value": "<!DOCTYPE html>",
+                "name": "HTML_DOCTYPE",
+                "line": 1,
+                "col": 0,
+                "pos": 8,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
     }
 }
