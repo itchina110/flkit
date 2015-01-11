@@ -45,7 +45,7 @@ http://www.w3.org/TR/css-2010/
 
 http://www.w3.org/TR/CSS21/syndata.html#charset
 
-http://dev.w3.org/csswg/css-variables/
+http://dev.w3.org/csswg/
 
 ## ES5 doc
 

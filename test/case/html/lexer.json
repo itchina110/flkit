@@ -12831,5 +12831,95 @@
                 "comments": []
             }
         ]
+    },
+    "252805f2fb66920fc06fd3f6b774a5d5": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"\" <div class='haha '></div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "252805f2fb66920fc06fd3f6b774a5d5",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"\" <div class='haha '>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 34,
+                "pos": 34,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "5e189b32b5a4849fd6bdb81b2c94b13e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input name=\"\" <div class='haha '></div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "5e189b32b5a4849fd6bdb81b2c94b13e",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input name=\"\" <div class='haha '>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "name",
+                        "value": "\"\"",
+                        "quote": "\"",
+                        "_value": "",
+                        "_name": "name"
+                    },
+                    {
+                        "name": "<div",
+                        "_name": "<div"
+                    },
+                    {
+                        "name": "class",
+                        "value": "'haha '",
+                        "quote": "'",
+                        "_value": "haha ",
+                        "_name": "class"
+                    }
+                ]
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 34,
+                "pos": 34,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div"
+            }
+        ]
     }
 }

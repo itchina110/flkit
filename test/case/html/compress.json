@@ -2223,5 +2223,16 @@
         "options": {},
         "key": "af025bfc1fdf384a44a6ca0e50ba84f6",
         "result": "<!DOCTYPE html>"
+    },
+    "78ae362a33bff8598b15ad0ecdf75e8d": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<input name=\"\" <div class='haha '></div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "78ae362a33bff8598b15ad0ecdf75e8d",
+        "result": "<input <div class='haha '></div>"
     }
 }
