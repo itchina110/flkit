@@ -8150,7 +8150,7 @@
                         "ld": "<%",
                         "rd": "%>",
                         "_value": "if $name",
-                        "spaceBefore": false,
+                        "spaceBefore": true,
                         "tpl": true
                     },
                     {
@@ -9161,8 +9161,8 @@
                 "_tag": "div",
                 "attrs": [
                     {
-                        "name": "div",
-                        "_name": "div"
+                        "name": "<div",
+                        "_name": "<div"
                     }
                 ]
             }
@@ -9215,8 +9215,8 @@
                 "_tag": "div",
                 "attrs": [
                     {
-                        "name": "div",
-                        "_name": "div"
+                        "name": "#div",
+                        "_name": "#div"
                     }
                 ]
             }
@@ -9247,8 +9247,8 @@
                 "_tag": "div",
                 "attrs": [
                     {
-                        "name": "dic",
-                        "_name": "dic"
+                        "name": "!dic",
+                        "_name": "!dic"
                     }
                 ]
             }
@@ -11336,7 +11336,7 @@
                         "ld": "<?php",
                         "rd": "?>",
                         "_value": "\n\n$name = \"welefen ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n",
-                        "spaceBefore": false,
+                        "spaceBefore": true,
                         "tpl": true
                     }
                 ]
@@ -11449,7 +11449,7 @@
                         "ld": "<?php",
                         "rd": "?>",
                         "_value": "\n\n$name = \"WELEFEN ?>\";\n\n/**\n$name = \" ?>;\n*/\n\n",
-                        "spaceBefore": false,
+                        "spaceBefore": true,
                         "tpl": true
                     }
                 ]

@@ -94,9 +94,9 @@
         "key": "6c066b738446116898813ce1594ad4e4",
         "result": [
             {
-                "type": 776,
+                "type": 782,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "name": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
@@ -136,9 +136,9 @@
         "key": "fc11be3a9ae66f249f930a464615168d",
         "result": [
             {
-                "type": 776,
+                "type": 782,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "name": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
@@ -632,9 +632,9 @@
         "key": "c4f6c76fdbc8dc3a65abd36cba4fc182",
         "result": [
             {
-                "type": 771,
+                "type": 782,
                 "value": "@keyframes\nname",
-                "name": "CSS_KEYFRAMES",
+                "name": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
