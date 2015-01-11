@@ -12921,5 +12921,132 @@
                 "_tag": "div"
             }
         ]
+    },
+    "59bab569f805491e5238fa223ab83e74": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input type=\"www\\\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "59bab569f805491e5238fa223ab83e74",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input type=\"www\\\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "23e2e959ae50f1cc57a9d32cbbebac46": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<input type=\"www\\\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "23e2e959ae50f1cc57a9d32cbbebac46",
+        "result": [
+            {
+                "type": 256,
+                "value": "<input type=\"www\\\"\">",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "input",
+                "_tag": "input",
+                "attrs": [
+                    {
+                        "name": "type",
+                        "value": "\"www\\\"\"",
+                        "quote": "\"",
+                        "_value": "www\\\"",
+                        "_name": "type"
+                    }
+                ]
+            }
+        ]
+    },
+    "bea9772c0e3ae3b0534f57d9677d1f3e": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?php\n$str = \"\\\"\";\n?>\nwelefen",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "bea9772c0e3ae3b0534f57d9677d1f3e",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?php\n$str = \"\\\"\";\n?>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<?php",
+                "rd": "?>",
+                "_value": "\n$str = \"\\\"\";\n"
+            },
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 3,
+                "col": 0,
+                "pos": 22,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "0af06bbf9b8168acd0f979d6206050f8": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<?php\n$str = \\\"\"\";\n?>\nwelefen",
+        "tpl": "php",
+        "ld": "<?php",
+        "rd": "?>",
+        "options": {},
+        "key": "0af06bbf9b8168acd0f979d6206050f8",
+        "result": [
+            {
+                "type": 2,
+                "value": "<?php\n$str = \\\"\"\";\n?>",
+                "name": "TPL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "ld": "<?php",
+                "rd": "?>",
+                "_value": "\n$str = \\\"\"\";\n"
+            },
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 3,
+                "col": 0,
+                "pos": 22,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
     }
 }
