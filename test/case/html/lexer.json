@@ -13740,5 +13740,161 @@
                 "comments": []
             }
         ]
+    },
+    "7022d21e53fe8107b638236d2d96767a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script> </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "7022d21e53fe8107b638236d2d96767a",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                }
+            },
+            {
+                "type": 264,
+                "value": " ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "721872e75b69b6d597080023b67de932": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script> </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "721872e75b69b6d597080023b67de932",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            },
+            {
+                "type": 264,
+                "value": " ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div"
+            }
+        ]
     }
 }

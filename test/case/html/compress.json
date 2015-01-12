@@ -2245,5 +2245,16 @@
         "options": {},
         "key": "15d635066894b61bb8cb65e441ae1c7e",
         "result": "<a href=http://www.baidu.com>www</a>"
+    },
+    "6afe80de2bff49ed1bc9a99bae881917": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script></script> </div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "6afe80de2bff49ed1bc9a99bae881917",
+        "result": "<script></script></div>"
     }
 }
