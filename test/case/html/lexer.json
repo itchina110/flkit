@@ -14201,5 +14201,213 @@
                 ]
             }
         ]
+    },
+    "aa6f9cc17bd49f1b01b60246bc5b1d1d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<!--welefen-->\n\nwelefen",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "aa6f9cc17bd49f1b01b60246bc5b1d1d",
+        "result": [
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 3,
+                "col": 0,
+                "pos": 17,
+                "newlines": 2,
+                "comments": [
+                    {
+                        "value": "<!--welefen-->",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "05c307e310cf1a6bdffe27b0695c750b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "\n<!---welefen-->\n\n<!---welefen-->\n\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "05c307e310cf1a6bdffe27b0695c750b",
+        "result": [
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 5,
+                "col": 0,
+                "pos": 35,
+                "newlines": 2,
+                "comments": [
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 1,
+                        "col": 0,
+                        "pos": 1,
+                        "newlines": 1
+                    },
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 3,
+                        "col": 0,
+                        "pos": 18,
+                        "newlines": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "a37f32f61de32260ff5c1762fcb2576d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n\n<!---welefen-->\n\n<!---welefen-->\n\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a37f32f61de32260ff5c1762fcb2576d",
+        "result": [
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 6,
+                "col": 0,
+                "pos": 43,
+                "newlines": 2,
+                "comments": [
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 2,
+                        "col": 0,
+                        "pos": 9,
+                        "newlines": 2
+                    },
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 4,
+                        "col": 0,
+                        "pos": 26,
+                        "newlines": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "c99100ffdd2b37d9fb70c63cf024d97b": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n\n<!---welefen-->\n<!---welefen-->\n\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c99100ffdd2b37d9fb70c63cf024d97b",
+        "result": [
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 5,
+                "col": 0,
+                "pos": 42,
+                "newlines": 2,
+                "comments": [
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 2,
+                        "col": 0,
+                        "pos": 9,
+                        "newlines": 2
+                    },
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 3,
+                        "col": 0,
+                        "pos": 25,
+                        "newlines": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "c7d410041a49857e2d46a2bf0bf542b3": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "welefen\n\n<!---welefen--><!---welefen-->\n\n<div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "c7d410041a49857e2d46a2bf0bf542b3",
+        "result": [
+            {
+                "type": 264,
+                "value": "welefen",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<div>",
+                "name": "HTML_TAG_START",
+                "line": 4,
+                "col": 0,
+                "pos": 41,
+                "newlines": 2,
+                "comments": [
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 2,
+                        "col": 0,
+                        "pos": 9,
+                        "newlines": 2
+                    },
+                    {
+                        "value": "<!---welefen-->",
+                        "line": 2,
+                        "col": 15,
+                        "pos": 24,
+                        "newlines": 0
+                    }
+                ]
+            }
+        ]
     }
 }
