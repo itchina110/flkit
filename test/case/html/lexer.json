@@ -14029,5 +14029,177 @@
                 "attrs": []
             }
         ]
+    },
+    "e304b5de4c929dfc036119ce4e0902f4": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script> <img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e304b5de4c929dfc036119ce4e0902f4",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                }
+            },
+            {
+                "type": 264,
+                "value": " ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "f55a29b973210303ab6bc077a90a1aa6": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<script></script> <img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "f55a29b973210303ab6bc077a90a1aa6",
+        "result": [
+            {
+                "type": 260,
+                "value": "<script></script>",
+                "name": "HTML_TAG_SCRIPT",
+                "line": 0,
+                "col": 8,
+                "pos": 8,
+                "newlines": 0,
+                "comments": [],
+                "start": {
+                    "type": 256,
+                    "value": "<script>",
+                    "name": "HTML_TAG_START",
+                    "line": 0,
+                    "col": 0,
+                    "pos": 0,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script",
+                    "attrs": [],
+                    "isScript": true,
+                    "isExternal": false,
+                    "isTpl": false
+                },
+                "content": {
+                    "type": 266,
+                    "value": "",
+                    "name": "HTML_RAW_TEXT",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": []
+                },
+                "end": {
+                    "type": 257,
+                    "value": "</script>",
+                    "name": "HTML_TAG_END",
+                    "line": 0,
+                    "col": 8,
+                    "pos": 8,
+                    "newlines": 0,
+                    "comments": [],
+                    "tag": "script",
+                    "_tag": "script"
+                }
+            },
+            {
+                "type": 264,
+                "value": " ",
+                "name": "HTML_TEXT",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlines": 0,
+                "comments": [],
+                "tag": "img",
+                "_tag": "img",
+                "attrs": [
+                    {
+                        "name": "src",
+                        "value": "http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png",
+                        "quote": "",
+                        "_value": "http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png",
+                        "_name": "src"
+                    },
+                    {
+                        "name": "style",
+                        "value": "display:none",
+                        "quote": "",
+                        "_value": "display:none",
+                        "_name": "style"
+                    }
+                ]
+            }
+        ]
     }
 }

@@ -2266,6 +2266,17 @@
         "rd": "",
         "options": {},
         "key": "9efb7c84ec49429beb33f2dbe66db7b4",
-        "result": "</div>  <li>"
+        "result": "</div> <li>"
+    },
+    "da045ee524cc92057aa1b8e8a24aad5a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<script></script> <img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "da045ee524cc92057aa1b8e8a24aad5a",
+        "result": "<script></script><img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>"
     }
 }
