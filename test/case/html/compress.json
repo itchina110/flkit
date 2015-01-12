@@ -2234,5 +2234,16 @@
         "options": {},
         "key": "78ae362a33bff8598b15ad0ecdf75e8d",
         "result": "<input <div class='haha '></div>"
+    },
+    "15d635066894b61bb8cb65e441ae1c7e": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<a href=\"http://www.baidu.com\">www</a>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "15d635066894b61bb8cb65e441ae1c7e",
+        "result": "<a href=http://www.baidu.com>www</a>"
     }
 }

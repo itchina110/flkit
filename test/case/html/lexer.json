@@ -13620,5 +13620,125 @@
                 "_tag": "link"
             }
         ]
+    },
+    "1dc0c4cc62cc98e1f817c95143979fc0": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "1dc0c4cc62cc98e1f817c95143979fc0",
+        "result": [
+            {
+                "type": 256,
+                "value": "<DIV>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "e2aa0cbbdca4af4e2aecf1497f7a4811": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<DIV>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "e2aa0cbbdca4af4e2aecf1497f7a4811",
+        "result": [
+            {
+                "type": 256,
+                "value": "<DIV>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "DIV",
+                "_tag": "div",
+                "attrs": []
+            }
+        ]
+    },
+    "0de0a14a017b2fe7bf65f09d5f0a2fb1": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<A>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "0de0a14a017b2fe7bf65f09d5f0a2fb1",
+        "result": [
+            {
+                "type": 256,
+                "value": "<A>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "19ec725a4711c3d7e51e1ca49cf96547": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<A>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "19ec725a4711c3d7e51e1ca49cf96547",
+        "result": [
+            {
+                "type": 256,
+                "value": "<A>",
+                "name": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "A",
+                "_tag": "a",
+                "attrs": []
+            }
+        ]
+    },
+    "527fc3860a6786f87a432173c8d729a9": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</a href=\"\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "527fc3860a6786f87a432173c8d729a9",
+        "result": [
+            {
+                "type": 257,
+                "value": "</a href=\"\">",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
     }
 }
