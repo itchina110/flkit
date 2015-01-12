@@ -2256,5 +2256,16 @@
         "options": {},
         "key": "6afe80de2bff49ed1bc9a99bae881917",
         "result": "<script></script></div>"
+    },
+    "9efb7c84ec49429beb33f2dbe66db7b4": {
+        "lang": "html",
+        "name": "compress",
+        "code": "</div>\n      </li>\n                  <li>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9efb7c84ec49429beb33f2dbe66db7b4",
+        "result": "</div> <li>"
     }
 }

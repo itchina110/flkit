@@ -13896,5 +13896,138 @@
                 "_tag": "div"
             }
         ]
+    },
+    "27177bded3deadf3d515aa7a753f92c3": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</div>\n      </li>\n                  <li>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "27177bded3deadf3d515aa7a753f92c3",
+        "result": [
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 264,
+                "value": "      ",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 7,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 1,
+                "col": 6,
+                "pos": 13,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 264,
+                "value": "                  ",
+                "name": "HTML_TEXT",
+                "line": 2,
+                "col": 0,
+                "pos": 19,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 2,
+                "col": 18,
+                "pos": 37,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "9c6c4d3ca90da55fee5d8db777a9a105": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "</div>\n      </li>\n                  <li>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "9c6c4d3ca90da55fee5d8db777a9a105",
+        "result": [
+            {
+                "type": 257,
+                "value": "</div>",
+                "name": "HTML_TAG_END",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": [],
+                "tag": "div",
+                "_tag": "div"
+            },
+            {
+                "type": 264,
+                "value": "      ",
+                "name": "HTML_TEXT",
+                "line": 1,
+                "col": 0,
+                "pos": 7,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 257,
+                "value": "</li>",
+                "name": "HTML_TAG_END",
+                "line": 1,
+                "col": 6,
+                "pos": 13,
+                "newlines": 0,
+                "comments": [],
+                "tag": "li",
+                "_tag": "li"
+            },
+            {
+                "type": 264,
+                "value": "                  ",
+                "name": "HTML_TEXT",
+                "line": 2,
+                "col": 0,
+                "pos": 19,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 256,
+                "value": "<li>",
+                "name": "HTML_TAG_START",
+                "line": 2,
+                "col": 18,
+                "pos": 37,
+                "newlines": 0,
+                "comments": [],
+                "tag": "li",
+                "_tag": "li",
+                "attrs": []
+            }
+        ]
     }
 }
