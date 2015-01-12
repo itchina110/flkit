@@ -2034,7 +2034,7 @@
         "result": [
             {
                 "type": 768,
-                "value": ".red/**ddd***/",
+                "value": ".red",
                 "name": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
@@ -2050,7 +2050,15 @@
                 "col": 14,
                 "pos": 14,
                 "newlines": 0,
-                "comments": []
+                "comments": [
+                    {
+                        "value": "/**ddd***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 0
+                    }
+                ]
             },
             {
                 "type": 773,
@@ -2076,7 +2084,7 @@
         "result": [
             {
                 "type": 768,
-                "value": ".red/**dd {{{ }}} d***/",
+                "value": ".red",
                 "name": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
@@ -2092,7 +2100,15 @@
                 "col": 23,
                 "pos": 23,
                 "newlines": 0,
-                "comments": []
+                "comments": [
+                    {
+                        "value": "/**dd {{{ }}} d***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 0
+                    }
+                ]
             },
             {
                 "type": 773,
@@ -2118,7 +2134,7 @@
         "result": [
             {
                 "type": 768,
-                "value": ".red/**d; d {{{ }}} d***/",
+                "value": ".red",
                 "name": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
@@ -2134,7 +2150,15 @@
                 "col": 25,
                 "pos": 25,
                 "newlines": 0,
-                "comments": []
+                "comments": [
+                    {
+                        "value": "/**d; d {{{ }}} d***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 0
+                    }
+                ]
             },
             {
                 "type": 773,
@@ -2160,7 +2184,7 @@
         "result": [
             {
                 "type": 768,
-                "value": ".red/***/[name=\"wwww\"]/****/",
+                "value": ".red[name=\"wwww\"]",
                 "name": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
@@ -2176,7 +2200,15 @@
                 "col": 28,
                 "pos": 28,
                 "newlines": 0,
-                "comments": []
+                "comments": [
+                    {
+                        "value": "/****/",
+                        "line": 0,
+                        "col": 22,
+                        "pos": 22,
+                        "newlines": 0
+                    }
+                ]
             },
             {
                 "type": 773,
@@ -4008,6 +4040,396 @@
                         "newlines": 1
                     }
                 ]
+            }
+        ]
+    },
+    "a66325f44870702e023b51309c2fce53": {
+        "lang": "css",
+        "name": "lexer",
+        "code": ".red/**ddd***/  {}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a66325f44870702e023b51309c2fce53",
+        "result": [
+            {
+                "type": 768,
+                "value": ".red",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 16,
+                "pos": 16,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/**ddd***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 0
+                    }
+                ]
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 17,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "725234c12b989eb811e9ee9fd846b70c": {
+        "lang": "css",
+        "name": "lexer",
+        "code": ".red/**ddd***/\n\n\n{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "725234c12b989eb811e9ee9fd846b70c",
+        "result": [
+            {
+                "type": 768,
+                "value": ".red",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 3,
+                "col": 0,
+                "pos": 17,
+                "newlines": 3,
+                "comments": [
+                    {
+                        "value": "/**ddd***/",
+                        "line": 0,
+                        "col": 4,
+                        "pos": 4,
+                        "newlines": 3
+                    }
+                ]
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 3,
+                "col": 1,
+                "pos": 18,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "75bb1598cbf242370acbbda4e8339bd6": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a/**d; d {{{ }}} d***/.red/***/{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "75bb1598cbf242370acbbda4e8339bd6",
+        "result": [
+            {
+                "type": 768,
+                "value": "a.red",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 31,
+                "pos": 31,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 0,
+                        "col": 26,
+                        "pos": 26,
+                        "newlines": 0
+                    }
+                ]
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 32,
+                "pos": 32,
+                "newlines": 0,
+                "comments": []
+            }
+        ]
+    },
+    "2291b31f5ffd221d0063e4995632fbbf": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n  \t/***/\n\tcolor:red\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2291b31f5ffd221d0063e4995632fbbf",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "name": "CSS_PROPERTY",
+                "line": 2,
+                "col": 1,
+                "pos": 13,
+                "newlines": 1,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 3,
+                        "pos": 6,
+                        "newlines": 1
+                    }
+                ]
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "name": "CSS_COLON",
+                "line": 2,
+                "col": 6,
+                "pos": 18,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "name": "CSS_VALUE",
+                "line": 2,
+                "col": 7,
+                "pos": 19,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 3,
+                "col": 0,
+                "pos": 23,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "a59ca7f35d0fe32036a6277a174d5670": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n  \t/***/color:red\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "a59ca7f35d0fe32036a6277a174d5670",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "name": "CSS_PROPERTY",
+                "line": 1,
+                "col": 8,
+                "pos": 11,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 3,
+                        "pos": 6,
+                        "newlines": 1
+                    }
+                ]
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "name": "CSS_COLON",
+                "line": 1,
+                "col": 13,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "name": "CSS_VALUE",
+                "line": 1,
+                "col": 14,
+                "pos": 17,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 21,
+                "newlines": 1,
+                "comments": []
+            }
+        ]
+    },
+    "5f772ae2553c30288607e20a2588fe96": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n  color/***/:red\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5f772ae2553c30288607e20a2588fe96",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "name": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "name": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "name": "CSS_PROPERTY",
+                "line": 1,
+                "col": 2,
+                "pos": 5,
+                "newlines": 1,
+                "comments": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "name": "CSS_COLON",
+                "line": 1,
+                "col": 12,
+                "pos": 15,
+                "newlines": 0,
+                "comments": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 7,
+                        "pos": 10,
+                        "newlines": 0
+                    }
+                ]
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "name": "CSS_VALUE",
+                "line": 1,
+                "col": 13,
+                "pos": 16,
+                "newlines": 0,
+                "comments": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "name": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 20,
+                "newlines": 1,
+                "comments": []
             }
         ]
     }
