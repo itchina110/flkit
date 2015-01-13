@@ -15715,5 +15715,141 @@
                 "commentBefore": []
             }
         ]
+    },
+    "50088ee137557d2e8b169e06ddc74478": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<svg>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "50088ee137557d2e8b169e06ddc74478",
+        "result": [
+            {
+                "type": 256,
+                "value": "<svg>",
+                "_type": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            }
+        ]
+    },
+    "7814b427badc7e6741a6c8f0ad075afb": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<Div></Div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "tag_attrs": true
+        },
+        "key": "7814b427badc7e6741a6c8f0ad075afb",
+        "result": [
+            {
+                "type": 256,
+                "value": "<Div>",
+                "_type": "HTML_TAG_START",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [],
+                "tag": "Div",
+                "_tag": "div",
+                "attrs": []
+            },
+            {
+                "type": 257,
+                "value": "</Div>",
+                "_type": "HTML_TAG_END",
+                "line": 0,
+                "col": 5,
+                "pos": 5,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [],
+                "tag": "Div",
+                "_tag": "div"
+            }
+        ]
+    },
+    "32a73b87c4aa7b5bdc112cdf8c3e4933": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name=\"www'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "32a73b87c4aa7b5bdc112cdf8c3e4933",
+        "result": [
+            {
+                "type": 6,
+                "value": "<div name=\"www'>",
+                "_type": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [],
+                "message": "cant not find end quote char"
+            }
+        ]
+    },
+    "34a39d42830457d5986679c3e0ce96b5": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name='www\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "34a39d42830457d5986679c3e0ce96b5",
+        "result": [
+            {
+                "type": 6,
+                "value": "<div name='www\">",
+                "_type": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [],
+                "message": "cant not find end quote char"
+            }
+        ]
+    },
+    "5f1816e5ba8bdc725ca09cb5460ec32d": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "<div name='\"",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "5f1816e5ba8bdc725ca09cb5460ec32d",
+        "result": [
+            {
+                "type": 6,
+                "value": "<div name='\"",
+                "_type": "ILLEGAL",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [],
+                "message": "cant not find end quote char"
+            }
+        ]
     }
 }

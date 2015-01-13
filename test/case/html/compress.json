@@ -2291,5 +2291,104 @@
         },
         "key": "549524acb29a59925f846d3d86d4d941",
         "result": "welefen <div>"
+    },
+    "f9cab274765e94e5266b6e0191b31163": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div id=\"test\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f9cab274765e94e5266b6e0191b31163",
+        "result": "<div id=test>"
+    },
+    "2a2564488835c6b55a13b2ba93f1a720": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div id=\"{{)_)(KLK\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "2a2564488835c6b55a13b2ba93f1a720",
+        "result": "<div id=\"{{)_)(KLK\">"
+    },
+    "840787270b6b1ce376d37be0e0c249fd": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div id='wwww----'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "840787270b6b1ce376d37be0e0c249fd",
+        "result": "<div id=wwww---->"
+    },
+    "f551c9559df12a6ecf2e18e914030065": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div name=\"'>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f551c9559df12a6ecf2e18e914030065",
+        "result": ""
+    },
+    "f342b4a5568672cacc398f250239e5ef": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div name=\"'\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "f342b4a5568672cacc398f250239e5ef",
+        "result": "<div name=\"'\">"
+    },
+    "e8ed253800b14d1462db864d0d2aa06a": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<div name='\">",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "e8ed253800b14d1462db864d0d2aa06a",
+        "result": ""
+    },
+    "4c5732e9752967dbc2733f0b63674d0f": {
+        "lang": "html",
+        "name": "compress",
+        "code": "welefen\n\n<!--welefen-->\n\n<span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4c5732e9752967dbc2733f0b63674d0f",
+        "result": "welefen <span>"
+    },
+    "3a18fe49f60b3fef9d924d1643aeecdc": {
+        "lang": "html",
+        "name": "compress",
+        "code": "<span>\n\nwelefen\n\n<!---\n\n</span>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "3a18fe49f60b3fef9d924d1643aeecdc",
+        "result": "<span> welefen"
+    },
+    "dc73b8b91a4a4b0f29baa8f427e434f9": {
+        "lang": "html",
+        "name": "compress",
+        "code": "wwww\n\n\nssss",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "dc73b8b91a4a4b0f29baa8f427e434f9",
+        "result": "wwww ssss"
     }
 }
