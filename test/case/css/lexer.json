@@ -10815,5 +10815,61 @@
                 "commentBefore": []
             }
         ]
+    },
+    "02ab86bcbaf6a983a9901bb275e529e2": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "<!--\ndiv{}\n-->",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "02ab86bcbaf6a983a9901bb275e529e2",
+        "result": [
+            {
+                "type": 768,
+                "value": "div",
+                "_type": "CSS_SELECTOR",
+                "line": 1,
+                "col": 0,
+                "pos": 5,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 1,
+                "col": 3,
+                "pos": 8,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 1,
+                "col": 4,
+                "pos": 9,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 1,
+                "value": "",
+                "_type": "EOS",
+                "line": 2,
+                "col": 0,
+                "pos": 11,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
+            }
+        ]
     }
 }
