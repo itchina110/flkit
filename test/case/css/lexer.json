@@ -10136,9 +10136,9 @@
         "key": "546d6fb95274bcdfce454aaf29861238",
         "result": [
             {
-                "type": 783,
+                "type": 768,
                 "value": "[att]",
-                "_type": "CSS_BRACK_HACK",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
@@ -10214,9 +10214,9 @@
         "key": "a681531373ce67d5dbc8c82c15078fa5",
         "result": [
             {
-                "type": 783,
+                "type": 768,
                 "value": "[att=\"[\"]",
-                "_type": "CSS_BRACK_HACK",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
@@ -10292,23 +10292,12 @@
         "key": "8ac0920ee07c103955b4d100529950f7",
         "result": [
             {
-                "type": 783,
-                "value": "[att='[]",
-                "_type": "CSS_BRACK_HACK",
+                "type": 768,
+                "value": "[att='[]']",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
-                "commentBefore": []
-            },
-            {
-                "type": 768,
-                "value": "']",
-                "_type": "CSS_SELECTOR",
-                "line": 0,
-                "col": 8,
-                "pos": 8,
                 "newlineBefore": 0,
                 "spaceBefore": 0,
                 "commentBefore": []
@@ -10868,6 +10857,51 @@
                 "pos": 11,
                 "newlineBefore": 1,
                 "spaceBefore": 1,
+                "commentBefore": []
+            }
+        ]
+    },
+    "752e0fc374af0f2dc2a36e5670fd87ae": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "[hidden], template{}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "752e0fc374af0f2dc2a36e5670fd87ae",
+        "result": [
+            {
+                "type": 768,
+                "value": "[hidden], template",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 18,
+                "pos": 18,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 19,
+                "pos": 19,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
                 "commentBefore": []
             }
         ]
