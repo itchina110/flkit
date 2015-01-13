@@ -85,7 +85,7 @@
         "rd": "",
         "options": {},
         "key": "5dfd29bab07c5c00db7a929f81e64d75",
-        "result": "welefen <div>"
+        "result": "welefen<div>"
     },
     "44fd2e96a1b2c51a10a2281c07cd34a6": {
         "lang": "html",
@@ -800,7 +800,7 @@
         "rd": "",
         "options": {},
         "key": "768346d858c511af720c4a04c0254450",
-        "result": "start <div>"
+        "result": "start<div>"
     },
     "a344cc6a9b6723deaa995c3ea1f80c18": {
         "lang": "html",
@@ -944,7 +944,7 @@
             "remove_comment": false
         },
         "key": "755ce5b4a1698712269e0f4933f5f684",
-        "result": " <li><a href=\"javascript:void(0);\"id=L_2008mail onclick=\"loginManager.LoginSelect('2008mail');return false\">2008邮箱</a> <li><a href=\"javascript:void(0);\"id=L_cnmail onclick=\"loginManager.LoginSelect('cnmail');return false\">CN邮箱</a></li> "
+        "result": " <li><a href=\"javascript:void(0);\"id=L_2008mail onclick=\"loginManager.LoginSelect('2008mail');return false\">2008邮箱</a><!-- <li><a href=\"javascript:void(0);\" id=\"L_263mail\" onclick=\"loginManager.LoginSelect('263mail');return false;\">同名邮箱</a></li> --> <li><a href=\"javascript:void(0);\"id=L_cnmail onclick=\"loginManager.LoginSelect('cnmail');return false\">CN邮箱</a></li> "
     },
     "bfee2df0faadbeb61cd64bdde0e93e0e": {
         "lang": "html",
@@ -2211,7 +2211,7 @@
         "rd": "",
         "options": {},
         "key": "d2e5d35d1ad337b86c63490307658f9a",
-        "result": "<!DOCTYPE html>"
+        "result": "<!DOCTYPE html> "
     },
     "af025bfc1fdf384a44a6ca0e50ba84f6": {
         "lang": "html",
@@ -2222,7 +2222,7 @@
         "rd": "",
         "options": {},
         "key": "af025bfc1fdf384a44a6ca0e50ba84f6",
-        "result": "<!DOCTYPE html>"
+        "result": "<!DOCTYPE html> "
     },
     "78ae362a33bff8598b15ad0ecdf75e8d": {
         "lang": "html",
@@ -2278,5 +2278,18 @@
         "options": {},
         "key": "da045ee524cc92057aa1b8e8a24aad5a",
         "result": "<script></script><img src=http://g-ecx.images-amazon.com/images/G/01/gno/sprites/global-sprite-v1._V333160338_.png style=display:none>"
+    },
+    "549524acb29a59925f846d3d86d4d941": {
+        "lang": "html",
+        "name": "compress",
+        "code": "welefen  <div>",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "remove_space_in_block_tag": false
+        },
+        "key": "549524acb29a59925f846d3d86d4d941",
+        "result": "welefen <div>"
     }
 }

@@ -12,32 +12,35 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 7,
                 "pos": 7,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -54,32 +57,35 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 7,
                 "pos": 7,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 8,
                 "pos": 8,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -96,32 +102,35 @@
             {
                 "type": 782,
                 "value": "@media",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 1,
                 "col": 0,
                 "pos": 7,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 1,
                 "col": 1,
                 "pos": 8,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -138,32 +147,35 @@
             {
                 "type": 782,
                 "value": "@media",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 7,
                 "pos": 7,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 8,
                 "pos": 8,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -180,12 +192,13 @@
             {
                 "type": 782,
                 "value": "@xxx",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -202,12 +215,13 @@
             {
                 "type": 778,
                 "value": "@import url('');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -224,12 +238,13 @@
             {
                 "type": 780,
                 "value": "@font-face 'www';",
-                "name": "CSS_FONT_FACE",
+                "_type": "CSS_FONT_FACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -246,12 +261,13 @@
             {
                 "type": 780,
                 "value": "@FONT-FACE 'www';",
-                "name": "CSS_FONT_FACE",
+                "_type": "CSS_FONT_FACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -268,12 +284,13 @@
             {
                 "type": 778,
                 "value": "@IMPORT URL('xxx');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -290,12 +307,13 @@
             {
                 "type": 778,
                 "value": "@import /***/url('');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -312,12 +330,13 @@
             {
                 "type": 778,
                 "value": "@import /**;*/url('');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -334,12 +353,13 @@
             {
                 "type": 778,
                 "value": "@import /**';*/url('');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -356,12 +376,13 @@
             {
                 "type": 778,
                 "value": "@import/**';*/url('');",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -378,12 +399,13 @@
             {
                 "type": 779,
                 "value": "@charset 'utf-8';",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -400,32 +422,35 @@
             {
                 "type": 779,
                 "value": "@charset 'utf-8'\ndiv",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 1,
                 "col": 3,
                 "pos": 20,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 1,
                 "col": 4,
                 "pos": 21,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -442,12 +467,13 @@
             {
                 "type": 779,
                 "value": "@charset'utf-8';",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -464,12 +490,13 @@
             {
                 "type": 779,
                 "value": "@charset\"utf-8';",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -486,12 +513,13 @@
             {
                 "type": 779,
                 "value": "@charset\"utf-8\";",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -508,32 +536,35 @@
             {
                 "type": 771,
                 "value": "@keyframes",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -550,32 +581,35 @@
             {
                 "type": 771,
                 "value": "@keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 15,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -592,32 +626,35 @@
             {
                 "type": 771,
                 "value": "@keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -634,32 +671,35 @@
             {
                 "type": 782,
                 "value": "@keyframes\nname",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 1,
                 "col": 5,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 1,
                 "col": 6,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -676,32 +716,35 @@
             {
                 "type": 771,
                 "value": "@-webkit-keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 24,
                 "pos": 24,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -718,32 +761,35 @@
             {
                 "type": 771,
                 "value": "@-moz-keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 21,
                 "pos": 21,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 22,
                 "pos": 22,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -760,32 +806,35 @@
             {
                 "type": 771,
                 "value": "@-o-keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 19,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 20,
                 "pos": 20,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -802,32 +851,35 @@
             {
                 "type": 771,
                 "value": "@-ms-keyframes name",
-                "name": "CSS_KEYFRAMES",
+                "_type": "CSS_KEYFRAMES",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 20,
                 "pos": 20,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 21,
                 "pos": 21,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -844,32 +896,35 @@
             {
                 "type": 782,
                 "value": "@-xss-keyframes name",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 21,
                 "pos": 21,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 22,
                 "pos": 22,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -886,32 +941,35 @@
             {
                 "type": 782,
                 "value": "@-moz",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 5,
                 "pos": 5,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -928,12 +986,24 @@
             {
                 "type": 777,
                 "value": "@namespace \"http://www.w3.org/1999/xhtml\";",
-                "name": "CSS_NAMESPACE",
+                "_type": "CSS_NAMESPACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 1,
+                "value": "",
+                "_type": "EOS",
+                "line": 0,
+                "col": 43,
+                "pos": 43,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -950,12 +1020,24 @@
             {
                 "type": 777,
                 "value": "@namespace svg \"http://www.w3.org/2000/svg\";",
-                "name": "CSS_NAMESPACE",
+                "_type": "CSS_NAMESPACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 1,
+                "value": "",
+                "_type": "EOS",
+                "line": 0,
+                "col": 45,
+                "pos": 45,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -972,62 +1054,79 @@
             {
                 "type": 781,
                 "value": "@page thin:first",
-                "name": "CSS_PAGE",
+                "_type": "CSS_PAGE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "size",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 19,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 23,
                 "pos": 23,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "3in 8in",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 33,
                 "pos": 33,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 1,
+                "value": "",
+                "_type": "EOS",
+                "line": 0,
+                "col": 35,
+                "pos": 35,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -1044,32 +1143,35 @@
             {
                 "type": 780,
                 "value": "@font-face",
-                "name": "CSS_FONT_FACE",
+                "_type": "CSS_FONT_FACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1086,18 +1188,20 @@
             {
                 "type": 1,
                 "value": "",
-                "name": "EOS",
+                "_type": "EOS",
                 "line": 0,
                 "col": 5,
                 "pos": 5,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 0,
                         "col": 0,
                         "pos": 0,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -1116,18 +1220,20 @@
             {
                 "type": 1,
                 "value": "",
-                "name": "EOS",
+                "_type": "EOS",
                 "line": 1,
                 "col": 5,
                 "pos": 6,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 0,
                         "pos": 1,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             }
@@ -1146,18 +1252,20 @@
             {
                 "type": 1,
                 "value": "",
-                "name": "EOS",
+                "_type": "EOS",
                 "line": 3,
                 "col": 2,
                 "pos": 15,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/**\nwelefen\n*/",
                         "line": 1,
                         "col": 0,
                         "pos": 1,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             }
@@ -1176,25 +1284,28 @@
             {
                 "type": 1,
                 "value": "",
-                "name": "EOS",
+                "_type": "EOS",
                 "line": 0,
                 "col": 9,
                 "pos": 9,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/**/",
                         "line": 0,
                         "col": 0,
                         "pos": 0,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     },
                     {
                         "value": "/***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -1213,32 +1324,35 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 4,
                 "pos": 4,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1255,62 +1369,68 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 6,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 17,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -1327,72 +1447,79 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 6,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 11,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 18,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -1409,32 +1536,35 @@
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 5,
                 "pos": 5,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1451,12 +1581,13 @@
             {
                 "type": 782,
                 "value": "@@@",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1473,62 +1604,68 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "font-size",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 2,
                 "pos": 2,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "12px",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1545,102 +1682,112 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "font-size",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 2,
                 "pos": 2,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "12px",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 18,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 19,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 20,
                 "pos": 20,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -1657,72 +1804,79 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "COLOR",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "RED",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 11,
                 "pos": 14,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 16,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -1739,72 +1893,79 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 7,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 9,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 13,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 19,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             }
         ]
     },
@@ -1821,102 +1982,112 @@
             {
                 "type": 768,
                 "value": "h1",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 5,
                 "pos": 5,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 15,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "rotation",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "70minutes",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 27,
                 "pos": 27,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 37,
                 "pos": 37,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -1933,92 +2104,101 @@
             {
                 "type": 776,
                 "value": "@media xxx",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 13,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 18,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 19,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 22,
                 "pos": 22,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 23,
                 "pos": 23,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2035,40 +2215,44 @@
             {
                 "type": 768,
                 "value": ".red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 14,
                 "pos": 14,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/**ddd***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 15,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2085,40 +2269,44 @@
             {
                 "type": 768,
                 "value": ".red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 23,
                 "pos": 23,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/**dd {{{ }}} d***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 24,
                 "pos": 24,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2135,40 +2323,44 @@
             {
                 "type": 768,
                 "value": ".red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/**d; d {{{ }}} d***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 26,
                 "pos": 26,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2185,40 +2377,44 @@
             {
                 "type": 768,
                 "value": ".red[name=\"wwww\"]",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 28,
                 "pos": 28,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/****/",
                         "line": 0,
                         "col": 22,
                         "pos": 22,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 29,
                 "pos": 29,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2235,112 +2431,123 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 4,
                 "pos": 4,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 9,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "#f00!important",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 24,
                 "pos": 24,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 30,
                 "pos": 30,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "#000",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 31,
                 "pos": 31,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 35,
                 "pos": 35,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 36,
                 "pos": 36,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2357,78 +2564,86 @@
             {
                 "type": 768,
                 "value": ".test",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 5,
                 "pos": 5,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "#f00",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 24,
                 "pos": 24,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/*red*/",
                         "line": 0,
                         "col": 17,
                         "pos": 17,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -2447,12 +2662,13 @@
             {
                 "type": 778,
                 "value": "@import url(example.css) screen and (min-device-width:500px) and (max-device-width:1024px);",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2469,12 +2685,13 @@
             {
                 "type": 778,
                 "value": "@import \"global.css\";",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2491,12 +2708,13 @@
             {
                 "type": 778,
                 "value": "@import /**\";**/\"global.css\";",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2513,12 +2731,13 @@
             {
                 "type": 779,
                 "value": "@charset \"utf-8\";",
-                "name": "CSS_CHARSET",
+                "_type": "CSS_CHARSET",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2535,12 +2754,13 @@
             {
                 "type": 778,
                 "value": "@import url(example.css) screen and (width:800px);",
-                "name": "CSS_IMPORT",
+                "_type": "CSS_IMPORT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2557,32 +2777,35 @@
             {
                 "type": 776,
                 "value": "@media screen and (width:800px)",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 31,
                 "pos": 31,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 32,
                 "pos": 32,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2599,32 +2822,35 @@
             {
                 "type": 780,
                 "value": "@font-face",
-                "name": "CSS_FONT_FACE",
+                "_type": "CSS_FONT_FACE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 13,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2641,72 +2867,79 @@
             {
                 "type": 782,
                 "value": "@page:first",
-                "name": "CSS_AT",
+                "_type": "CSS_AT",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 11,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "margin",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 18,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "300px",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 19,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 24,
                 "pos": 24,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 25,
                 "pos": 25,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -2723,72 +2956,79 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "wwww",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 12,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 17,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -2805,72 +3045,79 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "www\"w",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 13,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 18,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -2887,72 +3134,79 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "www\\\"w",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 14,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 19,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -2969,112 +3223,123 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "www\\'sdd",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 16,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "font-size",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 2,
                 "col": 4,
                 "pos": 25,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 5,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 2,
                 "col": 13,
                 "pos": 34,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "12px",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 2,
                 "col": 15,
                 "pos": 36,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 2,
                 "col": 19,
                 "pos": 40,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 3,
                 "col": 0,
                 "pos": 42,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3091,62 +3356,68 @@
             {
                 "type": 768,
                 "value": "p",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 2,
                 "pos": 2,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 4,
                 "pos": 4,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 9,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "green",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3163,98 +3434,108 @@
             {
                 "type": 768,
                 "value": "p",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 2,
                 "pos": 2,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 4,
                 "pos": 4,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 0,
                 "col": 9,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "green",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 0,
                 "col": 10,
                 "pos": 10,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 0,
                 "col": 15,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 23,
                 "pos": 23,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 1,
                 "value": "",
-                "name": "EOS",
+                "_type": "EOS",
                 "line": 0,
                 "col": 72,
                 "pos": 72,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/* malformed declaration missing ':', value */",
                         "line": 0,
                         "col": 26,
                         "pos": 26,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 2
                     }
                 ]
             }
@@ -3273,72 +3554,79 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "col\"or",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 2,
                 "pos": 7,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 3,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 8,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 10,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 13,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3355,72 +3643,79 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 6,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "()",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 7,
                 "pos": 12,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 9,
                 "pos": 14,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 16,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3437,32 +3732,35 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 4,
                 "col": 0,
                 "pos": 17,
-                "newlines": 4,
-                "comments": []
+                "newlineBefore": 4,
+                "spaceBefore": 11,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 4,
                 "col": 1,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -3479,38 +3777,42 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 12,
                 "pos": 12,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 0,
                         "col": 7,
                         "pos": 7,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -3529,38 +3831,42 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 1,
                 "col": 7,
                 "pos": 15,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 2,
                         "pos": 10,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 3
                     }
                 ]
             }
@@ -3579,38 +3885,42 @@
             {
                 "type": 776,
                 "value": "@media",
-                "name": "CSS_MEDIA",
+                "_type": "CSS_MEDIA",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 6,
                 "pos": 6,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 16,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/****/",
                         "line": 1,
                         "col": 1,
                         "pos": 9,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 2
                     }
                 ]
             }
@@ -3629,38 +3939,42 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 13,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/****/",
                         "line": 1,
                         "col": 1,
                         "pos": 6,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 2
                     }
                 ]
             }
@@ -3679,45 +3993,50 @@
             {
                 "type": 768,
                 "value": "div",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 3,
                 "pos": 3,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 19,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/****/",
                         "line": 1,
                         "col": 1,
                         "pos": 6,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 2
                     },
                     {
                         "value": "/****/",
                         "line": 1,
                         "col": 7,
                         "pos": 12,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -3736,80 +4055,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 0,
                         "pos": 3,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 11,
                 "pos": 14,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 12,
                 "pos": 15,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 15,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3826,80 +4153,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 5,
                 "pos": 8,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 0,
                         "pos": 3,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 10,
                 "pos": 13,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 11,
                 "pos": 14,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 14,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 19,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -3916,80 +4251,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 3,
                 "col": 2,
                 "pos": 14,
-                "newlines": 2,
-                "comments": [
+                "newlineBefore": 2,
+                "spaceBefore": 6,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 0,
                         "pos": 3,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 3,
                 "col": 7,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 3,
                 "col": 8,
                 "pos": 20,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 3,
                 "col": 11,
                 "pos": 23,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 4,
                 "col": 0,
                 "pos": 25,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4006,38 +4349,42 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 9,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 0,
                         "pos": 3,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 1
                     }
                 ]
             }
@@ -4056,40 +4403,44 @@
             {
                 "type": 768,
                 "value": ".red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 16,
                 "pos": 16,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 2,
+                "commentBefore": [
                     {
                         "value": "/**ddd***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 17,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -4106,40 +4457,44 @@
             {
                 "type": 768,
                 "value": ".red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 3,
                 "col": 0,
                 "pos": 17,
-                "newlines": 3,
-                "comments": [
+                "newlineBefore": 3,
+                "spaceBefore": 3,
+                "commentBefore": [
                     {
                         "value": "/**ddd***/",
                         "line": 0,
                         "col": 4,
                         "pos": 4,
-                        "newlines": 3
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 3,
                 "col": 1,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -4156,40 +4511,44 @@
             {
                 "type": 768,
                 "value": "a.red",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 31,
                 "pos": 31,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 0,
                         "col": 26,
                         "pos": 26,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 0,
                 "col": 32,
                 "pos": 32,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             }
         ]
     },
@@ -4206,70 +4565,77 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 2,
                 "col": 1,
                 "pos": 13,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 3,
                         "pos": 6,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 4
                     }
                 ]
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 2,
                 "col": 6,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 2,
                 "col": 7,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 3,
                 "col": 0,
                 "pos": 23,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4286,70 +4652,77 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 3,
                         "pos": 6,
-                        "newlines": 1
+                        "newlineBefore": 1,
+                        "spaceBefore": 4
                     }
                 ]
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 13,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 14,
                 "pos": 17,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 21,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4366,70 +4739,77 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 2,
                 "pos": 5,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 3,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 12,
                 "pos": 15,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 7,
                         "pos": 10,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 13,
                 "pos": 16,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4446,80 +4826,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 12,
                 "pos": 15,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 7,
                         "pos": 10,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 15,
                 "pos": 18,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4536,80 +4924,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 13,
                 "pos": 16,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 8,
                         "pos": 11,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 16,
                 "pos": 19,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 21,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4626,80 +5022,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 4,
                 "col": 6,
                 "pos": 37,
-                "newlines": 3,
-                "comments": [
+                "newlineBefore": 3,
+                "spaceBefore": 21,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 8,
                         "pos": 11,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 4,
                 "col": 9,
                 "pos": 40,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 5,
                 "col": 0,
                 "pos": 42,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4716,80 +5120,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 2,
                 "col": 6,
                 "pos": 23,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 7,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 8,
                         "pos": 11,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 1
                     }
                 ]
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 2,
                 "col": 9,
                 "pos": 26,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 3,
                 "col": 0,
                 "pos": 28,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4806,80 +5218,88 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 16,
                 "pos": 19,
-                "newlines": 0,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 11,
                         "pos": 14,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 21,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": []
             }
         ]
     },
@@ -4896,68 +5316,75 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 11,
                         "pos": 14,
-                        "newlines": 1
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }
@@ -4976,68 +5403,83 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 33,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 11,
+                        "pos": 14,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    },
                     {
                         "value": "/**welefen*/",
                         "line": 1,
                         "col": 17,
                         "pos": 20,
-                        "newlines": 1
+                        "newlineBefore": 0,
+                        "spaceBefore": 1
                     }
                 ]
             }
@@ -5056,85 +5498,287 @@
             {
                 "type": 768,
                 "value": "a",
-                "name": "CSS_SELECTOR",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 772,
                 "value": "{",
-                "name": "CSS_LEFT_BRACE",
+                "_type": "CSS_LEFT_BRACE",
                 "line": 0,
                 "col": 1,
                 "pos": 1,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 769,
                 "value": "color",
-                "name": "CSS_PROPERTY",
+                "_type": "CSS_PROPERTY",
                 "line": 1,
                 "col": 1,
                 "pos": 4,
-                "newlines": 1,
-                "comments": []
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
             },
             {
                 "type": 775,
                 "value": ":",
-                "name": "CSS_COLON",
+                "_type": "CSS_COLON",
                 "line": 1,
                 "col": 6,
                 "pos": 9,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 770,
                 "value": "red",
-                "name": "CSS_VALUE",
+                "_type": "CSS_VALUE",
                 "line": 1,
                 "col": 8,
                 "pos": 11,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
             },
             {
                 "type": 774,
                 "value": ";",
-                "name": "CSS_SEMICOLON",
+                "_type": "CSS_SEMICOLON",
                 "line": 1,
                 "col": 11,
                 "pos": 14,
-                "newlines": 0,
-                "comments": []
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
             },
             {
                 "type": 773,
                 "value": "}",
-                "name": "CSS_RIGHT_BRACE",
+                "_type": "CSS_RIGHT_BRACE",
                 "line": 2,
                 "col": 0,
                 "pos": 34,
-                "newlines": 1,
-                "comments": [
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
                     {
                         "value": "/***/",
                         "line": 1,
                         "col": 12,
                         "pos": 15,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     },
                     {
                         "value": "/**welefen*/",
                         "line": 1,
                         "col": 18,
                         "pos": 21,
-                        "newlines": 0
+                        "newlineBefore": 0,
+                        "spaceBefore": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "41bb3397bcd52703a16aa7e03dbd6f7a": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n\tcolor: red;/***/\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "41bb3397bcd52703a16aa7e03dbd6f7a",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 1,
+                "pos": 4,
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 6,
+                "pos": 9,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 8,
+                "pos": 11,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 774,
+                "value": ";",
+                "_type": "CSS_SEMICOLON",
+                "line": 1,
+                "col": 11,
+                "pos": 14,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 21,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 12,
+                        "pos": 15,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "cec8c9eac4fc459c3c42428bda8c9f0b": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n\tcolor: red/***//**welefen*/\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "cec8c9eac4fc459c3c42428bda8c9f0b",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 1,
+                "pos": 4,
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 6,
+                "pos": 9,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 8,
+                "pos": 11,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 32,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 11,
+                        "pos": 14,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    },
+                    {
+                        "value": "/**welefen*/",
+                        "line": 1,
+                        "col": 16,
+                        "pos": 19,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
                     }
                 ]
             }

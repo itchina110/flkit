@@ -147,6 +147,10 @@ $(function(){
   }
   init();
 
+  // setTimeout(function(){
+  //   $($('.alert-danger .btn-refresh')[0]).trigger('click');
+  // }, 500)
+
   $(document.body).delegates({
     '#addTestBtn': function(){
       $('.modal-add-test').modal({
@@ -179,10 +183,10 @@ $(function(){
         return;
       }
       $.post('/index/save', data).done(function(data){
-        //location.reload();
-        $('.modal-add-test').modal({
-          show: false
-        })
+        location.reload();
+        // $('.modal-add-test').modal({
+        //   show: false
+        // })
       })
     },
     '.btn-refresh': function(){
@@ -206,9 +210,9 @@ $(function(){
           extraOptions.find('[name="' + key + '"]')[0].checked = options[key];
         };
       }
-      // setTimeout(function(){
-      //   $('#saveCaseBtn').trigger('click')
-      // }, 100)
+      setTimeout(function(){
+        $('#testItBtn').trigger('click')
+      }, 100)
     },
     '#langSelect': {
       change: function(){

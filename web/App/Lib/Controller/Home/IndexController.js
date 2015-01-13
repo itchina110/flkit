@@ -65,7 +65,9 @@ module.exports = Controller("Home/BaseController", function(){
         }catch(e){
           item.success = item.result === e.toString();
         }
-        delete item.result;
+        if (item.success) {
+          delete item.result;
+        }
         if (item.success) {
           result.push(item)
         }else{
