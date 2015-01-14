@@ -1534,34 +1534,12 @@
         "key": "75fbddd4a3157561e3dca562870e9f8f",
         "result": [
             {
-                "type": 769,
-                "value": "color",
-                "_type": "CSS_PROPERTY",
+                "type": 768,
+                "value": "color:red",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
-                "commentBefore": []
-            },
-            {
-                "type": 775,
-                "value": ":",
-                "_type": "CSS_COLON",
-                "line": 0,
-                "col": 5,
-                "pos": 5,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
-                "commentBefore": []
-            },
-            {
-                "type": 770,
-                "value": "red",
-                "_type": "CSS_VALUE",
-                "line": 0,
-                "col": 6,
-                "pos": 6,
                 "newlineBefore": 0,
                 "spaceBefore": 0,
                 "commentBefore": []
@@ -2865,9 +2843,9 @@
         "key": "c5a41745dc12adf709aaa8ff1d0b45a8",
         "result": [
             {
-                "type": 782,
+                "type": 781,
                 "value": "@page:first",
-                "_type": "CSS_AT",
+                "_type": "CSS_PAGE",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
@@ -8134,34 +8112,12 @@
         "key": "887c02a98a77230c7621dfb35ace975b",
         "result": [
             {
-                "type": 769,
-                "value": "E",
-                "_type": "CSS_PROPERTY",
+                "type": 768,
+                "value": "E:nth-last-of-type(n)()",
+                "_type": "CSS_SELECTOR",
                 "line": 0,
                 "col": 0,
                 "pos": 0,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
-                "commentBefore": []
-            },
-            {
-                "type": 775,
-                "value": ":",
-                "_type": "CSS_COLON",
-                "line": 0,
-                "col": 1,
-                "pos": 1,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
-                "commentBefore": []
-            },
-            {
-                "type": 770,
-                "value": "nth-last-of-type(n)()",
-                "_type": "CSS_VALUE",
-                "line": 0,
-                "col": 2,
-                "pos": 2,
                 "newlineBefore": 0,
                 "spaceBefore": 0,
                 "commentBefore": []
@@ -10900,6 +10856,51 @@
                 "line": 0,
                 "col": 19,
                 "pos": 19,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            }
+        ]
+    },
+    "4ef325831e700fdf65d43643ddc92195": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "E:nth-last-of-type(n){}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "4ef325831e700fdf65d43643ddc92195",
+        "result": [
+            {
+                "type": 768,
+                "value": "E:nth-last-of-type(n)",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 21,
+                "pos": 21,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 0,
+                "col": 22,
+                "pos": 22,
                 "newlineBefore": 0,
                 "spaceBefore": 0,
                 "commentBefore": []

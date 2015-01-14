@@ -47,6 +47,10 @@ http://www.w3.org/TR/CSS21/syndata.html#charset
 
 http://dev.w3.org/csswg/
 
+http://www.w3.org/TR/css3-selectors/
+
+http://www.w3.org/TR/CSS21/grammar.html
+
 ## ES5 doc
 
 http://www.ecma-international.org/ecma-262/5.1/index.html
