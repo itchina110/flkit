@@ -5353,8 +5353,8 @@
                 "line": 2,
                 "col": 0,
                 "pos": 20,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
                 "commentBefore": [
                     {
                         "value": "/***/",
@@ -5440,8 +5440,8 @@
                 "line": 2,
                 "col": 0,
                 "pos": 33,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
                 "commentBefore": [
                     {
                         "value": "/***/",
@@ -5739,8 +5739,8 @@
                 "line": 2,
                 "col": 0,
                 "pos": 32,
-                "newlineBefore": 0,
-                "spaceBefore": 0,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
                 "commentBefore": [
                     {
                         "value": "/***/",
@@ -6341,7 +6341,7 @@
             },
             {
                 "type": 770,
-                "value": "url('myfont.woff') format('woff'), url('myfont.ttf') format('truetype')",
+                "value": "url('myfont.woff') format('woff'), \n       url('myfont.ttf') format('truetype')",
                 "_type": "CSS_VALUE",
                 "line": 2,
                 "col": 7,
@@ -10904,6 +10904,409 @@
                 "newlineBefore": 0,
                 "spaceBefore": 0,
                 "commentBefore": []
+            }
+        ]
+    },
+    "547100f5a36913c8be9c2f51af833f84": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "@font-face {\n  font-family: 'WebFont';\n  src: url('myfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n       url('myfont.ttf') format('truetype');/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "547100f5a36913c8be9c2f51af833f84",
+        "result": [
+            {
+                "type": 780,
+                "value": "@font-face",
+                "_type": "CSS_FONT_FACE",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 11,
+                "pos": 11,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "font-family",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 2,
+                "pos": 15,
+                "newlineBefore": 1,
+                "spaceBefore": 3,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 13,
+                "pos": 26,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "'WebFont'",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 15,
+                "pos": 28,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 774,
+                "value": ";",
+                "_type": "CSS_SEMICOLON",
+                "line": 1,
+                "col": 24,
+                "pos": 37,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "src",
+                "_type": "CSS_PROPERTY",
+                "line": 2,
+                "col": 2,
+                "pos": 41,
+                "newlineBefore": 1,
+                "spaceBefore": 3,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 2,
+                "col": 5,
+                "pos": 44,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "url('myfont.woff') format('woff'), \n       url('myfont.ttf') format('truetype')",
+                "_type": "CSS_VALUE",
+                "line": 2,
+                "col": 7,
+                "pos": 46,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 774,
+                "value": ";",
+                "_type": "CSS_SEMICOLON",
+                "line": 3,
+                "col": 43,
+                "pos": 174,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 4,
+                "col": 0,
+                "pos": 227,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
+                    {
+                        "value": "/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */",
+                        "line": 3,
+                        "col": 44,
+                        "pos": 175,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "9fa9c47fe2f986510674269c56a2c376": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n\tcolor: red/***/}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "9fa9c47fe2f986510674269c56a2c376",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 1,
+                "pos": 4,
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 6,
+                "pos": 9,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 8,
+                "pos": 11,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 1,
+                "col": 16,
+                "pos": 19,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 11,
+                        "pos": 14,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "d2c11baba40184db6ae3002a619f5099": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "a{\n\tcolor:red /***/\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "d2c11baba40184db6ae3002a619f5099",
+        "result": [
+            {
+                "type": 768,
+                "value": "a",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 1,
+                "pos": 4,
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 6,
+                "pos": 9,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 7,
+                "pos": 10,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 20,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
+                    {
+                        "value": "/***/",
+                        "line": 1,
+                        "col": 11,
+                        "pos": 14,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "47797e51abd613f31aa33d8864dcac89": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "div{\n\tcolor:red /**/\n}",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "47797e51abd613f31aa33d8864dcac89",
+        "result": [
+            {
+                "type": 768,
+                "value": "div",
+                "_type": "CSS_SELECTOR",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 772,
+                "value": "{",
+                "_type": "CSS_LEFT_BRACE",
+                "line": 0,
+                "col": 3,
+                "pos": 3,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 769,
+                "value": "color",
+                "_type": "CSS_PROPERTY",
+                "line": 1,
+                "col": 1,
+                "pos": 6,
+                "newlineBefore": 1,
+                "spaceBefore": 2,
+                "commentBefore": []
+            },
+            {
+                "type": 775,
+                "value": ":",
+                "_type": "CSS_COLON",
+                "line": 1,
+                "col": 6,
+                "pos": 11,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 770,
+                "value": "red",
+                "_type": "CSS_VALUE",
+                "line": 1,
+                "col": 7,
+                "pos": 12,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            },
+            {
+                "type": 773,
+                "value": "}",
+                "_type": "CSS_RIGHT_BRACE",
+                "line": 2,
+                "col": 0,
+                "pos": 21,
+                "newlineBefore": 1,
+                "spaceBefore": 1,
+                "commentBefore": [
+                    {
+                        "value": "/**/",
+                        "line": 1,
+                        "col": 11,
+                        "pos": 16,
+                        "newlineBefore": 0,
+                        "spaceBefore": 0
+                    }
+                ]
             }
         ]
     }
