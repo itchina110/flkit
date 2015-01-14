@@ -15645,5 +15645,28 @@
                 "commentBefore": []
             }
         ]
+    },
+    "93c4f08abb49b11465692db5c69f9d46": {
+        "lang": "css",
+        "name": "lexer",
+        "code": "/*!\n\n***/",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {},
+        "key": "93c4f08abb49b11465692db5c69f9d46",
+        "result": [
+            {
+                "type": 7,
+                "value": "/*!\n\n***/",
+                "_type": "RESERVED_COMMENT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            }
+        ]
     }
 }
