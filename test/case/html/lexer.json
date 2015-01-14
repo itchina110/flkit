@@ -15851,5 +15851,57 @@
                 "message": "cant not find end quote char"
             }
         ]
+    },
+    "d87f97cfec52c7430f43a0ff10c1f37a": {
+        "lang": "html",
+        "name": "lexer",
+        "code": "www{ causta: \"}\" + ({7} * '\\'') }",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "parse_selector": false,
+            "parse_value": false
+        },
+        "key": "d87f97cfec52c7430f43a0ff10c1f37a",
+        "result": [
+            {
+                "type": 264,
+                "value": "www{ causta: \"}\" + ({7} * '\\'') }",
+                "_type": "HTML_TEXT",
+                "line": 0,
+                "col": 0,
+                "pos": 0,
+                "newlineBefore": 0,
+                "spaceBefore": 0,
+                "commentBefore": []
+            }
+        ]
+    },
+    "9bb0bb3d339e54a590a08da0a2721a61": {
+        "lang": "html",
+        "name": "lexer",
+        "code": " @media screen {\n    p:before { content: 'Hello'; }\n  }",
+        "tpl": "",
+        "ld": "",
+        "rd": "",
+        "options": {
+            "parse_selector": false,
+            "parse_value": false
+        },
+        "key": "9bb0bb3d339e54a590a08da0a2721a61",
+        "result": [
+            {
+                "type": 264,
+                "value": "@media screen {\n    p:before { content: 'Hello'; }\n  }",
+                "_type": "HTML_TEXT",
+                "line": 0,
+                "col": 1,
+                "pos": 1,
+                "newlineBefore": 0,
+                "spaceBefore": 1,
+                "commentBefore": []
+            }
+        ]
     }
 }
